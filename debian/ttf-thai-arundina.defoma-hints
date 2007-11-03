@@ -1,0 +1,147 @@
+category truetype
+
+# Arundina Sans
+begin /usr/share/fonts/truetype/ttf-thai-arundina/arundina/ArundinaSans.ttf
+  Family = ArundinaSans
+  FontName = ArundinaSans
+  Encoding = Unicode
+  Location = English Thai
+  Charset = ISO8859-1 ISO8859-11 TIS620 ISO10646-1
+  UniCharset = ISO8859-1 ISO8859-11 TIS620
+  GeneralFamily = SansSerif
+  Weight = Medium
+  Width = Variable
+  Shape = NoSerif
+  Foundry = SIPA
+  Priority = 20
+end
+begin /usr/share/fonts/truetype/ttf-thai-arundina/arundina/ArundinaSans-Oblique.ttf
+  Family = ArundinaSans
+  FontName = ArundinaSans-Oblique
+  Encoding = Unicode
+  Location = English Thai
+  Charset = ISO8859-1 ISO8859-11 TIS620 ISO10646-1
+  UniCharset = ISO8859-1 ISO8859-11 TIS620
+  GeneralFamily = SansSerif
+  Weight = Medium
+  Width = Variable
+  Shape = NoSerif
+  Foundry = SIPA
+  Priority = 20
+end
+begin /usr/share/fonts/truetype/ttf-thai-arundina/arundina/ArundinaSans-Bold.ttf
+  Family = ArundinaSans
+  FontName = ArundinaSans-Bold
+  Encoding = Unicode
+  Location = English Thai
+  Charset = ISO8859-1 ISO8859-11 TIS620 ISO10646-1
+  UniCharset = ISO8859-1 ISO8859-11 TIS620
+  GeneralFamily = SansSerif
+  Weight = Bold
+  Width = Variable
+  Shape = NoSerif
+  Foundry = SIPA
+  Priority = 20
+end
+begin /usr/share/fonts/truetype/ttf-thai-arundina/arundina/ArundinaSans-BoldOblique.ttf
+  Family = ArundinaSans
+  FontName = ArundinaSans-BoldOblique
+  Encoding = Unicode
+  Location = English Thai
+  Charset = ISO8859-1 ISO8859-11 TIS620 ISO10646-1
+  UniCharset = ISO8859-1 ISO8859-11 TIS620
+  GeneralFamily = SansSerif
+  Weight = Bold
+  Width = Variable
+  Shape = NoSerif
+  Foundry = SIPA
+  Priority = 20
+end
+
+# Arundina Sans Mono
+begin /usr/share/fonts/truetype/ttf-thai-arundina/arundina/ArundinaSansMono.ttf
+  Family = ArundinaSansMono
+  FontName = ArundinaSansMono
+  Encoding = Unicode
+  Location = English Thai
+  Charset = ISO8859-1 ISO8859-11 TIS620 ISO10646-1
+  UniCharset = ISO8859-1 ISO8859-11 TIS620
+  GeneralFamily = Typewriter
+  Weight = Medium
+  Width = Fixed
+  Shape = NoSerif
+  Foundry = SIPA
+  Priority = 20
+end
+begin /usr/share/fonts/truetype/ttf-thai-arundina/arundina/ArundinaSansMono-Oblique.ttf
+  Family = ArundinaSansMono
+  FontName = ArundinaSansMono-Oblique
+  Encoding = Unicode
+  Location = English Thai
+  Charset = ISO8859-1 ISO8859-11 TIS620 ISO10646-1
+  UniCharset = ISO8859-1 ISO8859-11 TIS620
+  GeneralFamily = Typewriter
+  Weight = Medium
+  Width = Fixed
+  Shape = NoSerif
+  Foundry = SIPA
+  Priority = 20
+end
+begin /usr/share/fonts/truetype/ttf-thai-arundina/arundina/ArundinaSansMono-Bold.ttf
+  Family = ArundinaSansMono
+  FontName = ArundinaSansMono-Bold
+  Encoding = Unicode
+  Location = English Thai
+  Charset = ISO8859-1 ISO8859-11 TIS620 ISO10646-1
+  UniCharset = ISO8859-1 ISO8859-11 TIS620
+  GeneralFamily = Typewriter
+  Weight = Bold
+  Width = Fixed
+  Shape = NoSerif
+  Foundry = SIPA
+  Priority = 20
+end
+begin /usr/share/fonts/truetype/ttf-thai-arundina/arundina/ArundinaSansMono-BoldOblique.ttf
+  Family = ArundinaSansMono
+  FontName = ArundinaSansMono-BoldOblique
+  Encoding = Unicode
+  Location = English Thai
+  Charset = ISO8859-1 ISO8859-11 TIS620 ISO10646-1
+  UniCharset = ISO8859-1 ISO8859-11 TIS620
+  GeneralFamily = Typewriter
+  Weight = Bold
+  Width = Fixed
+  Shape = NoSerif
+  Foundry = SIPA
+  Priority = 20
+end
+
+# Arundina Serif
+begin /usr/share/fonts/truetype/ttf-thai-arundina/arundina/ArundinaSerif.ttf
+  Family = ArundinaSerif
+  FontName = ArundinaSerif
+  Encoding = Unicode
+  Location = English Thai
+  Charset = ISO8859-1 ISO8859-11 TIS620 ISO10646-1
+  UniCharset = ISO8859-1 ISO8859-11 TIS620
+  GeneralFamily = Roman
+  Weight = Medium
+  Width = Variable
+  Shape = Serif
+  Foundry = SIPA
+  Priority = 20
+end
+begin /usr/share/fonts/truetype/ttf-thai-arundina/arundina/ArundinaSerif-Bold.ttf
+  Family = ArundinaSerif
+  FontName = ArundinaSerif-Bold
+  Encoding = Unicode
+  Location = English Thai
+  Charset = ISO8859-1 ISO8859-11 TIS620 ISO10646-1
+  UniCharset = ISO8859-1 ISO8859-11 TIS620
+  GeneralFamily = Roman
+  Weight = Bold
+  Width = Variable
+  Shape = Serif
+  Foundry = SIPA
+  Priority = 20
+end

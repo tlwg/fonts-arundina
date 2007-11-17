@@ -1,3 +1,10 @@
+2007-11-17  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* arundina/ArundinaSansMono*.sfd: Change Em Size from 1000 to 2048.
+	Scale by 165.7%, to match X-Height with Dejavu. Add BlueValues and
+	OtherBlues. Adjust glyphs hights to be aligned with BlueValues. Apply
+	Autohint and Nowakowksi AutoInstr.
+
 2007-11-16  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
 	* arundina/ArundinaSans[-[Bold][Oblique]].sfd: Change Em Size from

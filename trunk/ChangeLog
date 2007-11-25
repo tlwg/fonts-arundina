@@ -1,5 +1,13 @@
 2007-11-25  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
+	* arundina/ArundinaSansMono*.sfd: Scale (only) Thai glyphs by 91.69%,
+	to get proper glyph heights relative to Latin. Adjust BlueValues
+	accordingly.
+
+	* arundina/ArundinaSansMono-Bold[Oblique].sfd: Add ForceBold.
+
+2007-11-25  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
 	* arundina/ArundinaSans[-[Bold][Oblique]].sfd: Scale (only) Thai
 	glyphs by 88.51%, so they are not too big relative to Latin.
 	Adjust BlueValues accordingly. Lower down Kho Rakhang tips into blue

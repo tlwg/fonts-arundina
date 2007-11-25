@@ -1,3 +1,13 @@
+2007-11-25  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* arundina/ArundinaSans[-[Bold][Oblique]].sfd: Scale (only) Thai
+	glyphs by 88.51%, so they are not too big relative to Latin.
+	Adjust BlueValues accordingly. Lower down Kho Rakhang tips into blue
+	zone.
+
+	* arundina/*.sfd: Re-apply Autohint and Nowakowski AutoInstr to all
+	glyphs using new fontforge (20071110).
+
 2007-11-17  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
 	* arundina/ArundinaSerif[-Bold].sfd: Change Em Size from 1000 to 2048.

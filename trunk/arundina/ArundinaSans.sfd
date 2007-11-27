@@ -11,14 +11,13 @@ UnderlineWidth: 102
 Ascent: 1638
 Descent: 410
 Order2: 1
-NeedsXUIDChange: 1
 XUID: [1021 375 425136265 761299]
 FSType: 4
 OS2Version: 2
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1131303360
-ModificationTime: 1195990234
+ModificationTime: 1196139013
 PfmFamily: 33
 TTFWeight: 400
 TTFWidth: 5
@@ -233,7 +232,7 @@ AntiAlias: 1
 FitToEm: 1
 WinInfo: 200 25 7
 BeginPrivate: 2
-BlueValues 37 [-28 0 1120 1144 1202 1225 1493 1522]
+BlueValues 37 [-28 0 1120 1144 1202 1228 1493 1522]
 OtherBlues 11 [-431 -431]
 EndPrivate
 BeginChars: 65566 409
@@ -10034,9 +10033,9 @@ VWidth: 3146
 Flags: W
 HStem: 0 21G<249 470.585 1017 1165> 777 106<583.566 725.592> 998 123<593.777 737.568> 1092 136<353.131 461.079>
 VStem: 73 150<696.604 845.598> 435 129<615.283 756.986> 745 126<615.013 757.421> 1017 148<0 891.713>
-TtfInstrs: 73
-!3uS*!%Y9*1U9=K!%Y8]c*/NJYZBSa4k?i,19_>7!O,]<YVt(:(#?,>!@tBKh6BlZ/$LJYYXUCQ
-!!+US9\lpV+Nc>k0`V1R
+TtfInstrs: 75
+!3uS*!%Y9*1U9.G!%Y9C1U%G8Z9eTm/$KE+YU2$-<o!e\=V.eqf!#nFYp09"YYErY;ZSDQ.G_3t
+19gf[/$M_'YZ`0l0/,*\
 EndTtf
 Fore
 1017 0 m 1,0,-1

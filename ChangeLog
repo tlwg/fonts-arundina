@@ -1,3 +1,8 @@
+2007-11-27  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* arundina/ArundinaSans[-Oblique].sfd: Adjust BlueValues to cover
+	To Tao tips. Re-apply AutoHint and AutoInstr to To Tao.
+
 2007-11-25  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
 	* arundina/ArundinaSansMono*.sfd: Scale (only) Thai glyphs by 91.69%,

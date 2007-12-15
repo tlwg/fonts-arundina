@@ -17,7 +17,7 @@ OS2Version: 2
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1050374940
-ModificationTime: 1195996210
+ModificationTime: 1197732983
 PfmFamily: 49
 TTFWeight: 700
 TTFWidth: 5
@@ -26,16 +26,16 @@ VLineGap: 0
 Panose: 2 11 3 0 2 2 2 2 2 4
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
-OS2TypoDescent: -410
+OS2TypoDescent: 0
 OS2TypoDOffset: 1
 OS2TypoLinegap: 0
-OS2WinAscent: -412
+OS2WinAscent: -610
 OS2WinAOffset: 1
-OS2WinDescent: 96
+OS2WinDescent: -103
 OS2WinDOffset: 1
-HheadAscent: -412
+HheadAscent: -610
 HheadAOffset: 1
-HheadDescent: -96
+HheadDescent: 103
 HheadDOffset: 1
 OS2SubXSize: 1434
 OS2SubYSize: 1331

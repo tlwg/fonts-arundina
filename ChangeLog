@@ -1,5 +1,12 @@
 2007-12-15  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
+	* arundina/ArundinaSansMono*.sfd: Adjust OS/2 metrics so that absolute
+	ascent becomes 2505, and descent 995, as required when normal and bold
+	faces combined. This reduces line spacing and make line spacing for
+	all faces compatible. Also clear Typo descent offset.
+
+2007-12-15  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
 	* arundina/ArundinaSerif*.sfd: Clear OS/2 ascent/descent offsets.
 	Clear Typo descent offet. Reduce LineGap for Bold face from 31 to 12.
 

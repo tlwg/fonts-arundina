@@ -17,7 +17,7 @@ OS2Version: 2
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1131303360
-ModificationTime: 1195995454
+ModificationTime: 1197732853
 PfmFamily: 49
 TTFWeight: 400
 TTFWidth: 5
@@ -26,16 +26,16 @@ VLineGap: 0
 Panose: 2 11 3 0 2 2 2 2 2 4
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
-OS2TypoDescent: -410
+OS2TypoDescent: 0
 OS2TypoDOffset: 1
 OS2TypoLinegap: 0
-OS2WinAscent: -379
+OS2WinAscent: -559
 OS2WinAOffset: 1
-OS2WinDescent: 96
+OS2WinDescent: -103
 OS2WinDOffset: 1
-HheadAscent: -379
+HheadAscent: -559
 HheadAOffset: 1
-HheadDescent: -96
+HheadDescent: 103
 HheadDOffset: 1
 OS2SubXSize: 1434
 OS2SubYSize: 1331
@@ -230,7 +230,7 @@ NameList: Adobe Glyph List
 DisplaySize: -24
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 216 24 7
+WinInfo: 240 24 7
 BeginPrivate: 2
 BlueValues 47 [-30 0 1120 1147 1202 1217 1493 1521 1558 1558]
 OtherBlues 11 [-431 -428]
@@ -10747,7 +10747,7 @@ Fore
  -560 2165 -560 2165 -597.5 2196 c 128,-1,13
  -635 2227 -635 2227 -635 2303 c 0,14,15
  -635 2375 -635 2375 -574 2410.5 c 128,-1,16
- -513 2446 -513 2446 -451 2446 c 0,17,18
+ -513 2446 -513 2446 -451 2446 c 4,17,18
  -395 2446 -395 2446 -342 2415 c 128,-1,19
  -289 2384 -289 2384 -289 2322 c 0,20,21
  -289 2271 -289 2271 -303 2234 c 128,-1,22

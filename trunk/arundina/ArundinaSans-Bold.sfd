@@ -11,32 +11,31 @@ UnderlineWidth: 102
 Ascent: 1638
 Descent: 410
 Order2: 1
-NeedsXUIDChange: 1
 XUID: [1021 375 425136265 4916284]
 FSType: 0
 OS2Version: 2
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1125072480
-ModificationTime: 1195990897
+ModificationTime: 1197729410
 PfmFamily: 33
 TTFWeight: 700
 TTFWidth: 5
-LineGap: 78
+LineGap: 25
 VLineGap: 0
 Panose: 2 11 3 0 2 2 2 2 2 4
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
-OS2TypoDescent: -410
+OS2TypoDescent: 0
 OS2TypoDOffset: 1
 OS2TypoLinegap: 0
-OS2WinAscent: 57
+OS2WinAscent: 2
 OS2WinAOffset: 1
-OS2WinDescent: 104
+OS2WinDescent: -31
 OS2WinDOffset: 1
-HheadAscent: 57
+HheadAscent: 2
 HheadAOffset: 1
-HheadDescent: -104
+HheadDescent: 31
 HheadDOffset: 1
 OS2SubXSize: 1434
 OS2SubYSize: 1331
@@ -231,7 +230,7 @@ NameList: Adobe Glyph List
 DisplaySize: -24
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 200 25 7
+WinInfo: 225 25 7
 BeginPrivate: 2
 BlueValues 37 [-28 0 1113 1137 1207 1225 1483 1507]
 OtherBlues 11 [-441 -424]

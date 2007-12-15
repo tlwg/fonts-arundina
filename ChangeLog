@@ -1,3 +1,11 @@
+2007-12-15  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* arundina/ArundinaSans[-[Bold][Oblique]].sfd: Adjust OS/2 metrics so
+	that absolute ascent becomes 2432 and descent 1067. Set Typo descent
+	offset to 0. Set LineGap to 25, to equal that of normal face.
+	This fixes too large line spacing, and make line spacing for all faces
+	compatible to one another.
+
 2007-11-27  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
 	* arundina/ArundinaSans[-Oblique].sfd: Adjust BlueValues to cover

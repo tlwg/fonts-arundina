@@ -1,5 +1,13 @@
 2007-12-16  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
+	* arundina/ArundinaSerif.sfd: Move bottom edges of PHO PHAN, FO FAN,
+	LO CHULA down to base line. Move the whole FO FA to base line. Extend
+	BlueValues for Thai glyphs from 1231 to 1238, to cover THO THAN's top.
+	Re-apply autohint and autoinstr to all glyphs to reflect the new
+	BlueValues.
+
+2007-12-16  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
 	* arundina/ArundinaSans-Bold[Oblique].sfd: Adjust leveled top edges of
 	PHO PHUNG, SARA E, SARA AE to blue zone boundary, to get proper height.
 

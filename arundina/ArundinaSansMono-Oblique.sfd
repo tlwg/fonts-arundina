@@ -11,13 +11,14 @@ UnderlineWidth: 288
 Ascent: 1638
 Descent: 410
 Order2: 1
+NeedsXUIDChange: 1
 XUID: [1021 375 425136265 10294789]
 FSType: 4
 OS2Version: 2
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: -25200
-ModificationTime: 1197732893
+ModificationTime: 1197770787
 PfmFamily: 49
 TTFWeight: 400
 TTFWidth: 5
@@ -230,7 +231,7 @@ NameList: Adobe Glyph List
 DisplaySize: -24
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 240 24 7
+WinInfo: 144 24 7
 BeginPrivate: 2
 BlueValues 47 [-30 0 1120 1147 1202 1217 1493 1521 1558 1558]
 OtherBlues 11 [-428 -428]
@@ -10838,10 +10839,11 @@ Encoding: 3619 3619 304
 Width: 1131
 VWidth: 3111
 Flags: W
-HStem: -28 111<661.751 806.972> 273 113<677.004 826.407> 992 166<992.598 1152.72>
+HStem: -28 111<661.751 806.972> 273 113<677.004 826.407> 992 166<992.598 1152.72> 1087 127<574.727 772.505>
 VStem: 305 942<837 1197 686.701 708.284> 524 134<85.4472 221.627> 922 140<603.048 733.896>
-TtfInstrs: 52
-!4!7=!%Y9/c*/$<YW(CB/MF=0h#X`@&?mG2YV48+'`fhh0[6jD!@tAac*08PatGG'
+TtfInstrs: 60
+!4!7=!%Y9/c*A]!!%Y8Zc*/$<YW(CB/MF=0blP%0&?mG2YV48+'`fhh0[6jD!@tAac*08PatGG'
+
 EndTtf
 Fore
 1208 1012 m 1,0,1
@@ -10849,7 +10851,7 @@ Fore
  1039 992 l 2,3,4
  1007 992 1007 992 990 999 c 2,5,-1
  877 1042 l 2,6,7
- 780 1078 780 1078 712 1087 c 0,8,9
+ 750 1087 750 1087 712 1087 c 0,8,9
  572 1087 572 1087 505 953 c 1,10,11
  592 939 592 939 765.5 921.5 c 128,-1,12
  939 904 939 904 1000.5 821.5 c 128,-1,13

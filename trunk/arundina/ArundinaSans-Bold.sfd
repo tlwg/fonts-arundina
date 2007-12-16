@@ -230,7 +230,7 @@ NameList: Adobe Glyph List
 DisplaySize: -24
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 225 25 7
+WinInfo: 25 25 7
 BeginPrivate: 2
 BlueValues 37 [-28 0 1113 1137 1207 1225 1483 1507]
 OtherBlues 11 [-441 -424]
@@ -1472,11 +1472,10 @@ StartChar: I
 Encoding: 73 73 44
 Width: 756
 VWidth: 3555
-Flags: W
-HStem: 0 1483<184 569 184 569 184 184>
+Flags: MW
 VStem: 184 385<0 1483>
-TtfInstrs: 26
-!3uV+!%Y8RblP$O&?l5eYQ3L`"X(r@0JNP-
+TtfInstrs: 18
+!!0;,&?l5eYQ3L`"X(r@0JNP-
 EndTtf
 Fore
 569 1483 m 1,0,-1

@@ -1,5 +1,11 @@
 2007-12-16  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
+	* arundina/ArundinaSans-Bold[Oblique].sfd: Remove HStem hint that
+	governs the height of 'I', for proper height, just like previous
+	adjustments of 'H' and 'E' in SansMono.
+
+2007-12-16  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
 	* arundina/ArundinaSansMono.sfd: Manually adjust hints for 'H' glyph
 	for proper height. Level a control point in RO RUA, for proper hint.
 

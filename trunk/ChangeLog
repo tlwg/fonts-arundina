@@ -1,5 +1,13 @@
 2007-12-16  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
+	* arundina/ArundinaSans-Bold[Oblique].sfd: Reduce one control point at
+	top of NO NU, to get HStem autohinted.
+
+	* arundina/ArundinaSans-BoldOblique.sfd: Remove VStem hint that
+	governs the width of CHO CHAN.
+
+2007-12-16  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
 	* arundina/ArundinaSans-Bold[Oblique].sfd,
 	arundina/ArundinaSerif-Bold.sfd: Add Forcebold.
 

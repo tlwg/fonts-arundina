@@ -230,7 +230,7 @@ NameList: Adobe Glyph List
 DisplaySize: -24
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 240 24 7
+WinInfo: 24 24 7
 BeginPrivate: 3
 BlueValues 47 [-30 0 1120 1147 1205 1223 1493 1521 1558 1558]
 OtherBlues 11 [-428 -424]
@@ -1357,11 +1357,11 @@ StartChar: E
 Encoding: 69 69 40
 Width: 1234
 VWidth: 3393
-Flags: W
-HStem: 0 262<466 1100> 0 1493<169 466 169 1100 169 169> 651 262<466 1039> 1234 259<466 1100>
+Flags: MW
+HStem: 0 262<466 1100> 651 262<466 1039> 1234 259<466 1100>
 VStem: 169 297<262 651 913 1234>
-TtfInstrs: 52
-!3uS*!%Y8[c*@?Q!%Y8Uc*.1#YQ<"Q!>)I=0<b]+!O)tDYQ37Y"Pp9f19_31atGG'
+TtfInstrs: 43
+!3uS*!%Y8[c*@?Q!%Y8Uc*.@)YQrtbYRD)I!7n@Wh67/?YRM_t0/,*\
 EndTtf
 Fore
 169 0 m 1,0,-1
@@ -1438,11 +1438,11 @@ StartChar: H
 Encoding: 72 72 43
 Width: 1234
 VWidth: 3393
-Flags: W
-HStem: 0 1493<136 431 800 1097 136 1097 136 136> 664 262<431 800>
+Flags: MW
+HStem: 664 262<431 800>
 VStem: 136 295<0 664 926 1493> 800 297<0 664 926 1493>
-TtfInstrs: 51
-!3ub/!%Y8[1U$l(YQHYb!ACY^blP$W&?lMmYQ3L`#VrXd!@tAY19^o;YRM_t0/,*\
+TtfInstrs: 37
+!3cJWYQrtbYRD)I$J)E]h67/?YlXqVYQcke"Pp9k+Nc>k0`V1R
 EndTtf
 Fore
 431 1493 m 1,0,-1

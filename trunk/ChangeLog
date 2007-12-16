@@ -1,5 +1,10 @@
 2007-12-16  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
+	* arundina/ArundinaSans-Bold[Oblique].sfd: Adjust leveled top edges of
+	PHO PHUNG, SARA E, SARA AE to blue zone boundary, to get proper height.
+
+2007-12-16  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
 	* arundina/ArundinaSans-Bold[Oblique].sfd: Reduce one control point at
 	top of NO NU, to get HStem autohinted.
 

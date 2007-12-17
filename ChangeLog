@@ -1,5 +1,9 @@
 2007-12-17  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
+	* README: Write some info about the fonts.
+
+2007-12-17  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
 	* arundina/ArundinaSans.sfd: Really change OS/2 Descent so the
 	absolute descent becomes 1067.
 

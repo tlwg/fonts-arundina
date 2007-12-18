@@ -2,7 +2,7 @@
 # Process this file with autoconf to produce a configure script.
 
 AC_PREREQ(2.61)
-AC_INIT(thaifonts-arundina, 0.1.0)
+AC_INIT(thaifonts-arundina, 0.1.1)
 AM_INIT_AUTOMAKE
 
 # Check options

@@ -1,3 +1,9 @@
+2007-12-18  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* README: Add link to original fonts.
+	* NEWS, configure.ac:
+	  === Version 0.1.1 ===
+
 2007-12-17  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
 	* README: Write some info about the fonts.

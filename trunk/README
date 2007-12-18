@@ -1,4 +1,4 @@
-Arundina fonts were created under SIPA's initiation, aiming at Bitstream
+Arundina fonts [0] were created under SIPA's initiation, aiming at Bitstream
 Vera [1] / Dejavu [2] compatibility. They were then further modified by TLWG
 for certain aspects:
 
@@ -20,6 +20,7 @@ For more information, see our project page at:
   http://linux.thai.net/projects/thaifonts-arundina
 
 Links:
+[0] http://mirror.in.th/font
 [1] http://www.gnome.org/fonts/
 [2] http://dejavu.sourceforge.net/
 [3] http://www.microsoft.com/typography/otfntdev/thaiot/default.htm

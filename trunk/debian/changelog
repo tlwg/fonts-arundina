@@ -1,3 +1,19 @@
+thaifonts-arundina (0.1.1-1) unstable; urgency=low
+
+  * Initial upload to Debian. (Closes: #456885)
+  * New upstream release
+    - Scale up to match Latin height with normal western fonts
+    - Adjust Thai glyph relative size to English
+    - Adjust hinting
+  * debian/rules: Do not ignore 'make distclean' error.
+  * debian/copyright: Rewrite in machine-interpretable format. Update download
+    location.
+  * debian/watch: Added.
+  * Add Vcs-Cvs, Vcs-Browser and Homepage fields.
+  * Bump standards version to 3.7.3.0, no change needed.
+
+ -- Theppitak Karoonboonyanan <thep@linux.thai.net>  Wed, 19 Dec 2007 10:56:50 +0700
+
 thaifonts-arundina (0.1.0-0thep1) unstable; urgency=low
 
   * Initial release.

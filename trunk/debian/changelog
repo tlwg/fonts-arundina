@@ -1,3 +1,9 @@
+thaifonts-arundina (0.1.1-2) UNRELEASED; urgency=low
+
+  * Fix CVSROOT in Vcs-Cvs, so it really works with debcheckout.
+
+ -- Theppitak Karoonboonyanan <thep@linux.thai.net>  Sun, 03 Feb 2008 10:40:37 +0700
+
 thaifonts-arundina (0.1.1-1) unstable; urgency=low
 
   * Initial upload to Debian. (Closes: #456885)

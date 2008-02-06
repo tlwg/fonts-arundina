@@ -2,8 +2,8 @@ Source: thaifonts-arundina
 Section: x11
 Priority: optional
 Maintainer: Theppitak Karoonboonyanan <thep@linux.thai.net>
-Build-Depends: debhelper (>= 5.0.35), dpkg-dev (>= 1.14.13)
-Build-Depends-Indep: defoma (>= 0.7.0), fontforge, xfonts-utils
+Build-Depends: debhelper (>= 5.0.35)
+Build-Depends-Indep: defoma (>= 0.7.0), fontforge, xfonts-utils, dpkg-dev (>= 1.14.13)
 Vcs-Cvs: :pserver:anonymous@linux.thai.net:/home/cvs software/thaifonts-arundina
 Vcs-Browser: http://linux.thai.net/viewvc/viewvc.cgi/software/thaifonts-arundina
 Homepage: http://linux.thai.net/projects/thaifonts-arundina

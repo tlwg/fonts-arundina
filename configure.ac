@@ -5,6 +5,8 @@ AC_PREREQ(2.61)
 AC_INIT(thaifonts-arundina, 0.1.1)
 AM_INIT_AUTOMAKE
 
+FONTFORGE_MIN_VER=20080110
+
 # Check options
 AC_ARG_ENABLE(ttf,
               [AC_HELP_STRING([--disable-ttf],
@@ -50,10 +52,17 @@ AC_PROG_INSTALL
 AC_PROG_LN_S
 AC_CHECK_PROGS(RMDIR,rmdir,no)
 
-AC_CHECK_PROGS(FONTFORGE,fontforge pfaedit,no)
+AC_CHECK_PROGS(FONTFORGE,fontforge,no)
 
 if test "x$FONTFORGE" = "xno"; then
   AC_MSG_ERROR([You need fontforge to generate fonts.])
+else
+  AC_MSG_CHECKING([for Fontforge >= $FONTFORGE_MIN_VER])
+  FONTFORGE_VER=`$FONTFORGE --version 2>/dev/null | grep '^fontforge' | cut -d' ' -f2`
+  if test $FONTFORGE_VER -lt $FONTFORGE_MIN_VER; then
+    AC_MSG_ERROR([Requires Fontforge >= $FONTFORGE_MIN_VER but $FONTFORGE_VER was found)])
+  fi
+  AC_MSG_RESULT([$FONTFORGE_VER found, ok])
 fi
 
 dnl prefer mkfontscale over ttmkfdir

@@ -1,3 +1,11 @@
+2008-05-19  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* arundina/ArundinaSans[-[Bold][Oblique]].sfd:
+	* arundina/ArundinaSerif*.sfd:
+	  - Add ZWSP, ZWNJ, ZWJ, LRM, RLM glyphs
+	  - Save as SplineFontDB 3.0
+	  - Bump font versions to 1.21, 2.21
+
 2007-12-18  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
 	* README: Add link to original fonts.

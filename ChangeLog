@@ -1,3 +1,10 @@
+2008-05-28  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* arundina/ArundinaSansMono*.sfd:
+	  - Add ZWSP, ZWNJ, ZWJ, LRM, RLM glyphs
+	  - Save as SplineFontDB 3.0
+	  - Bump font version to 1.21
+
 2008-05-19  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
 	* configure.ac: Check fontforge required version >= 20080110, for

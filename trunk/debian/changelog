@@ -1,11 +1,25 @@
-thaifonts-arundina (0.1.1-2) UNRELEASED; urgency=low
+thaifonts-arundina (0.1.1-2) unstable; urgency=low
 
-  * Fix CVSROOT in Vcs-Cvs, so it really works with debcheckout.
-  * Build-dep on dpkg-dev (>= 1.14.13), for proper support of Vcs-Cvs field.
   * debian/watch: Fix watch pattern so that only *.tar.gz is matched, not
     *.tar.gz.md5sum.
+  * VCS moved from CVS to SVN; update Vcs-* fields accordingly.
+  * Section moved from 'x11' to 'fonts'.
+  * Update 'debian/copyright' format to proposal rev 454
+    - Add header section
+    - Use one Copyright statement per field
+    - Replace GPL-2 license content with 'On Debian systems, ...'
+  * Update copyright year for 'Files: debian/*'.
+  * Bump debhelper compat to level 7
+    - Bump debian/compat to 7
+    - Build-dep on debhelper (>= 7)
+    - debian/rules:
+      + Replace obsoleted 'dh_clean -k' with 'dh_prep'
+      + Remove *-stamp clean-ups in clean target, as dh_clean now does it
+  * Add '${misc:Depends}' to fix lintian warnings.
+  * Add DM-Upload-Allowed.
+  * Bump Standards-Version to 3.8.1 (no changes needed)
 
- -- Theppitak Karoonboonyanan <thep@linux.thai.net>  Sat, 31 May 2008 08:12:45 +0700
+ -- Theppitak Karoonboonyanan <thep@linux.thai.net>  Fri, 27 Mar 2009 16:40:35 +0700
 
 thaifonts-arundina (0.1.1-1) unstable; urgency=low
 

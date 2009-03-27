@@ -1,28 +1,17 @@
-It was downloaded from ftp://linux.thai.net/pub/thailinux/software/thaifonts-arundina
+Format-Specification: http://wiki.debian.org/Proposals/CopyrightFormat?action=recall&rev=454
+Upstream-Name: thaifonts-arundina
+Upstream-Maintainer: Theppitak Karoonboonyanan <thep@linux.thai.net>
+Upstream-Source: ftp://linux.thai.net/pub/thailinux/software/thaifonts-arundina
 
 Files: debian/*
-Copyright: © 2007 Theppitak Karoonboonyanan <thep@linux.thai.net>
+Copyright: © 2007, 2009 Theppitak Karoonboonyanan <thep@linux.thai.net>
 License: GPL-2+
-  This package is free software; you can redistribute it and/or modify
-  it under the terms of the GNU General Public License as published by
-  the Free Software Foundation; either version 2 of the License, or
-  (at your option) any later version.
-  .
-  This package is distributed in the hope that it will be useful,
-  but WITHOUT ANY WARRANTY; without even the implied warranty of
-  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-  GNU General Public License for more details.
-  .
-  You should have received a copy of the GNU General Public License
-  along with this package; if not, write to the Free Software
-  Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301 USA
-  .
-  On Debian systems, the complete text of the GNU General
-  Public License can be found in `/usr/share/common-licenses/GPL-2'.
+  On Debian systems, the complete text of the GNU General Public License
+  can be found in `/usr/share/common-licenses/GPL-2'.
 
 Files: *.sfd
 Copyright: © 2003 by Bitstream, Inc.
-           © 2007 by Software Industry Promotion Agency (Public Organization)
+Copyright: © 2007 by Software Industry Promotion Agency (Public Organization)
 License: other
   Bitstream Vera is a trademark of Bitstream, Inc.
   .

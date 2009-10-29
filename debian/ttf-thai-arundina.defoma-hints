@@ -1,7 +1,7 @@
 category truetype
 
 # Arundina Sans
-begin /usr/share/fonts/truetype/ttf-thai-arundina/arundina/ArundinaSans.ttf
+begin /usr/share/fonts/truetype/ttf-thai-arundina/ArundinaSans.ttf
   Family = ArundinaSans
   FontName = ArundinaSans
   Encoding = Unicode
@@ -15,7 +15,7 @@ begin /usr/share/fonts/truetype/ttf-thai-arundina/arundina/ArundinaSans.ttf
   Foundry = SIPA
   Priority = 20
 end
-begin /usr/share/fonts/truetype/ttf-thai-arundina/arundina/ArundinaSans-Oblique.ttf
+begin /usr/share/fonts/truetype/ttf-thai-arundina/ArundinaSans-Oblique.ttf
   Family = ArundinaSans
   FontName = ArundinaSans-Oblique
   Encoding = Unicode
@@ -29,7 +29,7 @@ begin /usr/share/fonts/truetype/ttf-thai-arundina/arundina/ArundinaSans-Oblique.
   Foundry = SIPA
   Priority = 20
 end
-begin /usr/share/fonts/truetype/ttf-thai-arundina/arundina/ArundinaSans-Bold.ttf
+begin /usr/share/fonts/truetype/ttf-thai-arundina/ArundinaSans-Bold.ttf
   Family = ArundinaSans
   FontName = ArundinaSans-Bold
   Encoding = Unicode
@@ -43,7 +43,7 @@ begin /usr/share/fonts/truetype/ttf-thai-arundina/arundina/ArundinaSans-Bold.ttf
   Foundry = SIPA
   Priority = 20
 end
-begin /usr/share/fonts/truetype/ttf-thai-arundina/arundina/ArundinaSans-BoldOblique.ttf
+begin /usr/share/fonts/truetype/ttf-thai-arundina/ArundinaSans-BoldOblique.ttf
   Family = ArundinaSans
   FontName = ArundinaSans-BoldOblique
   Encoding = Unicode
@@ -59,7 +59,7 @@ begin /usr/share/fonts/truetype/ttf-thai-arundina/arundina/ArundinaSans-BoldObli
 end
 
 # Arundina Sans Mono
-begin /usr/share/fonts/truetype/ttf-thai-arundina/arundina/ArundinaSansMono.ttf
+begin /usr/share/fonts/truetype/ttf-thai-arundina/ArundinaSansMono.ttf
   Family = ArundinaSansMono
   FontName = ArundinaSansMono
   Encoding = Unicode
@@ -73,7 +73,7 @@ begin /usr/share/fonts/truetype/ttf-thai-arundina/arundina/ArundinaSansMono.ttf
   Foundry = SIPA
   Priority = 20
 end
-begin /usr/share/fonts/truetype/ttf-thai-arundina/arundina/ArundinaSansMono-Oblique.ttf
+begin /usr/share/fonts/truetype/ttf-thai-arundina/ArundinaSansMono-Oblique.ttf
   Family = ArundinaSansMono
   FontName = ArundinaSansMono-Oblique
   Encoding = Unicode
@@ -87,7 +87,7 @@ begin /usr/share/fonts/truetype/ttf-thai-arundina/arundina/ArundinaSansMono-Obli
   Foundry = SIPA
   Priority = 20
 end
-begin /usr/share/fonts/truetype/ttf-thai-arundina/arundina/ArundinaSansMono-Bold.ttf
+begin /usr/share/fonts/truetype/ttf-thai-arundina/ArundinaSansMono-Bold.ttf
   Family = ArundinaSansMono
   FontName = ArundinaSansMono-Bold
   Encoding = Unicode
@@ -101,7 +101,7 @@ begin /usr/share/fonts/truetype/ttf-thai-arundina/arundina/ArundinaSansMono-Bold
   Foundry = SIPA
   Priority = 20
 end
-begin /usr/share/fonts/truetype/ttf-thai-arundina/arundina/ArundinaSansMono-BoldOblique.ttf
+begin /usr/share/fonts/truetype/ttf-thai-arundina/ArundinaSansMono-BoldOblique.ttf
   Family = ArundinaSansMono
   FontName = ArundinaSansMono-BoldOblique
   Encoding = Unicode
@@ -117,7 +117,7 @@ begin /usr/share/fonts/truetype/ttf-thai-arundina/arundina/ArundinaSansMono-Bold
 end
 
 # Arundina Serif
-begin /usr/share/fonts/truetype/ttf-thai-arundina/arundina/ArundinaSerif.ttf
+begin /usr/share/fonts/truetype/ttf-thai-arundina/ArundinaSerif.ttf
   Family = ArundinaSerif
   FontName = ArundinaSerif
   Encoding = Unicode
@@ -131,7 +131,7 @@ begin /usr/share/fonts/truetype/ttf-thai-arundina/arundina/ArundinaSerif.ttf
   Foundry = SIPA
   Priority = 20
 end
-begin /usr/share/fonts/truetype/ttf-thai-arundina/arundina/ArundinaSerif-Bold.ttf
+begin /usr/share/fonts/truetype/ttf-thai-arundina/ArundinaSerif-Bold.ttf
   Family = ArundinaSerif
   FontName = ArundinaSerif-Bold
   Encoding = Unicode

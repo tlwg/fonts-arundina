@@ -4,7 +4,7 @@ Upstream-Maintainer: Theppitak Karoonboonyanan <thep@linux.thai.net>
 Upstream-Source: ftp://linux.thai.net/pub/thailinux/software/thaifonts-arundina
 
 Files: debian/*
-Copyright: © 2007, 2009 Theppitak Karoonboonyanan <thep@linux.thai.net>
+Copyright: © 2007, 2009 Theppitak Karoonboonyanan <thep@debian.org>
 License: GPL-2+
   On Debian systems, the complete text of the GNU General Public License
   can be found in `/usr/share/common-licenses/GPL-2'.

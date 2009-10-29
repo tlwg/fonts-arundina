@@ -1,14 +1,13 @@
 Source: thaifonts-arundina
 Section: fonts
 Priority: optional
-Maintainer: Theppitak Karoonboonyanan <thep@linux.thai.net>
-DM-Upload-Allowed: yes
+Maintainer: Theppitak Karoonboonyanan <thep@debian.org>
 Build-Depends: debhelper (>= 7)
 Build-Depends-Indep: defoma (>= 0.7.0), fontforge, xfonts-utils
 Vcs-Svn: http://linux.thai.net/svn/software/thaifonts-arundina
 Vcs-Browser: http://linux.thai.net/websvn/wsvn/software.thaifonts-arundina/?sc=0
 Homepage: http://linux.thai.net/projects/thaifonts-arundina
-Standards-Version: 3.8.1
+Standards-Version: 3.8.3
 
 Package: ttf-thai-arundina
 Architecture: all

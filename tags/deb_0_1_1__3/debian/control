@@ -1,0 +1,26 @@
+Source: thaifonts-arundina
+Section: fonts
+Priority: optional
+Maintainer: Theppitak Karoonboonyanan <thep@debian.org>
+Build-Depends: debhelper (>= 7)
+Build-Depends-Indep: defoma (>= 0.7.0), fontforge, xfonts-utils
+Vcs-Svn: http://linux.thai.net/svn/software/thaifonts-arundina
+Vcs-Browser: http://linux.thai.net/websvn/wsvn/software.thaifonts-arundina/?sc=0
+Homepage: http://linux.thai.net/projects/thaifonts-arundina
+Standards-Version: 3.8.3
+
+Package: ttf-thai-arundina
+Architecture: all
+Depends: defoma (>= 0.7.0), x-ttcidfont-conf, ${misc:Depends}
+Description: Thai DejaVu-compatible fonts in TrueType format
+ This package provides Arundina fonts for Thai language in TrueType format.
+ The fonts are designed to be compatible with Bitstream Vera or DejaVu fonts.
+ Serif, sans-serif and monospace type faces are included.
+
+Package: t1-thai-arundina
+Architecture: all
+Depends: defoma (>= 0.7.0), xfonts-utils (>= 1:1.0.0-4), ${misc:Depends}
+Description: Thai DejaVu-compatible fonts in Type1 format
+ This package provides Arundina fonts for Thai language in Type1 format.
+ The fonts are designed to be compatible with Bitstream Vera or DejaVu fonts.
+ Serif, sans-serif and monospace type faces are included.

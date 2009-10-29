@@ -1,0 +1,137 @@
+category type1
+
+# Arundina Sans
+begin /usr/share/fonts/X11/Type1/ArundinaSans.pfb
+  FontName = ArundinaSans
+  Charset = ISO8859-1 ISO8859-11 TIS620 ISO10646-1
+  UniCharset = ISO8859-1 ISO8859-11 TIS629
+  Family = ArundinaSans
+  GeneralFamily = SansSerif
+  Weight = Medium
+  Width = Variable
+  Shape = NoSerif
+  Priority = 20
+  X-FontName = ArundinaSans
+  AFM = /usr/share/fonts/X11/Type1/ArundinaSans.afm
+end
+begin /usr/share/fonts/X11/Type1/ArundinaSans-Oblique.pfb
+  FontName = ArundinaSans-Oblique
+  Charset = ISO8859-1 ISO8859-11 TIS620 ISO10646-1
+  UniCharset = ISO8859-1 ISO8859-11 TIS629
+  Family = ArundinaSans
+  GeneralFamily = SansSerif
+  Weight = Medium
+  Width = Variable
+  Shape = NoSerif Oblique
+  Priority = 20
+  X-FontName = ArundinaSans
+  AFM = /usr/share/fonts/X11/Type1/ArundinaSans-Oblique.afm
+end
+begin /usr/share/fonts/X11/Type1/ArundinaSans-Bold.pfb
+  FontName = ArundinaSans-Bold
+  Charset = ISO8859-1 ISO8859-11 TIS620 ISO10646-1
+  UniCharset = ISO8859-1 ISO8859-11 TIS629
+  Family = ArundinaSans
+  GeneralFamily = SansSerif
+  Weight = Bold
+  Width = Variable
+  Shape = NoSerif
+  Priority = 20
+  X-FontName = ArundinaSans
+  AFM = /usr/share/fonts/X11/Type1/ArundinaSans-Bold.afm
+end
+begin /usr/share/fonts/X11/Type1/ArundinaSans-BoldOblique.pfb
+  FontName = ArundinaSans-BoldOblique
+  Charset = ISO8859-1 ISO8859-11 TIS620 ISO10646-1
+  UniCharset = ISO8859-1 ISO8859-11 TIS629
+  Family = ArundinaSans
+  GeneralFamily = SansSerif
+  Weight = Bold
+  Width = Variable
+  Shape = NoSerif Oblique
+  Priority = 20
+  X-FontName = ArundinaSans
+  AFM = /usr/share/fonts/X11/Type1/ArundinaSans-BoldOblique.afm
+end
+
+# Arundina Sans Mono
+begin /usr/share/fonts/X11/Type1/ArundinaSansMono.pfb
+  FontName = ArundinaSansMono
+  Charset = ISO8859-1 ISO8859-11 TIS620 ISO10646-1
+  UniCharset = ISO8859-1 ISO8859-11 TIS629
+  Family = ArundinaSansMono
+  GeneralFamily = Typewriter
+  Weight = Medium
+  Width = Fixed
+  Shape = NoSerif
+  Priority = 20
+  X-FontName = ArundinaSansMono
+  AFM = /usr/share/fonts/X11/Type1/ArundinaSansMono.afm
+end
+begin /usr/share/fonts/X11/Type1/ArundinaSansMono-Oblique.pfb
+  FontName = ArundinaSansMono-Oblique
+  Charset = ISO8859-1 ISO8859-11 TIS620 ISO10646-1
+  UniCharset = ISO8859-1 ISO8859-11 TIS629
+  Family = ArundinaSansMono
+  GeneralFamily = Typewriter
+  Weight = Medium
+  Width = Fixed
+  Shape = NoSerif Oblique
+  Priority = 20
+  X-FontName = ArundinaSansMono
+  AFM = /usr/share/fonts/X11/Type1/ArundinaSansMono-Oblique.afm
+end
+begin /usr/share/fonts/X11/Type1/ArundinaSansMono-Bold.pfb
+  FontName = ArundinaSansMono-Bold
+  Charset = ISO8859-1 ISO8859-11 TIS620 ISO10646-1
+  UniCharset = ISO8859-1 ISO8859-11 TIS629
+  Family = ArundinaSansMono
+  GeneralFamily = Typewriter
+  Weight = Bold
+  Width = Fixed
+  Shape = NoSerif
+  Priority = 20
+  X-FontName = ArundinaSansMono
+  AFM = /usr/share/fonts/X11/Type1/ArundinaSansMono-Bold.afm
+end
+begin /usr/share/fonts/X11/Type1/ArundinaSansMono-BoldOblique.pfb
+  FontName = ArundinaSansMono-BoldOblique
+  Charset = ISO8859-1 ISO8859-11 TIS620 ISO10646-1
+  UniCharset = ISO8859-1 ISO8859-11 TIS629
+  Family = ArundinaSansMono
+  GeneralFamily = Typewriter
+  Weight = Bold
+  Width = Fixed
+  Shape = NoSerif Oblique
+  Priority = 20
+  X-FontName = ArundinaSansMono
+  AFM = /usr/share/fonts/X11/Type1/ArundinaSansMono-BoldOblique.afm
+end
+
+# Arundina Serif
+begin /usr/share/fonts/X11/Type1/ArundinaSerif.pfb
+  FontName = ArundinaSerif
+  Charset = ISO8859-1 ISO8859-11 TIS620 ISO10646-1
+  UniCharset = ISO8859-1 ISO8859-11 TIS629
+  Family = ArundinaSerif
+  GeneralFamily = Roman
+  Weight = Medium
+  Width = Variable
+  Shape = Serif
+  Priority = 20
+  X-FontName = ArundinaSerif
+  AFM = /usr/share/fonts/X11/Type1/ArundinaSerif.afm
+end
+begin /usr/share/fonts/X11/Type1/ArundinaSerif-Bold.pfb
+  FontName = ArundinaSerif-Bold
+  Charset = ISO8859-1 ISO8859-11 TIS620 ISO10646-1
+  UniCharset = ISO8859-1 ISO8859-11 TIS629
+  Family = ArundinaSerif
+  GeneralFamily = Roman
+  Weight = Bold
+  Width = Variable
+  Shape = Serif
+  Priority = 20
+  X-FontName = ArundinaSerif
+  AFM = /usr/share/fonts/X11/Type1/ArundinaSerif-Bold.afm
+end

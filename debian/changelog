@@ -1,3 +1,17 @@
+thaifonts-arundina (0.1.1-4) unstable; urgency=low
+
+  * Drop defoma support, according to
+    http://wiki.debian.org/OldPkgRemovals#defoma :
+    - debian/control: Drop Build-Depends on defoma, and Depends on on defoma,
+      x-ttcidfont-conf
+    - debian/rules: Drop dh_installdefoma call 
+    - debian/{t1,ttf}-thai-arundina.defoma-hints: Removed 
+    - debian/{t1,ttf}-thai-arundina.preinst: Added to remove obsolete defoma
+      hints files 
+  * Switch to "3.0 (quilt)" source format.
+
+ -- Theppitak Karoonboonyanan <thep@debian.org>  Thu, 03 Dec 2009 15:47:37 +0700
+
 thaifonts-arundina (0.1.1-3) unstable; urgency=low
 
   * debian/control:

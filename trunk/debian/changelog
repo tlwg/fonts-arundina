@@ -1,3 +1,16 @@
+thaifonts-arundina (0.1.1-5) unstable; urgency=low
+
+  * Replace fontforge B-Dep with fontforge-nox to reduce load on buildd.
+  * Remove versioned Dep on ancient xfonts-utils.
+  * debian/copyright:
+    - Updated to DEP-5 rev 166.
+    - Update copyright year for debian/*.
+  * debian/rules: Switch to dh 7 rules.
+  * B-Dep on debhelper (>= 7.0.50~) for override_dh_ targets support.
+  * Bump Standards-Version to 3.9.1 (no changes needed)
+
+ -- Theppitak Karoonboonyanan <thep@debian.org>  Fri, 11 Mar 2011 10:22:23 +0700
+
 thaifonts-arundina (0.1.1-4) unstable; urgency=low
 
   * Drop defoma support, according to

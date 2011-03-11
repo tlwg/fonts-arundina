@@ -1,17 +1,17 @@
-Format-Specification: http://wiki.debian.org/Proposals/CopyrightFormat?action=recall&rev=454
+Format: http://svn.debian.org/wsvn/dep/web/deps/dep5.mdwn?op=file&rev=166
 Upstream-Name: thaifonts-arundina
-Upstream-Maintainer: Theppitak Karoonboonyanan <thep@linux.thai.net>
-Upstream-Source: ftp://linux.thai.net/pub/thailinux/software/thaifonts-arundina
+Upstream-Contact: Theppitak Karoonboonyanan <thep@linux.thai.net>
+Source: ftp://linux.thai.net/pub/thailinux/software/thaifonts-arundina
 
 Files: debian/*
-Copyright: © 2007, 2009 Theppitak Karoonboonyanan <thep@debian.org>
+Copyright: 2007-2011 Theppitak Karoonboonyanan <thep@debian.org>
 License: GPL-2+
   On Debian systems, the complete text of the GNU General Public License
   can be found in `/usr/share/common-licenses/GPL-2'.
 
 Files: *.sfd
-Copyright: © 2003 by Bitstream, Inc.
-Copyright: © 2007 by Software Industry Promotion Agency (Public Organization)
+Copyright: 2003 Bitstream, Inc.
+           2007 Software Industry Promotion Agency (Public Organization)
 License: other
   Bitstream Vera is a trademark of Bitstream, Inc.
   .

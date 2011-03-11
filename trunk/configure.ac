@@ -15,8 +15,8 @@ AC_ARG_ENABLE(ttf,
 if test "x$enable_ttf" = "xyes"; then
   AC_ARG_WITH(ttfdir,
     [AC_HELP_STRING([--with-ttfdir=DIR],
-                    [font directory in DIR [PREFIX/share/fonts/th/TTF]])],
-    [ttfdir="$withval"], [ttfdir=\$\{prefix\}/share/fonts/th/TTF])
+                    [font directory in DIR [PREFIX/share/fonts/truetype/ttf-thai-arundina]])],
+    [ttfdir="$withval"], [ttfdir=\$\{prefix\}/share/fonts/truetype/ttf-thai-arundina])
   AC_MSG_CHECKING(--with-ttfdir)
   AC_MSG_RESULT("$ttfdir")
 
@@ -34,8 +34,8 @@ AC_ARG_ENABLE(pfb,
 if test "x$enable_pfa" = "xyes" -o "x$enable_pfb" = "xyes"; then
   AC_ARG_WITH(type1dir,
     [AC_HELP_STRING([--with-type1dir=DIR],
-                    [font directory in DIR [PREFIX/share/fonts/th/Type1]])],
-    [type1dir="$withval"], [type1dir=\$\{prefix\}/share/fonts/th/Type1])
+                    [font directory in DIR [PREFIX/share/fonts/type1/ttf-thai-arundina]])],
+    [type1dir="$withval"], [type1dir=\$\{prefix\}/share/fonts/type1/ttf-thai-arundina])
   AC_MSG_CHECKING(--with-type1dir)
   AC_MSG_RESULT("$type1dir")
 

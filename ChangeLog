@@ -1,5 +1,12 @@
 2011-03-13  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
+	* arundina/ArundinaSerif*.sfd:
+	  - Set last liga component of RUEE and LUEE to LAKKHANGYAO (U+0E45),
+	    not SARA AA (U+0E32)
+	  - Bump font version to 2.22
+
+2011-03-13  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
 	* arundina/ArundinaSansMono*.sfd:
 	  - Set last liga component of RUEE and LUEE to LAKKHANGYAO (U+0E45),
 	    not SARA AA (U+0E32)

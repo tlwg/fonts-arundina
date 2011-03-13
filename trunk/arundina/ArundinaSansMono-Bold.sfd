@@ -4,7 +4,7 @@ FullName: Arundina Sans Mono Bold
 FamilyName: Arundina Sans Mono
 Weight: Bold
 Copyright: Copyright (c) 2003 by Bitstream, Inc. All Rights Reserved.\nCopyright (c) 2007 by Software Industry Promotion Agency (Public Organization). All Rights Reserved.
-Version: 1.21
+Version: 1.22
 ItalicAngle: 0
 UnderlinePosition: -436
 UnderlineWidth: 288
@@ -13,14 +13,13 @@ Descent: 410
 LayerCount: 2
 Layer: 0 1 "Back"  1
 Layer: 1 1 "Fore"  0
-NeedsXUIDChange: 1
 XUID: [1021 375 425136265 6984372]
 FSType: 4
 OS2Version: 2
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1050374940
-ModificationTime: 1300006301
+ModificationTime: 1300009752
 PfmFamily: 49
 TTFWeight: 700
 TTFWidth: 5
@@ -76,6 +75,7 @@ Lookup: 1 0 0 "Single Substitution lookup 20"  {"Single Substitution lookup 20 s
 Lookup: 1 0 0 "Single Substitution lookup 21"  {"Single Substitution lookup 21 subtable"  } []
 Lookup: 1 0 0 "Single Substitution lookup 22"  {"Single Substitution lookup 22 subtable"  } []
 Lookup: 258 0 0 "'kern' Horizontal Kerning in Latin lookup 0"  {"'kern' Horizontal Kerning in Latin lookup 0 subtable"  } ['kern' ('latn' <'dflt' > ) ]
+MarkAttachClasses: 1
 DEI: 91125
 ChainSub2: coverage "'liga' Standard Ligatures in Latin lookup 18 subtable"  0 0 0 1
  1 1 0
@@ -481,7 +481,7 @@ BlueValues 47 [-30 0 1120 1147 1205 1223 1493 1521 1558 1558]
 OtherBlues 11 [-428 -424]
 ForceBold 4 true
 EndPrivate
-BeginChars: 65566 413
+BeginChars: 65566 410
 
 StartChar: .notdef
 Encoding: 65536 -1 0
@@ -29002,7 +29002,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0E4F030E
+StartChar: uni0E4F.liga
 Encoding: 63616 63616 388
 Width: 1234
 VWidth: 3111
@@ -29145,9 +29145,10 @@ SplineSet
  635 368 635 368 671 403.5 c 128,-1,61
  707 439 707 439 707 502 c 0,51,52
 EndSplineSet
+Ligature2: "'liga' Standard Ligatures in Latin lookup 19 subtable" uni0E4F quotedbl
 EndChar
 
-StartChar: uni0E240E45
+StartChar: uni0E24.liga
 Encoding: 63617 63617 389
 Width: 1234
 VWidth: 3111
@@ -29279,9 +29280,10 @@ SplineSet
  317 296 317 296 297 275.5 c 128,-1,76
  277 255 277 255 277 228 c 0,65,66
 EndSplineSet
+Ligature2: "'liga' Standard Ligatures in Latin lookup 19 subtable" uni0E24 uni0E45
 EndChar
 
-StartChar: uni0E260E45
+StartChar: uni0E26.liga
 Encoding: 63618 63618 390
 Width: 1234
 VWidth: 3111
@@ -29429,6 +29431,7 @@ SplineSet
  211 264 211 264 193 244 c 128,-1,83
  175 224 175 224 175 196 c 0,72,73
 EndSplineSet
+Ligature2: "'liga' Standard Ligatures in Latin lookup 19 subtable" uni0E26 uni0E45
 EndChar
 
 StartChar: uni0E33.alt1
@@ -30422,361 +30425,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0E24.liga
-Encoding: 65563 -1 405
-Width: 1234
-VWidth: 3111
-Flags: W
-HStem: -28 153<400.871 490.242> 264 152<409.994 490.856> 1057 166<423.042 718.301>
-VStem: 100 915<936 959 805 862 805 805> 190 193<162.211 227.875 401 710.251> 511 151<147.115 243.331> 822 193<-416 989.099>
-TtInstrs:
-SVTCA[y-axis]
-PUSHB_3
- 17
- 1
- 0
-CALL
-PUSHB_1
- 42
-MDRP[min,rnd,black]
-PUSHB_3
- 29
- 3
- 0
-CALL
-PUSHB_1
- 0
-MDRP[min,rnd,black]
-PUSHB_1
- 11
-MDAP[rnd]
-PUSHB_1
- 48
-MDRP[rp0,min,rnd,black]
-SVTCA[x-axis]
-PUSHB_1
- 51
-SRP0
-PUSHB_1
- 25
-MDRP[rp0,rnd,white]
-PUSHB_1
- 35
-MDRP[min,rnd,black]
-PUSHB_1
- 20
-MDRP[rp0,rnd,white]
-PUSHB_1
- 9
-MDRP[min,rnd,black]
-PUSHB_2
- 45
- 1
-CALL
-PUSHB_1
- 14
-MDRP[min,rnd,black]
-PUSHB_1
- 35
-MDAP[no-rnd]
-PUSHB_1
- 36
-MDRP[min,rnd,black]
-PUSHB_1
- 36
-SRP0
-PUSHB_1
- 52
-DUP
-MDRP[min,white]
-MDAP[rnd]
-IUP[y]
-IUP[x]
-EndTTInstrs
-LayerCount: 2
-Fore
-SplineSet
-609 1057 m 0,0,1
- 516 1057 516 1057 435 1024.5 c 128,-1,2
- 354 992 354 992 296 936 c 1,3,-1
- 476 936 l 1,4,-1
- 476 819 l 1,5,6
- 430 796 430 796 406.5 749.5 c 128,-1,7
- 383 703 383 703 383 656 c 2,8,-1
- 383 401 l 1,9,10
- 416 416 416 416 467 416 c 0,11,12
- 557 416 557 416 609.5 357.5 c 128,-1,13
- 662 299 662 299 662 215 c 0,14,15
- 662 106 662 106 603 39 c 128,-1,16
- 544 -28 544 -28 427 -28 c 0,17,18
- 314 -28 314 -28 252 55.5 c 128,-1,19
- 190 139 190 139 190 243 c 2,20,-1
- 190 603 l 2,21,22
- 190 656 190 656 225.5 712 c 128,-1,23
- 261 768 261 768 296 805 c 1,24,-1
- 100 805 l 1,25,-1
- 100 986 l 1,26,27
- 205 1083 205 1083 326.5 1153 c 128,-1,28
- 448 1223 448 1223 591 1223 c 0,29,30
- 671 1223 671 1223 746.5 1202.5 c 128,-1,31
- 822 1182 822 1182 882.5 1139 c 128,-1,32
- 943 1096 943 1096 979 1027.5 c 128,-1,33
- 1015 959 1015 959 1015 862 c 2,34,-1
- 1015 -416 l 1,35,-1
- 822 -416 l 1,36,-1
- 822 831 l 2,37,38
- 822 1057 822 1057 609 1057 c 0,0,1
-380 196 m 0,39,40
- 380 166 380 166 398 145.5 c 128,-1,41
- 416 125 416 125 446 125 c 256,42,43
- 472 125 472 125 491.5 145.5 c 128,-1,44
- 511 166 511 166 511 196 c 0,45,46
- 511 224 511 224 491.5 244 c 128,-1,47
- 472 264 472 264 446 264 c 256,48,49
- 416 264 416 264 398 244 c 128,-1,50
- 380 224 380 224 380 196 c 0,39,40
-EndSplineSet
-LCarets2: 1 0 
-Ligature2: "'liga' Standard Ligatures in Latin lookup 19 subtable" uni0E24 uni0E32
-EndChar
-
-StartChar: uni0E26.liga
-Encoding: 65564 -1 406
-Width: 1234
-VWidth: 3111
-Flags: W
-HStem: -424 21G<853 1045> -28 144<236.377 327.238> 1068 155<546.586 795.713>
-VStem: 65 150<137.13 230.152> 314 193<389 675.053> 853 192<-424 1007.5>
-TtInstrs:
-SVTCA[y-axis]
-PUSHB_3
- 18
- 1
- 0
-CALL
-PUSHB_1
- 45
-MDRP[min,rnd,black]
-PUSHB_3
- 40
- 0
- 0
-CALL
-PUSHB_3
- 36
- 3
- 0
-CALL
-PUSHB_1
- 4
-MDRP[min,rnd,black]
-SVTCA[x-axis]
-PUSHB_1
- 54
-SRP0
-PUSHB_1
- 21
-MDRP[rp0,rnd,white]
-PUSHB_1
- 42
-MDRP[rp0,min,rnd,black]
-PUSHB_2
- 27
- 1
-CALL
-PUSHB_1
- 14
-MDRP[rp0,min,rnd,black]
-PUSHB_2
- 41
- 1
-CALL
-PUSHB_1
- 40
-MDRP[rp0,min,rnd,black]
-PUSHB_1
- 55
-DUP
-MDRP[min,white]
-MDAP[rnd]
-IUP[y]
-IUP[x]
-EndTTInstrs
-LayerCount: 2
-Fore
-SplineSet
-853 846 m 2,0,1
- 853 947 853 947 806 1012 c 0,2,3
- 766 1068 766 1068 650 1068 c 0,4,5
- 620 1068 620 1068 580.5 1056.5 c 128,-1,6
- 541 1045 541 1045 505 1028.5 c 128,-1,7
- 469 1012 469 1012 439.5 990 c 128,-1,8
- 410 968 410 968 395 943 c 1,9,-1
- 594 943 l 1,10,-1
- 594 822 l 1,11,12
- 544 788 544 788 525.5 750 c 128,-1,13
- 507 712 507 712 507 659 c 2,14,-1
- 507 217 l 2,15,16
- 507 109 507 109 454 40.5 c 128,-1,17
- 401 -28 401 -28 282 -28 c 0,18,19
- 181 -28 181 -28 123 33.5 c 128,-1,20
- 65 95 65 95 65 199 c 0,21,22
- 65 289 65 289 121.5 342 c 128,-1,23
- 178 395 178 395 259 395 c 0,24,25
- 273 395 273 395 286 395 c 128,-1,26
- 299 395 299 395 314 389 c 1,27,-1
- 314 610 l 2,28,29
- 314 663 314 663 334 722 c 128,-1,30
- 354 781 354 781 407 816 c 1,31,-1
- 211 816 l 1,32,-1
- 211 996 l 1,33,34
- 289 1102 289 1102 416.5 1162.5 c 128,-1,35
- 544 1223 544 1223 668 1223 c 0,36,37
- 846 1223 846 1223 945.5 1127 c 128,-1,38
- 1045 1031 1045 1031 1045 841 c 2,39,-1
- 1045 -424 l 1,40,-1
- 853 -424 l 1,41,-1
- 853 846 l 2,0,1
-215 183 m 256,42,43
- 215 155 215 155 235 135.5 c 128,-1,44
- 255 116 255 116 282 116 c 0,45,46
- 308 116 308 116 328 135.5 c 128,-1,47
- 348 155 348 155 348 183 c 256,48,49
- 348 211 348 211 328 231.5 c 128,-1,50
- 308 252 308 252 282 252 c 0,51,52
- 255 252 255 252 235 231.5 c 128,-1,53
- 215 211 215 211 215 183 c 256,42,43
-EndSplineSet
-LCarets2: 1 0 
-Ligature2: "'liga' Standard Ligatures in Latin lookup 19 subtable" uni0E26 uni0E32
-EndChar
-
-StartChar: uni0E4F.liga
-Encoding: 65565 -1 407
-Width: 1234
-VWidth: 3111
-Flags: W
-HStem: -28 159<382.224 759.957> 220 148<470.244 674.096> 635 146<469.636 682.532> 870 160<379.676 762.981>
-VStem: 50 152<312.127 692.535> 289 147<401.441 601.756> 707 146<401.441 610.77> 943 158<314.695 689.647>
-TtInstrs:
-SVTCA[y-axis]
-PUSHB_3
- 5
- 1
- 0
-CALL
-PUSHB_1
- 28
-MDRP[min,rnd,black]
-PUSHB_1
- 51
-MDAP[rnd]
-PUSHB_1
- 34
-MDRP[rp0,min,rnd,black]
-PUSHB_1
- 40
-MDAP[rnd]
-PUSHB_1
- 45
-MDRP[rp0,min,rnd,black]
-PUSHB_1
- 15
-MDAP[rnd]
-PUSHB_1
- 23
-MDRP[rp0,min,rnd,black]
-SVTCA[x-axis]
-PUSHB_1
- 54
-SRP0
-PUSHB_1
- 10
-MDRP[rp0,rnd,white]
-PUSHB_1
- 26
-MDRP[rp0,min,rnd,black]
-PUSHB_2
- 37
- 1
-CALL
-PUSHB_1
- 48
-MDRP[rp0,min,rnd,black]
-PUSHB_2
- 43
- 1
-CALL
-PUSHB_1
- 31
-MDRP[rp0,min,rnd,black]
-PUSHB_2
- 20
- 1
-CALL
-PUSHB_1
- 0
-MDRP[rp0,min,rnd,black]
-PUSHB_1
- 55
-DUP
-MDRP[min,white]
-MDAP[rnd]
-IUP[y]
-IUP[x]
-EndTTInstrs
-LayerCount: 2
-Fore
-SplineSet
-1101 502 m 0,0,1
- 1101 386 1101 386 1062.5 288 c 128,-1,2
- 1024 190 1024 190 954 120 c 128,-1,3
- 884 50 884 50 787.5 11 c 128,-1,4
- 691 -28 691 -28 573 -28 c 256,5,6
- 454 -28 454 -28 357.5 11 c 128,-1,7
- 261 50 261 50 193 120 c 128,-1,8
- 125 190 125 190 87.5 288 c 128,-1,9
- 50 386 50 386 50 502 c 0,10,11
- 50 620 50 620 87.5 718 c 128,-1,12
- 125 816 125 816 193 885.5 c 128,-1,13
- 261 955 261 955 357.5 992.5 c 128,-1,14
- 454 1030 454 1030 573 1030 c 0,15,16
- 694 1030 694 1030 792 992.5 c 128,-1,17
- 890 955 890 955 958.5 885.5 c 128,-1,18
- 1027 816 1027 816 1064 719.5 c 128,-1,19
- 1101 623 1101 623 1101 502 c 0,0,1
-943 502 m 0,20,21
- 943 666 943 666 840 768 c 128,-1,22
- 737 870 737 870 573 870 c 0,23,24
- 404 870 404 870 303 769 c 128,-1,25
- 202 668 202 668 202 502 c 128,-1,26
- 202 336 202 336 304.5 233.5 c 128,-1,27
- 407 131 407 131 573 131 c 0,28,29
- 734 131 734 131 838.5 235 c 128,-1,30
- 943 339 943 339 943 502 c 0,20,21
-853 502 m 0,31,32
- 853 377 853 377 777 298.5 c 128,-1,33
- 701 220 701 220 573 220 c 0,34,35
- 448 220 448 220 368.5 298.5 c 128,-1,36
- 289 377 289 377 289 502 c 0,37,38
- 289 632 289 632 367.5 706.5 c 128,-1,39
- 446 781 446 781 573 781 c 0,40,41
- 707 781 707 781 780 708 c 128,-1,42
- 853 635 853 635 853 502 c 0,31,32
-707 502 m 0,43,44
- 707 635 707 635 573 635 c 0,45,46
- 511 635 511 635 473.5 599.5 c 128,-1,47
- 436 564 436 564 436 502 c 256,48,49
- 436 439 436 439 473.5 403.5 c 128,-1,50
- 511 368 511 368 573 368 c 256,51,52
- 635 368 635 368 671 403.5 c 128,-1,53
- 707 439 707 439 707 502 c 0,43,44
-EndSplineSet
-Ligature2: "'liga' Standard Ligatures in Latin lookup 19 subtable" uni0E4F quotedbl
-EndChar
-
 StartChar: zerowidthspace
-Encoding: 8203 8203 408
+Encoding: 8203 8203 405
 Width: 0
 VWidth: 0
 Flags: W
@@ -30784,7 +30434,7 @@ LayerCount: 2
 EndChar
 
 StartChar: zerowidthnonjoiner
-Encoding: 8204 8204 409
+Encoding: 8204 8204 406
 Width: 0
 VWidth: 0
 Flags: W
@@ -30792,7 +30442,7 @@ LayerCount: 2
 EndChar
 
 StartChar: zerowidthjoiner
-Encoding: 8205 8205 410
+Encoding: 8205 8205 407
 Width: 0
 VWidth: 0
 Flags: W
@@ -30800,7 +30450,7 @@ LayerCount: 2
 EndChar
 
 StartChar: uni200E
-Encoding: 8206 8206 411
+Encoding: 8206 8206 408
 Width: 0
 VWidth: 0
 Flags: W
@@ -30808,7 +30458,7 @@ LayerCount: 2
 EndChar
 
 StartChar: uni200F
-Encoding: 8207 8207 412
+Encoding: 8207 8207 409
 Width: 0
 VWidth: 0
 Flags: W

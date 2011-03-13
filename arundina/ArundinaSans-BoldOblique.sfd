@@ -4,22 +4,22 @@ FullName: Arundina Sans Bold Oblique
 FamilyName: Arundina Sans
 Weight: Bold
 Copyright: Copyright (c) 2003 by Bitstream, Inc. All Rights Reserved.\nCopyright (c) 2007 by Software Industry Promotion Agency (Public Organization). All Rights Reserved.
-Version: 1.21
+Version: 1.22
 ItalicAngle: -11
 UnderlinePosition: -153
 UnderlineWidth: 102
 Ascent: 1638
 Descent: 410
 LayerCount: 2
-Layer: 0 1 "Back" 
-Layer: 1 1 "Fore" 
+Layer: 0 1 "Back"  1
+Layer: 1 1 "Fore"  0
 XUID: [1021 375 425136265 525174]
 FSType: 0
 OS2Version: 2
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1125072480
-ModificationTime: 1211188187
+ModificationTime: 1300008428
 PfmFamily: 33
 TTFWeight: 700
 TTFWidth: 5
@@ -75,7 +75,8 @@ Lookup: 1 0 0 "Single Substitution lookup 20"  {"Single Substitution lookup 20 s
 Lookup: 1 0 0 "Single Substitution lookup 21"  {"Single Substitution lookup 21 subtable"  } []
 Lookup: 1 0 0 "Single Substitution lookup 22"  {"Single Substitution lookup 22 subtable"  } []
 Lookup: 258 0 0 "'kern' Horizontal Kerning in Latin lookup 0"  {"'kern' Horizontal Kerning in Latin lookup 0 subtable"  } ['kern' ('latn' <'dflt' > ) ]
-DEI: 0
+MarkAttachClasses: 1
+DEI: 91125
 ChainSub2: coverage "'liga' Standard Ligatures in Latin lookup 18 subtable"  0 0 0 1
  1 1 0
   Coverage: 7 uni0E47
@@ -29313,7 +29314,7 @@ SplineSet
  315 144 315 144 345 166.5 c 128,-1,85
  375 189 375 189 381 223 c 256,74,75
 EndSplineSet
-Ligature2: "'liga' Standard Ligatures in Latin lookup 19 subtable" uni0E24 uni0E32
+Ligature2: "'liga' Standard Ligatures in Latin lookup 19 subtable" uni0E24 uni0E45
 EndChar
 
 StartChar: uni0E26.liga
@@ -29452,7 +29453,7 @@ SplineSet
  198 150 198 150 228 172.5 c 128,-1,92
  258 195 258 195 265 230 c 256,81,82
 EndSplineSet
-Ligature2: "'liga' Standard Ligatures in Latin lookup 19 subtable" uni0E26 uni0E32
+Ligature2: "'liga' Standard Ligatures in Latin lookup 19 subtable" uni0E26 uni0E45
 EndChar
 
 StartChar: uni0E33.alt1

@@ -1,5 +1,14 @@
 2011-03-13  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
+	* arundina/ArundinaSansMono*.sfd:
+	  - Set last liga component of RUEE and LUEE to LAKKHANGYAO (U+0E45),
+	    not SARA AA (U+0E32)
+	  - Remove duplicated (with wrong shape) glyphs for FONGMAN-FANNUU,
+	    RUEE and LUEE
+	  - Bump font version to 1.22
+
+2011-03-13  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
 	* arundina/ArundinaSans*.sfd:
 	  - Set last liga component of RUEE and LUEE to LAKKHANGYAO (U+0E45),
 	    not SARA AA (U+0E32)

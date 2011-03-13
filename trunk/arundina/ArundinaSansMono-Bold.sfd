@@ -11,15 +11,16 @@ UnderlineWidth: 288
 Ascent: 1638
 Descent: 410
 LayerCount: 2
-Layer: 0 1 "Back" 
-Layer: 1 1 "Fore" 
+Layer: 0 1 "Back"  1
+Layer: 1 1 "Fore"  0
+NeedsXUIDChange: 1
 XUID: [1021 375 425136265 6984372]
 FSType: 4
 OS2Version: 2
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1050374940
-ModificationTime: 1211947936
+ModificationTime: 1300006301
 PfmFamily: 49
 TTFWeight: 700
 TTFWidth: 5
@@ -75,7 +76,7 @@ Lookup: 1 0 0 "Single Substitution lookup 20"  {"Single Substitution lookup 20 s
 Lookup: 1 0 0 "Single Substitution lookup 21"  {"Single Substitution lookup 21 subtable"  } []
 Lookup: 1 0 0 "Single Substitution lookup 22"  {"Single Substitution lookup 22 subtable"  } []
 Lookup: 258 0 0 "'kern' Horizontal Kerning in Latin lookup 0"  {"'kern' Horizontal Kerning in Latin lookup 0 subtable"  } ['kern' ('latn' <'dflt' > ) ]
-DEI: 0
+DEI: 91125
 ChainSub2: coverage "'liga' Standard Ligatures in Latin lookup 18 subtable"  0 0 0 1
  1 1 0
   Coverage: 7 uni0E47
@@ -7496,7 +7497,7 @@ EndChar
 
 StartChar: iacute
 Encoding: 237 237 116
-Width: 745
+Width: 1234
 VWidth: 3393
 Flags: W
 HStem: 0 224<143 509 800 1168> 896 224<220 509> 1263 376<664 1036 1036 1036>
@@ -7509,7 +7510,7 @@ EndChar
 
 StartChar: igrave
 Encoding: 236 236 117
-Width: 745
+Width: 1234
 VWidth: 3393
 Flags: W
 HStem: 0 224<143 509 800 1168> 896 224<220 509> 1263 376<200 764 200 200>
@@ -7522,7 +7523,7 @@ EndChar
 
 StartChar: icircumflex
 Encoding: 238 238 118
-Width: 745
+Width: 1234
 VWidth: 3393
 Flags: W
 HStem: 0 224<143 509 800 1168> 896 224<220 509> 1263 376<736 994 736 736>
@@ -7535,7 +7536,7 @@ EndChar
 
 StartChar: idieresis
 Encoding: 239 239 119
-Width: 745
+Width: 1234
 VWidth: 3393
 Flags: W
 HStem: 0 224<143 509 800 1168> 896 224<220 509> 1341 246<302 537 696 933>
@@ -15773,7 +15774,7 @@ EndChar
 
 StartChar: uni0E01
 Encoding: 3585 3585 270
-Width: 1131
+Width: 1234
 VWidth: 3111
 Flags: W
 HStem: 0 21G<183 377 846 1039> 1060 163<409.5 716.193>
@@ -15862,7 +15863,7 @@ EndChar
 
 StartChar: uni0E02
 Encoding: 3586 3586 271
-Width: 1131
+Width: 1234
 VWidth: 3111
 Flags: W
 HStem: 0 166<591 809> 679 119<306.977 397.217> 1062 157<403.964 567.929>
@@ -15993,7 +15994,7 @@ EndChar
 
 StartChar: uni0E03
 Encoding: 3587 3587 272
-Width: 1131
+Width: 1234
 VWidth: 3111
 Flags: W
 HStem: 0 166<576 819> 635 108<316.584 395.658> 874 106<324.637 388.988> 1043 162<308.59 353.845 566.09 612.586>
@@ -16160,7 +16161,7 @@ EndChar
 
 StartChar: uni0E04
 Encoding: 3588 3588 273
-Width: 1131
+Width: 1234
 VWidth: 3111
 Flags: W
 HStem: 0 21G<203.5 410 828 1021> 436 155<533.28 623.965> 731 143<532.778 624.231> 1064 159<386.757 741.328>
@@ -16272,7 +16273,7 @@ EndChar
 
 StartChar: uni0E05
 Encoding: 3589 3589 274
-Width: 1131
+Width: 1234
 VWidth: 3111
 Flags: W
 HStem: 0 21G<229.5 414 865 1057> 430 155<562.709 653.38> 722 143<562.781 653.611> 1027 184<344.057 462.275 784 828.466>
@@ -16421,7 +16422,7 @@ EndChar
 
 StartChar: uni0E06
 Encoding: 3590 3590 275
-Width: 1131
+Width: 1234
 VWidth: 3111
 Flags: W
 HStem: -28 21<336.5 381.5 861.741 1054> 645 111<240.038 349.822> 890 109<268.298 326.684> 1048 166<228.441 283.753 544.09 580.909>
@@ -16634,7 +16635,7 @@ EndChar
 
 StartChar: uni0E07
 Encoding: 3591 3591 276
-Width: 1131
+Width: 1234
 VWidth: 3111
 Flags: W
 HStem: 0 21G<681.432 971> 766 155<685.923 767.953> 1061 162<686.26 778.243>
@@ -16716,7 +16717,7 @@ EndChar
 
 StartChar: uni0E08
 Encoding: 3592 3592 277
-Width: 1131
+Width: 1234
 VWidth: 3111
 Flags: W
 HStem: 0 21G<602.976 979.5> 392 155<410.451 490.031> 685 155<410.571 501.118> 1036 181<431.219 744.675>
@@ -16822,7 +16823,7 @@ EndChar
 
 StartChar: uni0E09
 Encoding: 3593 3593 278
-Width: 1131
+Width: 1234
 VWidth: 3111
 Flags: W
 HStem: -28 137<854.506 932.85> 351 141<261.111 327.332> 632 146<262.223 351.883> 1052 171<461.152 671.713>
@@ -16961,7 +16962,7 @@ EndChar
 
 StartChar: uni0E0A
 Encoding: 3594 3594 279
-Width: 1131
+Width: 1234
 VWidth: 3111
 Flags: W
 HStem: 0 166<507 796> 662 116<251.553 343.142> 1074 143<334.602 511.72>
@@ -17086,7 +17087,7 @@ EndChar
 
 StartChar: uni0E0B
 Encoding: 3595 3595 280
-Width: 1131
+Width: 1234
 VWidth: 3111
 Flags: W
 HStem: 0 166<507 796> 647 116<235.917 345.819> 890 111<235.661 343.971> 1052 162<244.644 295.408 478.552 524.207>
@@ -17258,7 +17259,7 @@ EndChar
 
 StartChar: uni0E0C
 Encoding: 3596 3596 281
-Width: 1131
+Width: 1234
 VWidth: 3111
 Flags: W
 HStem: -28 21<625 704 918 1101> -28 146<247.047 340.408> 280 124<255.787 342.214> 1066 148<296.628 539.557>
@@ -17431,7 +17432,7 @@ EndChar
 
 StartChar: uni0E0D
 Encoding: 3597 3597 282
-Width: 1131
+Width: 1234
 VWidth: 3111
 Flags: W
 HStem: -436 150<644.485 794.755> -166 104<615.187 720.229> -28 132<270.169 365.96> 0 166<751 897> 286 128<282.954 371.269> 1084 139<333.539 442>
@@ -17627,7 +17628,7 @@ EndChar
 
 StartChar: uni0E0E
 Encoding: 3598 3598 283
-Width: 1131
+Width: 1234
 VWidth: 3111
 Flags: W
 HStem: -502 148<439.453 565.328> -224 146<422.045 499.43 498.557 500.304 500.304 515.5> -28 144<240.848 332.695> 268 146<242.164 312.124> 1057 160<514.106 779.043>
@@ -17803,7 +17804,7 @@ EndChar
 
 StartChar: uni0E0F
 Encoding: 3599 3599 284
-Width: 1131
+Width: 1234
 VWidth: 3111
 Flags: W
 HStem: -502 143<280.198 409.201> -237 137<266.771 436.733> -28 141<247.103 329.973> 270 137<249.377 321.026> 1068 155<503.567 801.783>
@@ -17983,7 +17984,7 @@ EndChar
 
 StartChar: uni0E10
 Encoding: 3600 3600 285
-Width: 1131
+Width: 1234
 VWidth: 3111
 Flags: W
 HStem: -495 127<171.955 274.852 668.222 771.997> -252 134<169.889 248.831> -143 102<747.114 826.911> 0 21G<640.248 914.5> 280 139<372.611 463.622> 560 138<371.691 464.561> 793 162<333.757 449.035 449.035 517.419 517.419 664.208> 939 231<793.159 983.474> 1048 169<384.539 615.304>
@@ -18225,7 +18226,7 @@ EndChar
 
 StartChar: uni0E11
 Encoding: 3601 3601 286
-Width: 1131
+Width: 1234
 VWidth: 3111
 Flags: W
 HStem: 0 21G<330 523 870 1064> 647 104<209.146 314.593> 870 106<233.503 304.462> 1039 158<185.844 243.598 425.719 477.026>
@@ -18389,7 +18390,7 @@ EndChar
 
 StartChar: uni0E12
 Encoding: 3602 3602 287
-Width: 1131
+Width: 1234
 VWidth: 3111
 Flags: W
 HStem: -28 106<631.445 688.122> 759 119<407.826 497.943> 955 150<431.31 512.954> 1043 171<239.932 327.678 596.358 626>
@@ -18597,7 +18598,7 @@ EndChar
 
 StartChar: uni0E13
 Encoding: 3603 3603 288
-Width: 1131
+Width: 1234
 VWidth: 3111
 Flags: W
 HStem: -28 137<252.947 342.37> -28 121<903.431 982.615> 261 131<266.956 342.313> 1064 147<277.2 470.926>
@@ -18775,7 +18776,7 @@ EndChar
 
 StartChar: uni0E14
 Encoding: 3604 3604 289
-Width: 1131
+Width: 1234
 VWidth: 3111
 Flags: W
 HStem: 0 21G<222 485.5 846 1039> 734 144<528.118 619.78> 1054 160<399.814 722.825>
@@ -18897,7 +18898,7 @@ EndChar
 
 StartChar: uni0E15
 Encoding: 3605 3605 290
-Width: 1131
+Width: 1234
 VWidth: 3111
 Flags: W
 HStem: 0 21G<231 463.5 831 1024> 747 131<521.278 613.205> 1191 20G<349 428.398 725 810.5>
@@ -19040,7 +19041,7 @@ EndChar
 
 StartChar: uni0E16
 Encoding: 3606 3606 291
-Width: 1131
+Width: 1234
 VWidth: 3111
 Flags: W
 HStem: -28 159<397.649 485.913> 270 146<417.847 486.629> 1057 166<439.957 603>
@@ -19164,7 +19165,7 @@ EndChar
 
 StartChar: uni0E17
 Encoding: 3607 3607 292
-Width: 1131
+Width: 1234
 VWidth: 3111
 Flags: W
 HStem: 0 21G<303 495 867 1061> 772 151<212.517 291.32> 1064 144<210.273 303.816 791.827 864.952>
@@ -19283,7 +19284,7 @@ EndChar
 
 StartChar: uni0E18
 Encoding: 3608 3608 293
-Width: 1131
+Width: 1234
 VWidth: 3111
 Flags: W
 HStem: 0 166<386 778> 772 164<308 399.362 399.362 581.567> 936 231<726.834 986.159> 1048 165<358.382 520.967>
@@ -19395,7 +19396,7 @@ EndChar
 
 StartChar: uni0E19
 Encoding: 3609 3609 294
-Width: 1131
+Width: 1234
 VWidth: 3111
 Flags: W
 HStem: -28 146<844.659 942.378> 788 145<218.297 293.635> 1073 138<217.237 308.682>
@@ -19525,7 +19526,7 @@ EndChar
 
 StartChar: uni0E1A
 Encoding: 3610 3610 295
-Width: 1131
+Width: 1234
 VWidth: 3111
 Flags: W
 HStem: 0 166<504 888> 1064 147<220.822 312.056>
@@ -19618,7 +19619,7 @@ EndChar
 
 StartChar: uni0E1B
 Encoding: 3611 3611 296
-Width: 1131
+Width: 1234
 VWidth: 3111
 Flags: W
 HStem: 0 166<504 884> 1064 147<226.459 318.397>
@@ -19706,7 +19707,7 @@ EndChar
 
 StartChar: uni0E1C
 Encoding: 3612 3612 297
-Width: 1131
+Width: 1234
 VWidth: 3111
 Flags: W
 HStem: 0 21G<109 364.817 782.712 1039> 757 162<333.921 416.955> 1058 153<325.004 416.777>
@@ -19812,7 +19813,7 @@ EndChar
 
 StartChar: uni0E1D
 Encoding: 3613 3613 298
-Width: 1131
+Width: 1234
 VWidth: 3111
 Flags: W
 HStem: 0 21G<131 390.721 808.615 1064> 757 153<364.233 445.301> 1049 162<354.336 444.847>
@@ -19913,7 +19914,7 @@ EndChar
 
 StartChar: uni0E1E
 Encoding: 3614 3614 299
-Width: 1131
+Width: 1234
 VWidth: 3111
 Flags: W
 HStem: 0 21G<293 537.373 849.66 1087> 771 150<205.289 285.599> 1060 154<203.042 295.638>
@@ -20018,7 +20019,7 @@ EndChar
 
 StartChar: uni0E1F
 Encoding: 3615 3615 300
-Width: 1131
+Width: 1234
 VWidth: 3111
 Flags: W
 HStem: 0 21G<293 537.373 849.66 1087> 771 150<205.289 285.599> 1060 154<203.042 295.638>
@@ -20118,7 +20119,7 @@ EndChar
 
 StartChar: uni0E20
 Encoding: 3616 3616 301
-Width: 1131
+Width: 1234
 VWidth: 3111
 Flags: W
 HStem: -28 144<236.377 327.238> 1068 155<551.561 795.328>
@@ -20230,7 +20231,7 @@ EndChar
 
 StartChar: uni0E21
 Encoding: 3617 3617 302
-Width: 1131
+Width: 1234
 VWidth: 3111
 Flags: W
 HStem: -28 21<326.5 400 872.515 1066> 1054 157<275.177 365.094>
@@ -20361,7 +20362,7 @@ EndChar
 
 StartChar: uni0E22
 Encoding: 3618 3618 303
-Width: 1131
+Width: 1234
 VWidth: 3111
 Flags: W
 HStem: 0 166<386 849> 538 165<478.607 691> 784 143<493.627 582.333> 1064 153<406.791 562.387>
@@ -20488,7 +20489,7 @@ EndChar
 
 StartChar: uni0E23
 Encoding: 3619 3619 304
-Width: 1131
+Width: 1234
 VWidth: 3111
 Flags: W
 HStem: -28 155<681.265 771.072> 955 221<805.932 908.974> 1043 174<397.398 603.932>
@@ -20613,7 +20614,7 @@ EndChar
 
 StartChar: uni0E24
 Encoding: 3620 3620 305
-Width: 1131
+Width: 1234
 VWidth: 3111
 Flags: W
 HStem: -28 153<400.871 490.242> 264 152<409.994 490.856> 1057 166<423.042 718.301>
@@ -20732,7 +20733,7 @@ EndChar
 
 StartChar: uni0E25
 Encoding: 3621 3621 306
-Width: 1131
+Width: 1234
 VWidth: 3111
 Flags: W
 HStem: -28 146<333.815 424.608> 620 167<432.533 651.331> 1036 175<407.765 726.797>
@@ -20856,7 +20857,7 @@ EndChar
 
 StartChar: uni0E26
 Encoding: 3622 3622 307
-Width: 1131
+Width: 1234
 VWidth: 3111
 Flags: W
 HStem: -424 21G<853 1045> -28 144<236.377 327.238> 1068 155<546.586 795.713>
@@ -20968,7 +20969,7 @@ EndChar
 
 StartChar: uni0E27
 Encoding: 3623 3623 308
-Width: 1131
+Width: 1234
 VWidth: 3111
 Flags: W
 HStem: -28 162<707.067 797.322> 1045 178<410.649 693.363>
@@ -21065,7 +21066,7 @@ EndChar
 
 StartChar: uni0E28
 Encoding: 3624 3624 309
-Width: 1131
+Width: 1234
 VWidth: 3111
 Flags: W
 HStem: 0 21G<214 404 831 1024> 436 149<533.626 623.965> 724 157<533.188 624.26> 1046 165<402.61 737.159>
@@ -21191,7 +21192,7 @@ EndChar
 
 StartChar: uni0E29
 Encoding: 3625 3625 310
-Width: 1131
+Width: 1234
 VWidth: 3111
 Flags: W
 HStem: 0 166<498 855> 1061 150<217.332 308.079>
@@ -21331,7 +21332,7 @@ EndChar
 
 StartChar: uni0E2A
 Encoding: 3626 3626 311
-Width: 1131
+Width: 1234
 VWidth: 3111
 Flags: W
 HStem: -28 134<346.636 438.809> 620 167<426.778 639.11> 1060 151<533.172 705.974>
@@ -21471,7 +21472,7 @@ EndChar
 
 StartChar: uni0E2B
 Encoding: 3627 3627 312
-Width: 1131
+Width: 1234
 VWidth: 3111
 Flags: W
 HStem: 0 21G<314 552 867 1061> 772 149<231.824 310.07> 1061 153<231.059 324.026> 1114 109<818.783 905.934>
@@ -21612,7 +21613,7 @@ EndChar
 
 StartChar: uni0E2C
 Encoding: 3628 3628 313
-Width: 1131
+Width: 1234
 VWidth: 3111
 Flags: W
 HStem: 0 21G<261 521 804.765 1043> 775 152<176.575 248.894 247.734 250.523> 853 133<703.254 823.827> 1067 144<174.972 268.249> 1087 127<716.743 856.07>
@@ -21763,7 +21764,7 @@ EndChar
 
 StartChar: uni0E2D
 Encoding: 3629 3629 314
-Width: 1131
+Width: 1234
 VWidth: 3111
 Flags: W
 HStem: 0 166<410 846> 698 142<412.736 503.308> 1043 180<373.908 710.434>
@@ -21877,7 +21878,7 @@ EndChar
 
 StartChar: uni0E2E
 Encoding: 3630 3630 315
-Width: 1131
+Width: 1234
 VWidth: 3111
 Flags: W
 HStem: 0 166<321 756> 326 134<339.328 428.415> 597 140<339.985 428.053> 775 153.5<327.34 365.154 365.154 396.881 381.017 614.433> 1050 159.5<288.33 348.5 359.5 378.36 378.36 410.821 410.821 447.458 429.139 631.864>
@@ -22010,7 +22011,7 @@ EndChar
 
 StartChar: uni0E2F
 Encoding: 3631 3631 316
-Width: 1131
+Width: 1234
 VWidth: 3111
 Flags: W
 HStem: 0 21G<768 962> 763 158<280.856 368.092> 1061 156<279.641 370.272>
@@ -22106,7 +22107,7 @@ EndChar
 
 StartChar: uni0E30
 Encoding: 3632 3632 317
-Width: 1131
+Width: 1234
 VWidth: 3111
 Flags: W
 HStem: 16 171<513.181 688.302> 368 130<297.528 385.816> 710 171<513.181 685.049> 1064 127<291.309 379.033>
@@ -22310,7 +22311,7 @@ EndChar
 
 StartChar: uni0E32
 Encoding: 3634 3634 319
-Width: 1131
+Width: 1234
 VWidth: 3111
 Flags: W
 HStem: 0 21G<800 999> 1045 178<403.979 714.667>
@@ -22370,7 +22371,7 @@ EndChar
 
 StartChar: uni0E33
 Encoding: 3635 3635 320
-Width: 1131
+Width: 1234
 VWidth: 3111
 Flags: W
 HStem: 0 21G<828 1027> 1045 178<434.362 742.227> 1395 157<185.179 271.878> 1681 168<185.641 271.482>
@@ -23113,7 +23114,7 @@ EndChar
 
 StartChar: uni0E40
 Encoding: 3648 3648 329
-Width: 1131
+Width: 1234
 VWidth: 3111
 Flags: W
 HStem: -28 150<581.757 681.746> 286 160<590.636 693.17> 1185 20G<370 564>
@@ -23192,7 +23193,7 @@ EndChar
 
 StartChar: uni0E41
 Encoding: 3649 3649 330
-Width: 1131
+Width: 1234
 VWidth: 3111
 Flags: W
 HStem: -28 144<297.972 404.625 839.174 943.659> 280 156<300.12 404.053 849.453 944.125> 1185 20G<93 277 635 819>
@@ -23314,7 +23315,7 @@ EndChar
 
 StartChar: uni0E42
 Encoding: 3650 3650 331
-Width: 1131
+Width: 1234
 VWidth: 3111
 Flags: W
 HStem: -28 153<759.681 849.974> 264 182<768.423 850.098> 1683.5 180.5<709.812 832.436 829.212 835.661 835.661 870 874.5 964.12> 1746 164<388.437 524.709 517.132 532.286 532.286 546 555.5 579.732>
@@ -23431,7 +23432,7 @@ EndChar
 
 StartChar: uni0E43
 Encoding: 3651 3651 332
-Width: 1131
+Width: 1234
 VWidth: 3111
 Flags: W
 HStem: -28 167<736.604 826.514> 277 171<745.041 827.645> 1475 108<298.883 388.267> 1823 149<417.766 492.591 488.635 496.548 496.548 551.701>
@@ -23573,7 +23574,7 @@ EndChar
 
 StartChar: uni0E44
 Encoding: 3652 3652 333
-Width: 1131
+Width: 1234
 VWidth: 3111
 Flags: W
 HStem: -28 159<727.464 817.662>
@@ -23653,7 +23654,7 @@ EndChar
 
 StartChar: uni0E45
 Encoding: 3653 3653 334
-Width: 1131
+Width: 1234
 VWidth: 3111
 Flags: W
 HStem: 1052 171<400.55 711.888>
@@ -23709,7 +23710,7 @@ EndChar
 
 StartChar: uni0E46
 Encoding: 3654 3654 335
-Width: 1131
+Width: 1234
 VWidth: 3111
 Flags: W
 HStem: 691 105<268.672 358.391> 1064 138<323.807 453.153 719.154 805.547>
@@ -24404,7 +24405,7 @@ EndChar
 
 StartChar: uni0E4F
 Encoding: 3663 3663 344
-Width: 1131
+Width: 1234
 VWidth: 3111
 Flags: W
 HStem: -28 159<382.224 759.957> 220 148<470.244 674.096> 635 146<469.636 682.532> 870 160<379.676 762.981>
@@ -24527,7 +24528,7 @@ EndChar
 
 StartChar: uni0E50
 Encoding: 3664 3664 345
-Width: 1131
+Width: 1234
 VWidth: 3111
 Flags: W
 HStem: -28 174<457.47 744.877> 743 175<444.802 739.63>
@@ -24611,7 +24612,7 @@ EndChar
 
 StartChar: uni0E51
 Encoding: 3665 3665 346
-Width: 1131
+Width: 1234
 VWidth: 3111
 Flags: W
 HStem: -28 155<334.596 487.338> 414 106<543.072 630.038> 740 175<455.529 746.18>
@@ -24735,7 +24736,7 @@ EndChar
 
 StartChar: uni0E52
 Encoding: 3666 3666 347
-Width: 1131
+Width: 1234
 VWidth: 3111
 Flags: W
 HStem: 0 175<324 893> 280 112<579.349 668.645> 520 103<593.893 668.307> 728 174<583.255 686.526 803.878 908.57>
@@ -24869,7 +24870,7 @@ EndChar
 
 StartChar: uni0E53
 Encoding: 3667 3667 348
-Width: 1131
+Width: 1234
 VWidth: 3111
 Flags: W
 HStem: -28 939<299 787 736.485 750.748> -28 118<261.465 342.557> 234 134<260.828 343.158> 737 172<294.698 464.441 740.167 854.392>
@@ -25032,7 +25033,7 @@ EndChar
 
 StartChar: uni0E54
 Encoding: 3668 3668 349
-Width: 1131
+Width: 1234
 VWidth: 3111
 Flags: W
 HStem: -28 194<293.799 420.984> -3 178<939.497 1009.42 1009.42 1030> 286 141<721.623 803.629> 555 123<715.82 801.882>
@@ -25175,7 +25176,7 @@ EndChar
 
 StartChar: uni0E55
 Encoding: 3669 3669 350
-Width: 1131
+Width: 1234
 VWidth: 3111
 Flags: W
 HStem: -28 189<300.027 476.485> 0 184<860.351 959.3 959.3 968.819 968.819 1015> 280 147<712.542 804.595> 555 130<715.38 801.131> 1066 125<550.666 640.234>
@@ -25349,7 +25350,7 @@ EndChar
 
 StartChar: uni0E56
 Encoding: 3670 3670 351
-Width: 1131
+Width: 1234
 VWidth: 3111
 Flags: W
 HStem: -28 165<520.705 748.758> 389 122<337.607 426.416> 763 180<547.141 785.665>
@@ -25463,7 +25464,7 @@ EndChar
 
 StartChar: uni0E57
 Encoding: 3671 3671 352
-Width: 1131
+Width: 1234
 VWidth: 3111
 Flags: W
 HStem: -28 144<264.447 355.18> 243 146<276.26 353.947> 701 189<257.082 353.238 514.133 603.843>
@@ -25619,7 +25620,7 @@ EndChar
 
 StartChar: uni0E58
 Encoding: 3672 3672 353
-Width: 1131
+Width: 1234
 VWidth: 3111
 Flags: W
 HStem: -28 153<717.785 844.075 825.877 862.273> 383 115<855.653 943.795>
@@ -25742,7 +25743,7 @@ EndChar
 
 StartChar: uni0E59
 Encoding: 3673 3673 354
-Width: 1131
+Width: 1234
 VWidth: 3111
 Flags: W
 HStem: -28 153<413.543 505.052> 252 137<415.336 502.764> 675 178<273.789 490.092>
@@ -25875,7 +25876,7 @@ EndChar
 
 StartChar: uni0E5A
 Encoding: 3674 3674 355
-Width: 1131
+Width: 1234
 VWidth: 3111
 Flags: W
 HStem: 0 21G<601 793 918 1110> 754 185<203.236 293.642> 1080 137<202.905 293.764>
@@ -25993,7 +25994,7 @@ EndChar
 
 StartChar: uni0E5B
 Encoding: 3675 3675 356
-Width: 1131
+Width: 1234
 VWidth: 3111
 Flags: W
 HStem: -28 162<224.161 302.199> 946 168<261.754 409.117 408.103 410.131 410.131 451 492 505.91>
@@ -26103,7 +26104,7 @@ EndChar
 
 StartChar: uni25CC
 Encoding: 9676 9676 357
-Width: 1131
+Width: 1234
 VWidth: 3111
 Flags: W
 HStem: -3 155<509.022 641.355> 38 149<344.312 421.575 686.812 823.688> 134 159<151.786 297.708 839.433 983.497> 296 155<48.875 191.375 943.75 1087.19> 479 156<48.1342 161.25 984.812 1126.38> 666 159<49.7151 190.779 944.574 1086.57> 831 145<186.16 266.927 869.245 984.125> 930 153<312.688 455.188 686.812 823.688> 968 152<507.991 642>
@@ -26421,7 +26422,7 @@ EndChar
 
 StartChar: uni0E10.alt1
 Encoding: 63232 63232 358
-Width: 1131
+Width: 1234
 VWidth: 3111
 Flags: W
 HStem: 0 21G<640.248 914.5> 280 139<372.611 463.622> 560 138<371.691 464.561> 791.5 425.5<74 1057 610.107 638.534> 793 162<333.757 449.035 449.035 517.419 517.419 664.208> 939 231<793.159 983.474> 1048 169<384.539 615.304>
@@ -27591,7 +27592,7 @@ EndChar
 
 StartChar: uni0E0D.alt1
 Encoding: 63247 63247 373
-Width: 1131
+Width: 1234
 VWidth: 3111
 Flags: W
 HStem: -28 121<273.884 368.869> 0 166<751 899> 277 133<283.511 375.161> 1084 139<317.21 523.078>
@@ -28512,7 +28513,7 @@ EndChar
 
 StartChar: uni0E0E.alt1
 Encoding: 65549 -1 385
-Width: 1131
+Width: 1234
 VWidth: 3111
 Flags: W
 HStem: -348 146<438.386 565.328> -72 146<420.656 501.628 498.066 505.189 505.189 515.5> 127 134<240.944 332.695> 410 147<241.334 313.093> 1057 160<501.239 785.152>
@@ -28683,7 +28684,7 @@ EndChar
 
 StartChar: uni0E0F.alt1
 Encoding: 65550 -1 386
-Width: 1131
+Width: 1234
 VWidth: 3111
 Flags: W
 HStem: -359 144<278.351 412.533> -93 137<267.099 398.478> 116 133<247.138 329.973> 407 131<249.377 321.518> 1068 155<508.002 811.569>
@@ -28872,7 +28873,7 @@ EndChar
 
 StartChar: uni0E2C.alt1
 Encoding: 65551 -1 387
-Width: 1131
+Width: 1234
 VWidth: 3111
 Flags: W
 HStem: 0 21G<264 521 804.765 1043> 946 131<703.696 823.827> 1061 144<174.972 266.956> 1164 133.5<718.41 857.083>
@@ -29003,7 +29004,7 @@ EndChar
 
 StartChar: uni0E4F030E
 Encoding: 63616 63616 388
-Width: 1131
+Width: 1234
 VWidth: 3111
 Flags: W
 HStem: -28 159<382.224 759.957> 220 148<470.244 674.096> 635 146<469.636 682.532> 870 160<379.676 762.981>
@@ -29148,7 +29149,7 @@ EndChar
 
 StartChar: uni0E240E45
 Encoding: 63617 63617 389
-Width: 1131
+Width: 1234
 VWidth: 3111
 Flags: W
 HStem: -28 183<299.823 388.34> 296 167<298.195 388.226> 1098 187<245.673 468.601 799.48 900.763>
@@ -29282,7 +29283,7 @@ EndChar
 
 StartChar: uni0E260E45
 Encoding: 63618 63618 390
-Width: 1131
+Width: 1234
 VWidth: 3111
 Flags: W
 HStem: -28 153<194.997 286.315> 264 155<194.591 260.973 251.515 270.43> 1120 147<390.093 552.187>
@@ -29432,7 +29433,7 @@ EndChar
 
 StartChar: uni0E33.alt1
 Encoding: 65552 -1 391
-Width: 1131
+Width: 1234
 VWidth: 3111
 Flags: W
 HStem: 0 21G<828 1027> 1045 178<434.948 743.594> 1395 164<181.361 271.372> 1686 163<182.321 269.219>
@@ -29658,7 +29659,7 @@ EndChar
 
 StartChar: f71c
 Encoding: 63260 63260 394
-Width: 787
+Width: 1234
 VWidth: 3393
 Flags: W
 LayerCount: 2
@@ -29666,11 +29667,11 @@ EndChar
 
 StartChar: f71d
 Encoding: 63261 63261 395
-Width: 787
+Width: 1234
 VWidth: 3393
 Flags: W
-HStem: -207 207<137.539 655.113>
-VStem: 58 71<-366 -258> 58 681<-207 0 -366 0 1.53064e-18 1.53064e-18> 664 75<-366 -258>
+HStem: -207 207<367.539 885.113>
+VStem: 288 71<-366 -235.688> 894 75<-366 -235.688>
 TtInstrs:
 SVTCA[y-axis]
 PUSHB_3
@@ -29714,17 +29715,17 @@ EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
-58 0 m 1,0,-1
- 739 0 l 1,1,-1
- 739 -366 l 1,2,-1
- 664 -366 l 1,3,-1
- 664 -258 l 1,4,5
- 593 -207 593 -207 519 -207 c 2,6,-1
- 275 -207 l 2,7,8
- 197 -207 197 -207 129 -258 c 1,9,-1
- 129 -366 l 1,10,-1
- 58 -366 l 1,11,-1
- 58 0 l 1,0,-1
+288 0 m 1,0,-1
+ 969 0 l 1,1,-1
+ 969 -366 l 1,2,-1
+ 894 -366 l 1,3,-1
+ 894 -258 l 1,4,5
+ 823 -207 823 -207 749 -207 c 2,6,-1
+ 505 -207 l 2,7,8
+ 427 -207 427 -207 359 -258 c 1,9,-1
+ 359 -366 l 1,10,-1
+ 288 -366 l 1,11,-1
+ 288 0 l 1,0,-1
 EndSplineSet
 EndChar
 
@@ -30423,7 +30424,7 @@ EndChar
 
 StartChar: uni0E24.liga
 Encoding: 65563 -1 405
-Width: 1131
+Width: 1234
 VWidth: 3111
 Flags: W
 HStem: -28 153<400.871 490.242> 264 152<409.994 490.856> 1057 166<423.042 718.301>
@@ -30541,7 +30542,7 @@ EndChar
 
 StartChar: uni0E26.liga
 Encoding: 65564 -1 406
-Width: 1131
+Width: 1234
 VWidth: 3111
 Flags: W
 HStem: -424 21G<853 1045> -28 144<236.377 327.238> 1068 155<546.586 795.713>
@@ -30652,7 +30653,7 @@ EndChar
 
 StartChar: uni0E4F.liga
 Encoding: 65565 -1 407
-Width: 1131
+Width: 1234
 VWidth: 3111
 Flags: W
 HStem: -28 159<382.224 759.957> 220 148<470.244 674.096> 635 146<469.636 682.532> 870 160<379.676 762.981>

@@ -1,3 +1,11 @@
+thaifonts-arundina (0.1.2-1) unstable; urgency=low
+
+  * New upstream release
+  * debian/copyright: Updated to DEP-5 rev 173.
+  * debian/rules: Add empty binary-arch target.
+
+ -- Theppitak Karoonboonyanan <thep@debian.org>  Fri, 25 Mar 2011 15:57:44 +0700
+
 thaifonts-arundina (0.1.1-5) unstable; urgency=low
 
   * Replace fontforge B-Dep with fontforge-nox to reduce load on buildd.

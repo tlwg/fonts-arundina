@@ -16,3 +16,6 @@ override_dh_auto_install:
 override_dh_installxfonts:
 	dh_installxfonts -pt1-thai-arundina
 
+binary-arch:
+# We have nothing to do.
+

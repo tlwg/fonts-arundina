@@ -1,0 +1,18 @@
+#!/usr/bin/make -f
+# -*- makefile -*-
+
+# Uncomment this to turn on verbose mode.
+#export DH_VERBOSE=1
+
+%:
+	dh $@
+
+override_dh_auto_configure:
+	./configure --enable-pfb
+
+# Skip dh_auto_install and let dh_install do the job
+override_dh_auto_install:
+
+override_dh_installxfonts:
+	dh_installxfonts -pt1-thai-arundina
+

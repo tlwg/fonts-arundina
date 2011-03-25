@@ -1,0 +1,179 @@
+2011-03-25  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* NEWS, configure.ac:
+	  === Version 0.1.2 ===
+
+2011-03-13  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* arundina/ArundinaSerif*.sfd:
+	  - Set last liga component of RUEE and LUEE to LAKKHANGYAO (U+0E45),
+	    not SARA AA (U+0E32)
+	  - Bump font version to 2.22
+
+2011-03-13  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* arundina/ArundinaSansMono*.sfd:
+	  - Set last liga component of RUEE and LUEE to LAKKHANGYAO (U+0E45),
+	    not SARA AA (U+0E32)
+	  - Remove duplicated (with wrong shape) glyphs for FONGMAN-FANNUU,
+	    RUEE and LUEE
+	  - Bump font version to 1.22
+
+2011-03-13  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* arundina/ArundinaSans*.sfd:
+	  - Set last liga component of RUEE and LUEE to LAKKHANGYAO (U+0E45),
+	    not SARA AA (U+0E32)
+	  - Remove duplicated glyphs for FONGMAN-FANNU, RUEE and LUEE in
+	    ArundinaSans.sfd
+	  - Bump font version to 1.22
+
+2011-03-13  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* arundina/ArundinaSansMono*.sfd:
+	  - Set all spacing glyphs' width to 1234.
+
+2008-05-28  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* arundina/ArundinaSansMono*.sfd:
+	  - Add ZWSP, ZWNJ, ZWJ, LRM, RLM glyphs
+	  - Save as SplineFontDB 3.0
+	  - Bump font version to 1.21
+
+2008-05-19  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* configure.ac: Check fontforge required version >= 20080110, for
+	SplineFontDB 3.0 format. No more pfaedit check.
+
+2008-05-19  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* arundina/ArundinaSans[-[Bold][Oblique]].sfd:
+	* arundina/ArundinaSerif*.sfd:
+	  - Add ZWSP, ZWNJ, ZWJ, LRM, RLM glyphs
+	  - Save as SplineFontDB 3.0
+	  - Bump font versions to 1.21, 2.21
+
+2007-12-18  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* README: Add link to original fonts.
+	* NEWS, configure.ac:
+	  === Version 0.1.1 ===
+
+2007-12-17  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* README: Write some info about the fonts.
+
+2007-12-17  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* arundina/ArundinaSans.sfd: Really change OS/2 Descent so the
+	absolute descent becomes 1067.
+
+2007-12-16  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* arundina/ArundinaSerif.sfd: Move bottom edges of PHO PHAN, FO FAN,
+	LO CHULA down to base line. Move the whole FO FA to base line. Extend
+	BlueValues for Thai glyphs from 1231 to 1238, to cover THO THAN's top.
+	Re-apply autohint and autoinstr to all glyphs to reflect the new
+	BlueValues.
+
+2007-12-16  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* arundina/ArundinaSans-Bold[Oblique].sfd: Adjust leveled top edges of
+	PHO PHUNG, SARA E, SARA AE to blue zone boundary, to get proper height.
+
+2007-12-16  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* arundina/ArundinaSans-Bold[Oblique].sfd: Reduce one control point at
+	top of NO NU, to get HStem autohinted.
+
+	* arundina/ArundinaSans-BoldOblique.sfd: Remove VStem hint that
+	governs the width of CHO CHAN.
+
+2007-12-16  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* arundina/ArundinaSans-Bold[Oblique].sfd,
+	arundina/ArundinaSerif-Bold.sfd: Add Forcebold.
+
+2007-12-16  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* arundina/ArundinaSans-Bold[Oblique].sfd: Remove HStem hint that
+	governs the height of 'I', for proper height, just like previous
+	adjustments of 'H' and 'E' in SansMono.
+
+2007-12-16  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* arundina/ArundinaSansMono.sfd: Manually adjust hints for 'H' glyph
+	for proper height. Level a control point in RO RUA, for proper hint.
+
+	* arundina/ArundinaSansMono-Oblique.sfd: Level a control point in RO
+	RUA, for proper hint.
+
+	* arundina/ArundinaSansMono-Bold.sfd: Manually adjust hints for 'H'
+	and 'E' glyphs, for proper height.
+
+2007-12-15  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* arundina/ArundinaSansMono*.sfd: Adjust OS/2 metrics so that absolute
+	ascent becomes 2505, and descent 995, as required when normal and bold
+	faces combined. This reduces line spacing and make line spacing for
+	all faces compatible. Also clear Typo descent offset.
+
+2007-12-15  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* arundina/ArundinaSerif*.sfd: Clear OS/2 ascent/descent offsets.
+	Clear Typo descent offet. Reduce LineGap for Bold face from 31 to 12.
+
+2007-12-15  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* arundina/ArundinaSans[-[Bold][Oblique]].sfd: Adjust OS/2 metrics so
+	that absolute ascent becomes 2432 and descent 1067. Set Typo descent
+	offset to 0. Set LineGap to 25, to equal that of normal face.
+	This fixes too large line spacing, and make line spacing for all faces
+	compatible to one another.
+
+2007-11-27  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* arundina/ArundinaSans[-Oblique].sfd: Adjust BlueValues to cover
+	To Tao tips. Re-apply AutoHint and AutoInstr to To Tao.
+
+2007-11-25  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* arundina/ArundinaSansMono*.sfd: Scale (only) Thai glyphs by 91.69%,
+	to get proper glyph heights relative to Latin. Adjust BlueValues
+	accordingly.
+
+	* arundina/ArundinaSansMono-Bold[Oblique].sfd: Add ForceBold.
+
+2007-11-25  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* arundina/ArundinaSans[-[Bold][Oblique]].sfd: Scale (only) Thai
+	glyphs by 88.51%, so they are not too big relative to Latin.
+	Adjust BlueValues accordingly. Lower down Kho Rakhang tips into blue
+	zone.
+
+	* arundina/*.sfd: Re-apply Autohint and Nowakowski AutoInstr to all
+	glyphs using new fontforge (20071110).
+
+2007-11-17  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* arundina/ArundinaSerif[-Bold].sfd: Change Em Size from 1000 to 2048.
+	Scale by 156.17%, to match X-Height with Dejavu. Add BlueValues and
+	OtherBlues. Apply Autohint and Nowakowski AutoInstr.
+
+2007-11-17  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* arundina/ArundinaSansMono*.sfd: Change Em Size from 1000 to 2048.
+	Scale by 165.7%, to match X-Height with Dejavu. Add BlueValues and
+	OtherBlues. Adjust glyphs hights to be aligned with BlueValues. Apply
+	Autohint and Nowakowksi AutoInstr.
+
+2007-11-16  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* arundina/ArundinaSans[-[Bold][Oblique]].sfd: Change Em Size from
+	1000 to 2048. Scale by 173.6%, to match X-Height with DejaVu. Add
+	BlueValues and OtherBlues. Apply Autohint and Nowakowski AutoInstr.
+
+2007-02-19  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* First create the project from SIPA's TTF's.
+

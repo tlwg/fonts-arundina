@@ -1,0 +1,12 @@
+fontforge = @FONTFORGE@
+
+.SUFFIXES: .sfd .ttf .pfa .pfb
+
+%.ttf: %.sfd
+	$(fontforge) -script $(top_srcdir)/scripts/gen-ttf.pe $<
+
+%.pfa: %.sfd
+	$(fontforge) -script $(top_srcdir)/scripts/gen-pfa.pe $<
+
+%.pfb: %.sfd
+	$(fontforge) -script $(top_srcdir)/scripts/gen-pfb.pe $<

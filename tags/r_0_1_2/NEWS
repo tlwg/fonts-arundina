@@ -1,0 +1,16 @@
+0.1.2 (2011-03-25)
+=====
+- Add ZWSP, ZWNJ, ZWJ, LRM, RLM glyphs
+- Correct widths for Sans Mono
+- Correct Thai ligatures RUEE, LUEE and FONGMAN-FANNU
+
+0.1.1 (2007-12-18)
+=====
+- Scale up to match Latin height with normal western fonts
+- Adjust Thai glyph relative size to English
+- Adjust hinting
+
+0.1.0 (2007-02-19)
+=====
+- Create fontforge-based project from original TTF
+

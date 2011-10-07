@@ -65,54 +65,6 @@ else
   AC_MSG_RESULT([$FONTFORGE_VER found, ok])
 fi
 
-dnl prefer mkfontscale over ttmkfdir
-AC_CHECK_PROG(MKFONTSCALE,mkfontscale,mkfontscale)
-
-# xorg or xfree86?
-if test "x$MKFONTSCALE" = "xmkfontscale"; then
-  if $MKFONTSCALE -n >/dev/null 2>&1; then
-    # xorg's mkfontscale
-    MKFONTSCALE="mkfontscale -a tis620-0 -a tis620-2"
-    rm -f fonts.scale encodings.dir
-  else
-    # xfree86's mkfontscale
-    MKFONTSCALE="mkfontscale -e tis620-0 -e tis620-2"
-  fi
-fi
-
-if test "x$enable_ttf" = "xyes"; then
-  if test "x$MKFONTSCALE" = "x"; then
-    AC_CHECK_PROG(TTMKFDIR,ttmkfdir,ttmkfdir)
-    if test "x$TTMKFDIR" = "x"; then
-      AC_MSG_ERROR([You need mkfontscale or ttmkfdir])
-    else
-      if (ttmkfdir -h 2>&1 | grep -- --encoding >/dev/null); then
-        # ttmkfdir 2
-        TTMKFDIR="ttmkfdir -e /usr/X11R6/lib/X11/fonts/encodings/encodings.dir -o fonts.scale"
-      else
-        # ttmkfdir 1
-        TTMKFDIR="ttmkfdir > fonts.scale"
-      fi
-    fi
-  else
-    TTMKFDIR="$MKFONTSCALE"
-  fi
-  AC_MSG_RESULT([Will create fonts.scale for TTF using $TTMKFDIR])
-fi
-
-if test "x$enable_pfa" = "xyes" -o "x$enable_pfb" = "xyes"; then
-  if test "x$MKFONTSCALE" = "x"; then
-    AC_CHECK_PROG(TYPE1INST,type1inst,type1inst)
-    if test "x$TYPE1INST" = "x"; then
-      AC_MSG_ERROR([You need mkfontscale or type1inst])
-    fi
-  else
-    TYPE1INST="$MKFONTSCALE"
-  fi
-  AC_MSG_RESULT([Will create fonts.scale for Type1 using $TYPE1INST])
-fi
-AC_CHECK_PROG(FCCACHE,fc-cache,[fc-cache])
-
 
 AC_CONFIG_FILES([Makefile
                  arundina/Makefile

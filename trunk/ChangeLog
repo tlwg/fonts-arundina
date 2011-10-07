@@ -1,3 +1,9 @@
+2011-10-07  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* configure.ac:
+	  - Post-release version suffix added
+	  - Add bug report address
+
 2011-03-25  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
 	* NEWS, configure.ac:

@@ -1,6 +1,11 @@
 2011-10-07  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
 	* configure.ac:
+	  - Remove X fonts utils checks, which are never used.
+
+2011-10-07  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* configure.ac:
 	  - Post-release version suffix added
 	  - Add bug report address
 

@@ -1,5 +1,9 @@
 2011-10-28  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
+	* latex/examples/testdoc.tex: Correct font names.
+
+2011-10-28  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
 	Add preliminary LaTeX fonts generation
 
 	* configure.ac:

@@ -4,7 +4,7 @@ FullName: Arundina Sans Oblique
 FamilyName: Arundina Sans
 Weight: Book
 Copyright: Copyright (c) 2003 by Bitstream, Inc. All Rights Reserved.\nCopyright (c) 2007 by Software Industry Promotion Agency (Public Organization). All Rights Reserved.
-Version: 1.22
+Version: 1.23
 ItalicAngle: -10.9
 UnderlinePosition: -153
 UnderlineWidth: 102
@@ -94,7 +94,7 @@ EndFPST
 ChainSub2: coverage "'liga' Standard Ligatures in Latin lookup 16 subtable"  0 0 0 1
  1 0 1
   Coverage: 3 €¯…
-  FCoverage: 38 uni0E38.alt1 uni0E39.alt1 uni0E3A.alt1
+  FCoverage: 38 uni0E38.low uni0E39.low uni0E3A.low
  1
   SeqLookup: 0 "Single Substitution lookup 22" 
 EndFPST
@@ -108,13 +108,13 @@ EndFPST
 ChainSub2: coverage "'liga' Standard Ligatures in Latin lookup 14 subtable"  0 0 0 1
  1 0 1
   Coverage: 5 a b c
-  FCoverage: 64 uni0E48.alt1 uni0E49.alt1 uni0E4A.alt1 uni0E4B.alt1 uni0E4C.alt1
+  FCoverage: 64 uni0E48.low_left uni0E49.low_left uni0E4A.low_left uni0E4B.low_left uni0E4C.low_left
  1
   SeqLookup: 0 "Single Substitution lookup 22" 
 EndFPST
 ChainSub2: coverage "'liga' Standard Ligatures in Latin lookup 13 subtable"  0 0 0 1
  1 1 0
-  Coverage: 64 uni0E48.alt2 uni0E49.alt2 uni0E4A.alt2 uni0E4B.alt2 uni0E4C.alt2
+  Coverage: 64 uni0E48.low uni0E49.low uni0E4A.low uni0E4B.low uni0E4C.low
   BCoverage: 5 a b c
  1
   SeqLookup: 0 "Single Substitution lookup 22" 
@@ -128,7 +128,7 @@ ChainSub2: coverage "'liga' Standard Ligatures in Latin lookup 12 subtable"  0 0
 EndFPST
 ChainSub2: coverage "'liga' Standard Ligatures in Latin lookup 11 subtable"  0 0 0 1
  1 0 1
-  Coverage: 64 uni0E48.alt1 uni0E49.alt1 uni0E4A.alt1 uni0E4B.alt1 uni0E4C.alt1
+  Coverage: 64 uni0E48.low_left uni0E49.low_left uni0E4A.low_left uni0E4B.low_left uni0E4C.low_left
   FCoverage: 12 uni0E33.alt1
  1
   SeqLookup: 0 "Single Substitution lookup 22" 
@@ -136,7 +136,7 @@ EndFPST
 ChainSub2: coverage "'liga' Standard Ligatures in Latin lookup 10 subtable"  0 0 0 1
  1 1 0
   Coverage: 7 uni0E33
-  BCoverage: 64 uni0E48.alt1 uni0E49.alt1 uni0E4A.alt1 uni0E4B.alt1 uni0E4C.alt1
+  BCoverage: 64 uni0E48.low_left uni0E49.low_left uni0E4A.low_left uni0E4B.low_left uni0E4C.low_left
  1
   SeqLookup: 0 "Single Substitution lookup 22" 
 EndFPST
@@ -149,7 +149,7 @@ ChainSub2: coverage "'liga' Standard Ligatures in Latin lookup 9 subtable"  0 0 
 EndFPST
 ChainSub2: coverage "'liga' Standard Ligatures in Latin lookup 8 subtable"  0 0 0 1
  1 0 1
-  Coverage: 64 uni0E48.alt2 uni0E49.alt2 uni0E4A.alt2 uni0E4B.alt2 uni0E4C.alt2
+  Coverage: 64 uni0E48.low uni0E49.low uni0E4A.low uni0E4B.low uni0E4C.low
   FCoverage: 7 uni0E33
  1
   SeqLookup: 0 "Single Substitution lookup 21" 
@@ -163,14 +163,14 @@ ChainSub2: coverage "'liga' Standard Ligatures in Latin lookup 7 subtable"  0 0 
 EndFPST
 ChainSub2: coverage "'liga' Standard Ligatures in Latin lookup 6 subtable"  0 0 0 1
  1 1 0
-  Coverage: 64 uni0E48.alt2 uni0E49.alt2 uni0E4A.alt2 uni0E4B.alt2 uni0E4C.alt2
-  BCoverage: 77 uni0E34.alt1 uni0E35.alt1 uni0E36.alt1 uni0E37.alt1 uni0E31.alt1 uni0E4D.alt1
+  Coverage: 64 uni0E48.low uni0E49.low uni0E4A.low uni0E4B.low uni0E4C.low
+  BCoverage: 77 uni0E34.left uni0E35.left uni0E36.left uni0E37.left uni0E31.left uni0E4D.left
  1
   SeqLookup: 0 "Single Substitution lookup 20" 
 EndFPST
 ChainSub2: coverage "'liga' Standard Ligatures in Latin lookup 5 subtable"  0 0 0 1
  1 1 0
-  Coverage: 64 uni0E48.alt2 uni0E49.alt2 uni0E4A.alt2 uni0E4B.alt2 uni0E4C.alt2
+  Coverage: 64 uni0E48.low uni0E49.low uni0E4A.low uni0E4B.low uni0E4C.low
   BCoverage: 47 uni0E31 uni0E34 uni0E35 uni0E36 uni0E37 uni0E4D
  1
   SeqLookup: 0 "Single Substitution lookup 21" 
@@ -184,7 +184,7 @@ ChainSub2: coverage "'liga' Standard Ligatures in Latin lookup 4 subtable"  0 0 
 EndFPST
 ChainSub2: coverage "'liga' Standard Ligatures in Latin lookup 3 subtable"  0 0 0 1
  1 1 0
-  Coverage: 64 uni0E48.alt2 uni0E49.alt2 uni0E4A.alt2 uni0E4B.alt2 uni0E4C.alt2
+  Coverage: 64 uni0E48.low uni0E49.low uni0E4A.low uni0E4B.low uni0E4C.low
   BCoverage: 23 uni0E1B uni0E1D uni0E1F
  1
   SeqLookup: 0 "Single Substitution lookup 22" 
@@ -19390,8 +19390,8 @@ SplineSet
  366 150 366 150 375 195 c 0,98,99
  390 286 390 286 300 286 c 0,89,90
 EndSplineSet
-Substitution2: "Single Substitution lookup 22 subtable" uni0E0D.alt1
-Substitution2: "Single Substitution lookup 22 subtable" uni0E0D.alt1
+Substitution2: "Single Substitution lookup 22 subtable" uni0E0D.descless
+Substitution2: "Single Substitution lookup 22 subtable" uni0E0D.descless
 EndChar
 
 StartChar: uni0E0E
@@ -19935,8 +19935,8 @@ SplineSet
  405 585 405 585 390 610.5 c 128,-1,161
  375 636 375 636 330 636 c 256,150,151
 EndSplineSet
-Substitution2: "Single Substitution lookup 22 subtable" uni0E10.alt1
-Substitution2: "Single Substitution lookup 22 subtable" uni0E10.alt1
+Substitution2: "Single Substitution lookup 22 subtable" uni0E10.descless
+Substitution2: "Single Substitution lookup 22 subtable" uni0E10.descless
 EndChar
 
 StartChar: uni0E11
@@ -23502,8 +23502,8 @@ SplineSet
  -343 1639 -343 1639 -327 1702 c 0,33,34
  -318 1762 -318 1762 -381 1762 c 0,25,26
 EndSplineSet
-Substitution2: "Single Substitution lookup 22 subtable" uni0E31.alt1
-Substitution2: "Single Substitution lookup 22 subtable" uni0E31.alt1
+Substitution2: "Single Substitution lookup 22 subtable" uni0E31.left
+Substitution2: "Single Substitution lookup 22 subtable" uni0E31.left
 EndChar
 
 StartChar: uni0E32
@@ -23744,8 +23744,8 @@ SplineSet
  -300 1624 -300 1624 -360.5 1672.5 c 128,-1,41
  -421 1721 -421 1721 -535 1721 c 0,31,32
 EndSplineSet
-Substitution2: "Single Substitution lookup 22 subtable" uni0E34.alt1
-Substitution2: "Single Substitution lookup 22 subtable" uni0E34.alt1
+Substitution2: "Single Substitution lookup 22 subtable" uni0E34.left
+Substitution2: "Single Substitution lookup 22 subtable" uni0E34.left
 EndChar
 
 StartChar: uni0E35
@@ -23816,8 +23816,8 @@ SplineSet
  -636 1520 -636 1520 -752 1532.5 c 128,-1,35
  -868 1545 -868 1545 -985 1545 c 1,16,17
 EndSplineSet
-Substitution2: "Single Substitution lookup 22 subtable" uni0E35.alt1
-Substitution2: "Single Substitution lookup 22 subtable" uni0E35.alt1
+Substitution2: "Single Substitution lookup 22 subtable" uni0E35.left
+Substitution2: "Single Substitution lookup 22 subtable" uni0E35.left
 EndChar
 
 StartChar: uni0E36
@@ -23892,8 +23892,8 @@ SplineSet
  -321 1668 -321 1668 -401 1697.5 c 128,-1,57
  -481 1727 -481 1727 -553 1727 c 0,39,40
 EndSplineSet
-Substitution2: "Single Substitution lookup 22 subtable" uni0E36.alt1
-Substitution2: "Single Substitution lookup 22 subtable" uni0E36.alt1
+Substitution2: "Single Substitution lookup 22 subtable" uni0E36.left
+Substitution2: "Single Substitution lookup 22 subtable" uni0E36.left
 EndChar
 
 StartChar: uni0E37
@@ -23951,8 +23951,8 @@ SplineSet
  -289 1472 -289 1472 -520 1510.5 c 128,-1,29
  -751 1549 -751 1549 -1000 1549 c 1,14,15
 EndSplineSet
-Substitution2: "Single Substitution lookup 22 subtable" uni0E37.alt1
-Substitution2: "Single Substitution lookup 22 subtable" uni0E37.alt1
+Substitution2: "Single Substitution lookup 22 subtable" uni0E37.left
+Substitution2: "Single Substitution lookup 22 subtable" uni0E37.left
 EndChar
 
 StartChar: uni0E38
@@ -24013,9 +24013,9 @@ SplineSet
  -507 -258 -507 -258 -564 -258 c 0,14,15
 EndSplineSet
 Substitution2: "Single Substitution lookup 21 subtable" a
-Substitution2: "Single Substitution lookup 22 subtable" uni0E38.alt1
+Substitution2: "Single Substitution lookup 22 subtable" uni0E38.low
 Substitution2: "Single Substitution lookup 21 subtable" a
-Substitution2: "Single Substitution lookup 22 subtable" uni0E38.alt1
+Substitution2: "Single Substitution lookup 22 subtable" uni0E38.low
 EndChar
 
 StartChar: uni0E39
@@ -24084,9 +24084,9 @@ SplineSet
  -818 -265 -818 -265 -841 -265 c 0,18,19
 EndSplineSet
 Substitution2: "Single Substitution lookup 21 subtable" b
-Substitution2: "Single Substitution lookup 22 subtable" uni0E39.alt1
+Substitution2: "Single Substitution lookup 22 subtable" uni0E39.low
 Substitution2: "Single Substitution lookup 21 subtable" b
-Substitution2: "Single Substitution lookup 22 subtable" uni0E39.alt1
+Substitution2: "Single Substitution lookup 22 subtable" uni0E39.low
 EndChar
 
 StartChar: uni0E3A
@@ -24133,9 +24133,9 @@ SplineSet
  -324 -236 -324 -236 -336 -292 c 0,0,1
 EndSplineSet
 Substitution2: "Single Substitution lookup 21 subtable" c
-Substitution2: "Single Substitution lookup 22 subtable" uni0E3A.alt1
+Substitution2: "Single Substitution lookup 22 subtable" uni0E3A.low
 Substitution2: "Single Substitution lookup 21 subtable" c
-Substitution2: "Single Substitution lookup 22 subtable" uni0E3A.alt1
+Substitution2: "Single Substitution lookup 22 subtable" uni0E3A.low
 EndChar
 
 StartChar: uni0E3B
@@ -25018,8 +25018,8 @@ SplineSet
  -576 1894 -576 1894 -472 1894 c 2,61,-1
  -217 1894 l 1,0,-1
 EndSplineSet
-Substitution2: "Single Substitution lookup 22 subtable" uni0E47.alt1
-Substitution2: "Single Substitution lookup 22 subtable" uni0E47.alt1
+Substitution2: "Single Substitution lookup 22 subtable" uni0E47.left
+Substitution2: "Single Substitution lookup 22 subtable" uni0E47.left
 EndChar
 
 StartChar: uni0E48
@@ -25052,8 +25052,8 @@ SplineSet
  63 2036 l 1,3,-1
  -66 2036 l 1,0,-1
 EndSplineSet
-Substitution2: "Single Substitution lookup 22 subtable" uni0E48.alt2
-Substitution2: "Single Substitution lookup 22 subtable" uni0E48.alt2
+Substitution2: "Single Substitution lookup 22 subtable" uni0E48.low
+Substitution2: "Single Substitution lookup 22 subtable" uni0E48.low
 EndChar
 
 StartChar: uni0E49
@@ -25142,8 +25142,8 @@ SplineSet
  -154 2345 -154 2345 -177 2345 c 0,46,47
  -230 2345 -230 2345 -243 2294 c 0,38,39
 EndSplineSet
-Substitution2: "Single Substitution lookup 22 subtable" uni0E49.alt2
-Substitution2: "Single Substitution lookup 22 subtable" uni0E49.alt2
+Substitution2: "Single Substitution lookup 22 subtable" uni0E49.low
+Substitution2: "Single Substitution lookup 22 subtable" uni0E49.low
 EndChar
 
 StartChar: uni0E4A
@@ -25228,8 +25228,8 @@ SplineSet
  -334 2146 -334 2146 -324 2130 c 0,55,56
  -312 2115 -312 2115 -297 2105 c 1,0,1
 EndSplineSet
-Substitution2: "Single Substitution lookup 22 subtable" uni0E4A.alt2
-Substitution2: "Single Substitution lookup 22 subtable" uni0E4A.alt2
+Substitution2: "Single Substitution lookup 22 subtable" uni0E4A.low
+Substitution2: "Single Substitution lookup 22 subtable" uni0E4A.low
 EndChar
 
 StartChar: uni0E4B
@@ -25282,8 +25282,8 @@ SplineSet
  -57 2168 l 1,11,-1
  -211 2168 l 1,0,-1
 EndSplineSet
-Substitution2: "Single Substitution lookup 22 subtable" uni0E4B.alt2
-Substitution2: "Single Substitution lookup 22 subtable" uni0E4B.alt2
+Substitution2: "Single Substitution lookup 22 subtable" uni0E4B.low
+Substitution2: "Single Substitution lookup 22 subtable" uni0E4B.low
 EndChar
 
 StartChar: uni0E4C
@@ -25349,8 +25349,8 @@ SplineSet
  -102 2014 -102 2014 -84 2092 c 0,29,30
  -75 2159 -75 2159 -142 2159 c 0,22,23
 EndSplineSet
-Substitution2: "Single Substitution lookup 22 subtable" uni0E4C.alt2
-Substitution2: "Single Substitution lookup 22 subtable" uni0E4C.alt2
+Substitution2: "Single Substitution lookup 22 subtable" uni0E4C.low
+Substitution2: "Single Substitution lookup 22 subtable" uni0E4C.low
 EndChar
 
 StartChar: uni0E4D
@@ -25408,8 +25408,8 @@ SplineSet
  -44 1693 -44 1693 -59.5 1721.5 c 128,-1,22
  -75 1750 -75 1750 -117 1750 c 0,12,13
 EndSplineSet
-Substitution2: "Single Substitution lookup 22 subtable" uni0E4D.alt1
-Substitution2: "Single Substitution lookup 22 subtable" uni0E4D.alt1
+Substitution2: "Single Substitution lookup 22 subtable" uni0E4D.left
+Substitution2: "Single Substitution lookup 22 subtable" uni0E4D.left
 EndChar
 
 StartChar: uni0E4E
@@ -25488,8 +25488,8 @@ SplineSet
  -3 1604 -3 1604 25 1630 c 1,46,-1
  81 1574 l 1,0,1
 EndSplineSet
-Substitution2: "Single Substitution lookup 22 subtable" uni0E4E.alt1
-Substitution2: "Single Substitution lookup 22 subtable" uni0E4E.alt1
+Substitution2: "Single Substitution lookup 22 subtable" uni0E4E.left
+Substitution2: "Single Substitution lookup 22 subtable" uni0E4E.left
 EndChar
 
 StartChar: uni0E4F
@@ -27223,7 +27223,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0E10.alt1
+StartChar: uni0E10.descless
 Encoding: 63232 63232 361
 Width: 1175
 VWidth: 3146
@@ -27365,7 +27365,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0E34.alt1
+StartChar: uni0E34.left
 Encoding: 63233 63233 362
 Width: 0
 VWidth: 3146
@@ -27429,7 +27429,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0E35.alt1
+StartChar: uni0E35.left
 Encoding: 63234 63234 363
 Width: 0
 VWidth: 3146
@@ -27483,7 +27483,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0E36.alt1
+StartChar: uni0E36.left
 Encoding: 63235 63235 364
 Width: 0
 VWidth: 3146
@@ -27555,7 +27555,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0E37.alt1
+StartChar: uni0E37.left
 Encoding: 63236 63236 365
 Width: 0
 VWidth: 3146
@@ -27632,7 +27632,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0E48.alt1
+StartChar: uni0E48.low_left
 Encoding: 63237 63237 366
 Width: 0
 VWidth: 3146
@@ -27662,11 +27662,11 @@ SplineSet
  -336 1476 l 1,3,-1
  -466 1476 l 1,0,-1
 EndSplineSet
-Substitution2: "Single Substitution lookup 22 subtable" uni0E48.alt3
-Substitution2: "Single Substitution lookup 22 subtable" uni0E48.alt3
+Substitution2: "Single Substitution lookup 22 subtable" uni0E48.left
+Substitution2: "Single Substitution lookup 22 subtable" uni0E48.left
 EndChar
 
-StartChar: uni0E49.alt1
+StartChar: uni0E49.low_left
 Encoding: 63238 63238 367
 Width: 0
 VWidth: 3146
@@ -27733,11 +27733,11 @@ SplineSet
  -579 1856 -579 1856 -597.5 1870.5 c 128,-1,47
  -616 1885 -616 1885 -649 1885 c 0,36,37
 EndSplineSet
-Substitution2: "Single Substitution lookup 22 subtable" uni0E49.alt3
-Substitution2: "Single Substitution lookup 22 subtable" uni0E49.alt3
+Substitution2: "Single Substitution lookup 22 subtable" uni0E49.left
+Substitution2: "Single Substitution lookup 22 subtable" uni0E49.left
 EndChar
 
-StartChar: uni0E4A.alt1
+StartChar: uni0E4A.low_left
 Encoding: 63239 63239 368
 Width: 0
 VWidth: 3146
@@ -27845,11 +27845,11 @@ SplineSet
  -343 1675 -343 1675 -332 1693.5 c 128,-1,82
  -321 1712 -321 1712 -309 1737 c 0,0,1
 EndSplineSet
-Substitution2: "Single Substitution lookup 22 subtable" uni0E4A.alt3
-Substitution2: "Single Substitution lookup 22 subtable" uni0E4A.alt3
+Substitution2: "Single Substitution lookup 22 subtable" uni0E4A.left
+Substitution2: "Single Substitution lookup 22 subtable" uni0E4A.left
 EndChar
 
-StartChar: uni0E4B.alt1
+StartChar: uni0E4B.low_left
 Encoding: 63240 63240 369
 Width: 0
 VWidth: 3146
@@ -27899,11 +27899,11 @@ SplineSet
  -604 1637 l 1,11,-1
  -790 1637 l 1,0,-1
 EndSplineSet
-Substitution2: "Single Substitution lookup 22 subtable" uni0E4B.alt3
-Substitution2: "Single Substitution lookup 22 subtable" uni0E4B.alt3
+Substitution2: "Single Substitution lookup 22 subtable" uni0E4B.left
+Substitution2: "Single Substitution lookup 22 subtable" uni0E4B.left
 EndChar
 
-StartChar: uni0E4C.alt1
+StartChar: uni0E4C.low_left
 Encoding: 63241 63241 370
 Width: 0
 VWidth: 3146
@@ -27964,11 +27964,11 @@ SplineSet
  -435 1693 -435 1693 -451.5 1711.5 c 128,-1,38
  -468 1730 -468 1730 -501 1730 c 0,28,29
 EndSplineSet
-Substitution2: "Single Substitution lookup 22 subtable" uni0E4C.alt3
-Substitution2: "Single Substitution lookup 22 subtable" uni0E4C.alt3
+Substitution2: "Single Substitution lookup 22 subtable" uni0E4C.left
+Substitution2: "Single Substitution lookup 22 subtable" uni0E4C.left
 EndChar
 
-StartChar: uni0E48.alt2
+StartChar: uni0E48.low
 Encoding: 63242 63242 371
 Width: 0
 VWidth: 3146
@@ -27998,15 +27998,15 @@ SplineSet
  -57 1466 l 1,3,-1
  -195 1466 l 1,0,-1
 EndSplineSet
-Substitution2: "Single Substitution lookup 20 subtable" uni0E48.alt3
+Substitution2: "Single Substitution lookup 20 subtable" uni0E48.left
 Substitution2: "Single Substitution lookup 21 subtable" uni0E48
-Substitution2: "Single Substitution lookup 22 subtable" uni0E48.alt1
-Substitution2: "Single Substitution lookup 20 subtable" uni0E48.alt3
+Substitution2: "Single Substitution lookup 22 subtable" uni0E48.low_left
+Substitution2: "Single Substitution lookup 20 subtable" uni0E48.left
 Substitution2: "Single Substitution lookup 21 subtable" uni0E48
-Substitution2: "Single Substitution lookup 22 subtable" uni0E48.alt1
+Substitution2: "Single Substitution lookup 22 subtable" uni0E48.low_left
 EndChar
 
-StartChar: uni0E49.alt2
+StartChar: uni0E49.low
 Encoding: 63243 63243 372
 Width: 0
 VWidth: 3146
@@ -28081,15 +28081,15 @@ SplineSet
  -343 1853 -343 1853 -362 1871 c 128,-1,50
  -381 1889 -381 1889 -412 1889 c 0,39,40
 EndSplineSet
-Substitution2: "Single Substitution lookup 20 subtable" uni0E49.alt3
+Substitution2: "Single Substitution lookup 20 subtable" uni0E49.left
 Substitution2: "Single Substitution lookup 21 subtable" uni0E49
-Substitution2: "Single Substitution lookup 22 subtable" uni0E49.alt1
-Substitution2: "Single Substitution lookup 20 subtable" uni0E49.alt3
+Substitution2: "Single Substitution lookup 22 subtable" uni0E49.low_left
+Substitution2: "Single Substitution lookup 20 subtable" uni0E49.left
 Substitution2: "Single Substitution lookup 21 subtable" uni0E49
-Substitution2: "Single Substitution lookup 22 subtable" uni0E49.alt1
+Substitution2: "Single Substitution lookup 22 subtable" uni0E49.low_left
 EndChar
 
-StartChar: uni0E4A.alt2
+StartChar: uni0E4A.low
 Encoding: 63244 63244 373
 Width: 0
 VWidth: 3146
@@ -28189,15 +28189,15 @@ SplineSet
  -553 1580 -553 1580 -522 1568 c 1,80,-1
  -522 1570 l 1,0,1
 EndSplineSet
-Substitution2: "Single Substitution lookup 20 subtable" uni0E4A.alt3
+Substitution2: "Single Substitution lookup 20 subtable" uni0E4A.left
 Substitution2: "Single Substitution lookup 21 subtable" uni0E4A
-Substitution2: "Single Substitution lookup 22 subtable" uni0E4A.alt1
-Substitution2: "Single Substitution lookup 20 subtable" uni0E4A.alt3
+Substitution2: "Single Substitution lookup 22 subtable" uni0E4A.low_left
+Substitution2: "Single Substitution lookup 20 subtable" uni0E4A.left
 Substitution2: "Single Substitution lookup 21 subtable" uni0E4A
-Substitution2: "Single Substitution lookup 22 subtable" uni0E4A.alt1
+Substitution2: "Single Substitution lookup 22 subtable" uni0E4A.low_left
 EndChar
 
-StartChar: uni0E4B.alt2
+StartChar: uni0E4B.low
 Encoding: 63245 63245 374
 Width: 0
 VWidth: 3146
@@ -28247,15 +28247,15 @@ SplineSet
  -167 1643 l 1,11,-1
  -349 1643 l 1,0,-1
 EndSplineSet
-Substitution2: "Single Substitution lookup 20 subtable" uni0E4B.alt3
+Substitution2: "Single Substitution lookup 20 subtable" uni0E4B.left
 Substitution2: "Single Substitution lookup 21 subtable" uni0E4B
-Substitution2: "Single Substitution lookup 22 subtable" uni0E4B.alt1
-Substitution2: "Single Substitution lookup 20 subtable" uni0E4B.alt3
+Substitution2: "Single Substitution lookup 22 subtable" uni0E4B.low_left
+Substitution2: "Single Substitution lookup 20 subtable" uni0E4B.left
 Substitution2: "Single Substitution lookup 21 subtable" uni0E4B
-Substitution2: "Single Substitution lookup 22 subtable" uni0E4B.alt1
+Substitution2: "Single Substitution lookup 22 subtable" uni0E4B.low_left
 EndChar
 
-StartChar: uni0E4C.alt2
+StartChar: uni0E4C.low
 Encoding: 63246 63246 375
 Width: 0
 VWidth: 3146
@@ -28308,15 +28308,15 @@ SplineSet
  -198 1601 -198 1601 -192 1637 c 0,36,37
  -183 1706 -183 1706 -252 1706 c 0,27,28
 EndSplineSet
-Substitution2: "Single Substitution lookup 20 subtable" uni0E4C.alt3
+Substitution2: "Single Substitution lookup 20 subtable" uni0E4C.left
 Substitution2: "Single Substitution lookup 21 subtable" uni0E4C
-Substitution2: "Single Substitution lookup 22 subtable" uni0E4C.alt1
-Substitution2: "Single Substitution lookup 20 subtable" uni0E4C.alt3
+Substitution2: "Single Substitution lookup 22 subtable" uni0E4C.low_left
+Substitution2: "Single Substitution lookup 20 subtable" uni0E4C.left
 Substitution2: "Single Substitution lookup 21 subtable" uni0E4C
-Substitution2: "Single Substitution lookup 22 subtable" uni0E4C.alt1
+Substitution2: "Single Substitution lookup 22 subtable" uni0E4C.low_left
 EndChar
 
-StartChar: uni0E0D.alt1
+StartChar: uni0E0D.descless
 Encoding: 63247 63247 376
 Width: 1760
 VWidth: 3146
@@ -28420,7 +28420,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0E31.alt1
+StartChar: uni0E31.left
 Encoding: 63248 63248 377
 Width: 0
 VWidth: 3146
@@ -28482,7 +28482,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0E4D.alt1
+StartChar: uni0E4D.left
 Encoding: 63249 63249 378
 Width: 0
 VWidth: 3146
@@ -28539,7 +28539,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0E47.alt1
+StartChar: uni0E47.left
 Encoding: 63250 63250 379
 Width: 0
 VWidth: 3146
@@ -28644,7 +28644,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0E48.alt3
+StartChar: uni0E48.left
 Encoding: 63251 63251 380
 Width: 0
 VWidth: 3146
@@ -28676,7 +28676,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0E49.alt3
+StartChar: uni0E49.left
 Encoding: 63252 63252 381
 Width: 0
 VWidth: 3146
@@ -28746,7 +28746,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0E4A.alt3
+StartChar: uni0E4A.left
 Encoding: 63253 63253 382
 Width: 0
 VWidth: 3146
@@ -28830,7 +28830,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0E4B.alt3
+StartChar: uni0E4B.left
 Encoding: 63254 63254 383
 Width: 0
 VWidth: 3146
@@ -28882,7 +28882,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0E4C.alt3
+StartChar: uni0E4C.left
 Encoding: 63255 63255 384
 Width: 0
 VWidth: 3146
@@ -28933,7 +28933,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0E38.alt1
+StartChar: uni0E38.low
 Encoding: 63256 63256 385
 Width: 0
 VWidth: 3146
@@ -28992,7 +28992,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0E39.alt1
+StartChar: uni0E39.low
 Encoding: 63257 63257 386
 Width: 0
 VWidth: 3146
@@ -29059,7 +29059,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0E3A.alt1
+StartChar: uni0E3A.low
 Encoding: 63258 63258 387
 Width: 0
 VWidth: 3146
@@ -30056,7 +30056,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0E4E.alt1
+StartChar: uni0E4E.left
 Encoding: 65552 -1 395
 Width: 0
 VWidth: 3146

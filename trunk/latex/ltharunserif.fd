@@ -1,0 +1,23 @@
+% ltharunserif.fd
+
+\ProvidesFile{ltharunserif.fd}[2011/10/27 v1.0 Arundina Serif font definitions]
+
+% Primary declarations
+\DeclareFontFamily{LTH}{arunserif}{}
+\DeclareFontShape{LTH}{arunserif}{m}{n}{<->s * arunserif}{}
+\DeclareFontShape{LTH}{arunserif}{m}{it}{<->s * arunserif_i}{}
+\DeclareFontShape{LTH}{arunserif}{m}{sl}{<->s * arunserif_o}{}
+%%%%%%% bold series
+\DeclareFontShape{LTH}{arunserif}{b}{n}{<->s * arunserif_b}{}
+\DeclareFontShape{LTH}{arunserif}{b}{it}{<->s * arunserif_bi}{}
+\DeclareFontShape{LTH}{arunserif}{b}{sl}{<->s * arunserif_bo}{}
+
+% Substitutions
+\DeclareFontShape{LTH}{arunserif}{bx}{n}{<->ssub * arunserif/b/n}{}
+\DeclareFontShape{LTH}{arunserif}{bx}{sl}{<->ssub * arunserif/b/sl}{}
+\DeclareFontShape{LTH}{arunserif}{bx}{it}{<->ssub * arunserif/b/it}{}
+\endinput
+
+% 
+% EOF
+%

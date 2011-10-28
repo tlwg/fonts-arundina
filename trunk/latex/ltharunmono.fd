@@ -1,0 +1,24 @@
+% ltharunmono.fd
+
+\ProvidesFile{ltharunmono.fd}[2011/10/27 v1.0 Arundina Sans Mono font definitions]
+
+% Primary declarations
+\DeclareFontFamily{LTH}{arunmono}{}
+\DeclareFontShape{LTH}{arunmono}{m}{n}{<->s * arunmono}{}
+\DeclareFontShape{LTH}{arunmono}{m}{sl}{<->s * arunmono_o}{}
+%%%%%%% bold series
+\DeclareFontShape{LTH}{arunmono}{b}{n}{<->s * arunmono_b}{}
+\DeclareFontShape{LTH}{arunmono}{b}{sl}{<->s * arunmono_bo}{}
+
+% Substitutions
+\DeclareFontShape{LTH}{arunmono}{m}{it}{<->ssub * arunmono/m/sl}{}
+\DeclareFontShape{LTH}{arunmono}{b}{it}{<->ssub * arunmono/b/sl}{}
+
+\DeclareFontShape{LTH}{arunmono}{bx}{n}{<->ssub * arunmono/b/n}{}
+\DeclareFontShape{LTH}{arunmono}{bx}{sl}{<->ssub * arunmono/b/sl}{}
+\DeclareFontShape{LTH}{arunmono}{bx}{it}{<->ssub * arunmono/b/sl}{}
+\endinput
+
+% 
+% EOF
+%

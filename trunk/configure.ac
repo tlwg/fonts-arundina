@@ -42,14 +42,21 @@ if test "x$enable_pfa" = "xyes" -o "x$enable_pfb" = "xyes"; then
   AC_SUBST(type1dir)
 fi
 
+AC_ARG_ENABLE(latex,
+              [AC_HELP_STRING([--enable-latex],
+                              [enable LaTeX fonts generation])],
+              , enable_latex="no")
+
 AM_CONDITIONAL(INCLUDE_TTF,test $enable_ttf = "yes")
 AM_CONDITIONAL(INCLUDE_PFA,test $enable_pfa = "yes")
 AM_CONDITIONAL(INCLUDE_PFB,test $enable_pfb = "yes")
 AM_CONDITIONAL(INCLUDE_TYPE1,test $enable_pfa = "yes" -o $enable_pfb = "yes")
+AM_CONDITIONAL(INCLUDE_LATEX,test $enable_latex = "yes")
 
 # Checks for programs.
 AC_PROG_INSTALL
 AC_PROG_LN_S
+AC_PROG_SED
 AC_CHECK_PROGS(RMDIR,rmdir,no)
 
 AC_CHECK_PROGS(FONTFORGE,fontforge,no)
@@ -65,9 +72,62 @@ else
   AC_MSG_RESULT([$FONTFORGE_VER found, ok])
 fi
 
+if test "x$enable_latex" = "xyes"; then
+  AC_CHECK_PROGS(AFM2TFM,afm2tfm,no)
+  if test "x$AFM2TFM" = "xno" ; then
+    AC_MSG_ERROR([You need afm2tfm (from texlive distribution)])
+  fi
+  AC_CHECK_PROGS(TTF2AFM,ttf2afm,no)
+  if test "x$TTF2AFM" = "xno" ; then
+    AC_MSG_ERROR([You need ttf2afm (from texlive distribution)])
+  fi
+  AC_CHECK_PROGS(TTF2TFM,ttf2tfm,no)
+  if test "x$TTF2TFM" = "xno" ; then
+    AC_MSG_ERROR([You need ttf2tfm (from texlive distribution)])
+  fi
+  AC_CHECK_PROGS(VPTOVF,vptovf,no)
+  if test "x$VPTOVF" = "xno" ; then
+    AC_MSG_ERROR([You need vptovf (from texlive distribution)])
+  fi
+  AC_CHECK_PROGS(KPSEWHICH,kpsewhich,no)
+  if test "x$KPSEWHICH" = "xno" ; then
+    AC_MSG_ERROR([You need kpsewhich (from texlive distribution)])
+  fi
+
+  dnl Check for thailatex resource
+  file=$($KPSEWHICH thai-dummy.afm)
+  if test "x$file" = "x"; then
+    AC_MSG_ERROR([Cannot find "thai-dummy.afm". You need thailatex 0.4.6 or higher.])
+  fi
+  file=$($KPSEWHICH thailigs.enc)
+  if test "x$file" = "x"; then
+    AC_MSG_ERROR([Cannot find "thailigs.enc". You need thailatex 0.4.6 or higher.])
+  fi
+
+  AC_ARG_WITH(texmfdir,
+    [AC_HELP_STRING([--with-texmfdir=DIR],
+                    [texmf directory in DIR [PREFIX/share/texmf]])],
+    [texmfdir="$withval"], [texmfdir=${datarootdir}/texmf])
+  AC_MSG_CHECKING(--with-texmfdir)
+  AC_MSG_RESULT("$texmfdir")                                                                                                           
+  AC_SUBST(texmfdir)
+
+  AC_PATH_PROGS(UPDMAP,[updmap-sys updmap],no)
+  if test "x$UPDMAP" = "xno" ; then
+    AC_MSG_ERROR([You need updmap-sys or updmap (from texlive distribution)])
+  fi
+
+  AC_PATH_PROG(TEXHASH,[mktexlsr texhash],no)
+  if test "x$TEXHASH" = "xno" ; then
+    AC_MSG_ERROR([You need mktexlsr or texhash (from texlive distribution)])
+  fi
+fi
+
 
 AC_CONFIG_FILES([Makefile
                  arundina/Makefile
+                 latex/Makefile
+                 latex/examples/Makefile
                  scripts/Makefile
                  scripts/gen.mk])
 

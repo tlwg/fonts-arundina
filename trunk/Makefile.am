@@ -1,2 +1,2 @@
-SUBDIRS = scripts arundina
+SUBDIRS = scripts latex arundina
 

@@ -36,3 +36,44 @@ type1_DATA = $(TYPE1FILES)
 endif
 
 include $(top_builddir)/scripts/gen.mk
+
+if INCLUDE_LATEX
+
+arunserif.ttf:    ArundinaSerif.ttf
+	[ -f $@ ] || $(LN_S) $< $@
+arunserif_b.ttf:  ArundinaSerif-Bold.ttf
+	[ -f $@ ] || $(LN_S) $< $@
+arunsans.ttf:     ArundinaSans.ttf
+	[ -f $@ ] || $(LN_S) $< $@
+arunsans_b.ttf:   ArundinaSans-Bold.ttf
+	[ -f $@ ] || $(LN_S) $< $@
+arunsans_o.ttf:   ArundinaSans-Oblique.ttf
+	[ -f $@ ] || $(LN_S) $< $@
+arunsans_bo.ttf:  ArundinaSans-BoldOblique.ttf
+	[ -f $@ ] || $(LN_S) $< $@
+arunmono.ttf:     ArundinaSans.ttf
+	[ -f $@ ] || $(LN_S) $< $@
+arunmono_b.ttf:   ArundinaSans-Bold.ttf
+	[ -f $@ ] || $(LN_S) $< $@
+arunmono_o.ttf:   ArundinaSans-Oblique.ttf
+	[ -f $@ ] || $(LN_S) $< $@
+arunmono_bo.ttf:  ArundinaSans-BoldOblique.ttf
+	[ -f $@ ] || $(LN_S) $< $@
+
+FONTS = \
+	arunserif \
+	arunserif_b \
+	arunsans \
+	arunsans_b \
+	arunsans_o \
+	arunsans_bo \
+	arunmono \
+	arunmono_b \
+	arunmono_o \
+	arunmono_bo
+
+MAP = arundina.map
+
+include $(top_srcdir)/latex/texfont.mk.am
+
+endif # INCLUDE_LATEX

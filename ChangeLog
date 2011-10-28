@@ -1,5 +1,24 @@
 2011-10-28  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
+	Add preliminary LaTeX fonts generation
+
+	* configure.ac:
+	  - Add --enable-latex, --with-texmfdir configure options.
+	  - Add checks for TeX font tools.
+	* configure.ac, Makefile.am, +latex/:
+	  - Add latex/ subdir.
+	* +latex/Makefile.am, +latex/fonts-arundina.sty,
+	  +latex/ltharunsans.fd, +latex/ltharunmono.fd, +latex/ltharunserif.fd:
+	  - Add LaTeX style & font descriptors.
+	* latex/Makefile.am, +latex/texfont.mk.am arundina/Makefile.am:
+	  - Add automake snippet for building TeX fonts
+	  - Add it to font make rules
+	* configure.ac, +latex/examples/, +latex/examples/Makefile.am,
+	  +latex/examples/testdoc.tex:
+	  - Add sample docs.
+
+2011-10-28  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
 	* arundina/*.sfd:
 	  - Rename glyph variants in accordance with thailatex convention.
 

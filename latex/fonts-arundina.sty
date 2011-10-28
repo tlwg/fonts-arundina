@@ -1,0 +1,28 @@
+% fonts-arundina.sty
+%
+% This file is part of the thaifonts-arundina package
+
+\ProvidesPackage{fonts-arundina}[2011/10/28 v1.0 Thai Arundina Fonts]
+
+\def\thairmdefault{arunserif}
+\def\thaisfdefault{arunsans}
+\def\thaittdefault{arunmono}
+\def\englishrmdefault{cmr}
+\def\englishsfdefault{cmss}
+\def\englishttdefault{cmtt}
+
+\DeclareRobustCommand{\thaitext}{%
+  \fontencoding{LTH}\fontfamily{\thairmdefault}\selectfont
+  \def\rmdefault{\thairmdefault}%
+  \def\sfdefault{\thaisfdefault}%
+  \def\ttdefault{\thaittdefault}%
+  \def\encodingdefault{LTH}}
+
+\DeclareRobustCommand{\latintext}{%
+  \fontencoding{\latinencoding}\fontfamily{\englishrmdefault}\selectfont
+  \def\rmdefault{\englishrmdefault}%
+  \def\sfdefault{\englishsfdefault}%
+  \def\ttdefault{\englishttdefault}%
+  \def\encodingdefault{\latinencoding}}
+
+\endinput

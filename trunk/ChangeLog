@@ -1,5 +1,10 @@
 2011-10-29  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
+	* arundina/Makefile.am:
+	  - Fix wrong symlink sources for arunmono*.ttf.
+
+2011-10-29  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
 	Add synthetic slant shape for Serif
 
 	* latex/texfont.mk.am:

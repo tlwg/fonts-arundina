@@ -1,5 +1,18 @@
 2011-10-29  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
+	Use Type 1 instead of TrueType for LaTeX, for better LIGKERN support.
+
+	* scripts/gen.mk.in:
+	  - Add %.afm build target.
+	* latex/texfont.mk.am:
+	  - Remove ttf-to-afm rule.
+	  - Build & install *.ttf instead of *.pfb.
+	* arundina/Makefile.am:
+	  - Change pfb to ttf for symlink rules.
+	  - Add symlink rules for afm.
+
+2011-10-29  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
 	* arundina/Makefile.am:
 	  - Fix wrong symlink sources for arunmono*.ttf.
 

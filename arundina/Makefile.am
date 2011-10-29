@@ -39,25 +39,46 @@ include $(top_builddir)/scripts/gen.mk
 
 if INCLUDE_LATEX
 
-arunserif.ttf:    ArundinaSerif.ttf
+arunserif.pfb:    ArundinaSerif.pfb
 	[ -f $@ ] || $(LN_S) $< $@
-arunserif_b.ttf:  ArundinaSerif-Bold.ttf
+arunserif_b.pfb:  ArundinaSerif-Bold.pfb
 	[ -f $@ ] || $(LN_S) $< $@
-arunsans.ttf:     ArundinaSans.ttf
+arunsans.pfb:     ArundinaSans.pfb
 	[ -f $@ ] || $(LN_S) $< $@
-arunsans_b.ttf:   ArundinaSans-Bold.ttf
+arunsans_b.pfb:   ArundinaSans-Bold.pfb
 	[ -f $@ ] || $(LN_S) $< $@
-arunsans_o.ttf:   ArundinaSans-Oblique.ttf
+arunsans_o.pfb:   ArundinaSans-Oblique.pfb
 	[ -f $@ ] || $(LN_S) $< $@
-arunsans_bo.ttf:  ArundinaSans-BoldOblique.ttf
+arunsans_bo.pfb:  ArundinaSans-BoldOblique.pfb
 	[ -f $@ ] || $(LN_S) $< $@
-arunmono.ttf:     ArundinaSansMono.ttf
+arunmono.pfb:     ArundinaSansMono.pfb
 	[ -f $@ ] || $(LN_S) $< $@
-arunmono_b.ttf:   ArundinaSansMono-Bold.ttf
+arunmono_b.pfb:   ArundinaSansMono-Bold.pfb
 	[ -f $@ ] || $(LN_S) $< $@
-arunmono_o.ttf:   ArundinaSansMono-Oblique.ttf
+arunmono_o.pfb:   ArundinaSansMono-Oblique.pfb
 	[ -f $@ ] || $(LN_S) $< $@
-arunmono_bo.ttf:  ArundinaSansMono-BoldOblique.ttf
+arunmono_bo.pfb:  ArundinaSansMono-BoldOblique.pfb
+	[ -f $@ ] || $(LN_S) $< $@
+
+arunserif.afm:    ArundinaSerif.afm
+	[ -f $@ ] || $(LN_S) $< $@
+arunserif_b.afm:  ArundinaSerif-Bold.afm
+	[ -f $@ ] || $(LN_S) $< $@
+arunsans.afm:     ArundinaSans.afm
+	[ -f $@ ] || $(LN_S) $< $@
+arunsans_b.afm:   ArundinaSans-Bold.afm
+	[ -f $@ ] || $(LN_S) $< $@
+arunsans_o.afm:   ArundinaSans-Oblique.afm
+	[ -f $@ ] || $(LN_S) $< $@
+arunsans_bo.afm:  ArundinaSans-BoldOblique.afm
+	[ -f $@ ] || $(LN_S) $< $@
+arunmono.afm:     ArundinaSansMono.afm
+	[ -f $@ ] || $(LN_S) $< $@
+arunmono_b.afm:   ArundinaSansMono-Bold.afm
+	[ -f $@ ] || $(LN_S) $< $@
+arunmono_o.afm:   ArundinaSansMono-Oblique.afm
+	[ -f $@ ] || $(LN_S) $< $@
+arunmono_bo.afm:  ArundinaSansMono-BoldOblique.afm
 	[ -f $@ ] || $(LN_S) $< $@
 
 FONTS = \

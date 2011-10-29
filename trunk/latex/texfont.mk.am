@@ -1,4 +1,4 @@
-ltxttfdir = $(texmfdir)/fonts/truetype/public/arundina
+ltxtype1dir = $(texmfdir)/fonts/type1/public/arundina
 ltxafmdir = $(texmfdir)/fonts/afm/public/tlwg
 ltxtfmdir = $(texmfdir)/fonts/tfm/public/arundina
 ltxvfdir  = $(texmfdir)/fonts/vf/public/arundina
@@ -7,13 +7,13 @@ ltxmapdir = $(texmfdir)/fonts/map/dvips/arundina
 
 ltxmap_DATA = $(MAP)
 
-LTX_TTFFILES = $(FONTS:%=%.ttf)
+LTX_TYPE1FILES = $(FONTS:%=%.pfb)
 LTX_AFMFILES = $(FONTS:%=%.afm)
 LTX_TFMFILES = $(FONTS:%=%.tfm) $(SYNTH_FONTS:%=%.tfm)
 LTX_RTFMFILES = $(FONTS:%=r%.tfm) $(SYNTH_FONTS:%=r%.tfm)
 LTX_VFFILES = $(FONTS:%=%.vf) $(SYNTH_FONTS:%=%.vf)
 
-ltxttf_DATA = $(LTX_TTFFILES)
+ltxtype1_DATA = $(LTX_TYPE1FILES)
 
 ltxafm_DATA = $(LTX_AFMFILES)
 
@@ -26,13 +26,10 @@ ltxvf_DATA = $(LTX_VFFILES)
 thailigs.vpl:
 	$(AFM2TFM) thai-dummy.afm -v $@ -T thailigs.enc thailigs.tfm
 
-%.afm: %.ttf
-	$(TTF2AFM) -e lthuni.enc -o $@ $<
-
 r%.tfm: %.afm
 %.vpl: %.afm thailigs.vpl
 	$(AFM2TFM) $*.afm -v $*.vpl -T lthuni.enc r$*.tfm \
-	| $(SED) "s/$$/ <$*.ttf/" >> $(MAP)
+	| $(SED) "s/$$/ <$*.pfb/" >> $(MAP)
 	TMPFILE=`mktemp /tmp/tltx.XXXXXXXXX` && \
 	$(AWK) "BEGIN {show=1} /LIGTABLE/ {show=0} {if(show) print}" $*.vpl > $$TMPFILE && \
 	$(AWK) "BEGIN {show=0} /LIGTABLE/ {show=1} /CHARACTER/ {show=0} {if(show) print}" thailigs.vpl >> $$TMPFILE && \
@@ -42,7 +39,7 @@ r%.tfm: %.afm
 r%_so.tfm: %.afm
 %_so.vpl: %.afm thailigs.vpl
 	$(AFM2TFM) $*.afm -v $*_so.vpl -T lthuni.enc -s .167 r$*_so.tfm \
-	| $(SED) "s/$$/ <$*.ttf/" >> $(MAP)
+	| $(SED) "s/$$/ <$*.pfb/" >> $(MAP)
 	TMPFILE=`mktemp /tmp/tltx.XXXXXXXXX` && \
 	$(AWK) "BEGIN {show=1} /LIGTABLE/ {show=0} {if(show) print}" $*_so.vpl > $$TMPFILE && \
 	$(AWK) "BEGIN {show=0} /LIGTABLE/ {show=1} /CHARACTER/ {show=0} {if(show) print}" thailigs.vpl >> $$TMPFILE && \

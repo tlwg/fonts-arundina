@@ -1,5 +1,18 @@
 2011-10-29  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
+	Remove rarely-used PFA generation
+
+	* scripts/gen.mk.in:
+	  - Remove %.pfa rule.
+	* configure.ac:
+	  - Remove --enable-pfa option.
+	  - Remove INCLUDE_PFA and INCLUDE_TYPE1 conditions.
+	* arundina/Makefile.am:
+	  - Remove pfa referrals.
+	  - Remove INCLUDE_PFA and INCLUDE_TYPE1 conditions.
+
+2011-10-29  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
 	Use Type 1 instead of TrueType for LaTeX, for better LIGKERN support.
 
 	* scripts/gen.mk.in:

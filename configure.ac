@@ -23,15 +23,11 @@ if test "x$enable_ttf" = "xyes"; then
   AC_SUBST(ttfdir)
 fi
 
-AC_ARG_ENABLE(pfa,
-              [AC_HELP_STRING([--enable-pfa],
-                              [enable Type1 PFA generation])],
-              , enable_pfa="no")
 AC_ARG_ENABLE(pfb,
               [AC_HELP_STRING([--enable-pfb],
                               [enable Type1 PFB generation])],
               , enable_pfb="no")
-if test "x$enable_pfa" = "xyes" -o "x$enable_pfb" = "xyes"; then
+if test "x$enable_pfb" = "xyes"; then
   AC_ARG_WITH(type1dir,
     [AC_HELP_STRING([--with-type1dir=DIR],
                     [font directory in DIR [PREFIX/share/fonts/type1/t1-thai-arundina]])],
@@ -48,9 +44,7 @@ AC_ARG_ENABLE(latex,
               , enable_latex="no")
 
 AM_CONDITIONAL(INCLUDE_TTF,test $enable_ttf = "yes")
-AM_CONDITIONAL(INCLUDE_PFA,test $enable_pfa = "yes")
 AM_CONDITIONAL(INCLUDE_PFB,test $enable_pfb = "yes")
-AM_CONDITIONAL(INCLUDE_TYPE1,test $enable_pfa = "yes" -o $enable_pfb = "yes")
 AM_CONDITIONAL(INCLUDE_LATEX,test $enable_latex = "yes")
 
 # Checks for programs.

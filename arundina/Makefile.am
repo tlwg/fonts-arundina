@@ -10,9 +10,9 @@ FONTSOURCES = \
 	ArundinaSerif.sfd \
 	ArundinaSerif-Bold.sfd
 
-TTFFILES = $(shell echo $(FONTSOURCES) | sed 's/.sfd/.ttf/g')
-AFMFILES = $(shell echo $(FONTSOURCES) | sed 's/.sfd/.afm/g')
-PFBFILES = $(shell echo $(FONTSOURCES) | sed 's/.sfd/.pfb/g')
+TTFFILES = $(FONTSOURCES:.sfd=.ttf)
+AFMFILES = $(FONTSOURCES:.sfd=.afm)
+PFBFILES = $(FONTSOURCES:.sfd=.pfb)
 
 CLEANFILES = *.ttf *.g2n *.pfb *.pfa *.afm *.pfm *.otf *.enc *.tfm
 

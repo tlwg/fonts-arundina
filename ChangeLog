@@ -1,5 +1,10 @@
 2011-10-29  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
+	* arundina/Makefile.am:
+	  - Use make substitutions in variables instead of shell + sed.
+
+2011-10-29  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
 	Remove rarely-used PFA generation
 
 	* scripts/gen.mk.in:

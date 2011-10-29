@@ -51,13 +51,13 @@ arunsans_o.ttf:   ArundinaSans-Oblique.ttf
 	[ -f $@ ] || $(LN_S) $< $@
 arunsans_bo.ttf:  ArundinaSans-BoldOblique.ttf
 	[ -f $@ ] || $(LN_S) $< $@
-arunmono.ttf:     ArundinaSans.ttf
+arunmono.ttf:     ArundinaSansMono.ttf
 	[ -f $@ ] || $(LN_S) $< $@
-arunmono_b.ttf:   ArundinaSans-Bold.ttf
+arunmono_b.ttf:   ArundinaSansMono-Bold.ttf
 	[ -f $@ ] || $(LN_S) $< $@
-arunmono_o.ttf:   ArundinaSans-Oblique.ttf
+arunmono_o.ttf:   ArundinaSansMono-Oblique.ttf
 	[ -f $@ ] || $(LN_S) $< $@
-arunmono_bo.ttf:  ArundinaSans-BoldOblique.ttf
+arunmono_bo.ttf:  ArundinaSansMono-BoldOblique.ttf
 	[ -f $@ ] || $(LN_S) $< $@
 
 FONTS = \

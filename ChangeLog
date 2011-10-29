@@ -1,3 +1,15 @@
+2011-10-29  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	Add synthetic slant shape for Serif
+
+	* latex/texfont.mk.am:
+	  - Add rules for generating slanted TFM & VF. Synthetic slants are
+	    suffixed with '_so' for rule matching, and listed in SYNTH_FONTS.
+	* arundina/Makefile.am:
+	  - Add SYNTH_FONTS listing.
+	* latex/ltharunserif.fd:
+	  - Rename slant fonts to *_so.
+
 2011-10-28  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
 	* latex/examples/testdoc.tex: Correct font names.

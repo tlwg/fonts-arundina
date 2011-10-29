@@ -72,6 +72,10 @@ FONTS = \
 	arunmono_o \
 	arunmono_bo
 
+SYNTH_FONTS = \
+	arunserif_so \
+	arunserif_b_so
+
 MAP = arundina.map
 
 include $(top_srcdir)/latex/texfont.mk.am

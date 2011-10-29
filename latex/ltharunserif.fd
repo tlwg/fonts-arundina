@@ -5,12 +5,12 @@
 % Primary declarations
 \DeclareFontFamily{LTH}{arunserif}{}
 \DeclareFontShape{LTH}{arunserif}{m}{n}{<->s * arunserif}{}
-\DeclareFontShape{LTH}{arunserif}{m}{it}{<->s * arunserif_i}{}
-\DeclareFontShape{LTH}{arunserif}{m}{sl}{<->s * arunserif_o}{}
+\DeclareFontShape{LTH}{arunserif}{m}{it}{<->s * arunserif_so}{}
+\DeclareFontShape{LTH}{arunserif}{m}{sl}{<->s * arunserif_so}{}
 %%%%%%% bold series
 \DeclareFontShape{LTH}{arunserif}{b}{n}{<->s * arunserif_b}{}
-\DeclareFontShape{LTH}{arunserif}{b}{it}{<->s * arunserif_bi}{}
-\DeclareFontShape{LTH}{arunserif}{b}{sl}{<->s * arunserif_bo}{}
+\DeclareFontShape{LTH}{arunserif}{b}{it}{<->s * arunserif_b_so}{}
+\DeclareFontShape{LTH}{arunserif}{b}{sl}{<->s * arunserif_b_so}{}
 
 % Substitutions
 \DeclareFontShape{LTH}{arunserif}{bx}{n}{<->ssub * arunserif/b/n}{}

@@ -1,6 +1,12 @@
 2011-10-30  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
 	* scripts/gen-pfb.pe:
+	  - Round to int before adding extremas, to fix some almost-horizontal
+	    or almost-vertical points.
+
+2011-10-30  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* scripts/gen-pfb.pe:
 	  - Add spline simplification.
 
 2011-10-29  Theppitak Karoonboonyanan  <thep@linux.thai.net>

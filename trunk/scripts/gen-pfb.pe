@@ -1,2 +1,7 @@
 Open($1)
+SetFontOrder(3)
+SelectAll()
+AddExtrema()
+Simplify()
+RoundToInt()
 Generate($1:t:r + ".pfb")

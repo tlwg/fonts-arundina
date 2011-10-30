@@ -1,3 +1,8 @@
+2011-10-30  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* scripts/gen-pfb.pe:
+	  - Add spline simplification.
+
 2011-10-29  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
 	* arundina/Makefile.am:

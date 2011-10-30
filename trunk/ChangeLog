@@ -1,5 +1,12 @@
 2011-10-30  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
+	* arundina/ArundinaSans*.sfd:
+	  - Add ff, ffi, ffl glyphs, with 'liga' rules.
+	  - Clear old hint tables and re-apply AutoHint, AutoInstr to all
+	    glyphs.
+
+2011-10-30  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
 	* scripts/gen-pfb.pe:
 	  - Round to int before adding extremas, to fix some almost-horizontal
 	    or almost-vertical points.

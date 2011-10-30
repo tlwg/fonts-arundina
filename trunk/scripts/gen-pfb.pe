@@ -1,6 +1,7 @@
 Open($1)
 SetFontOrder(3)
 SelectAll()
+RoundToInt()
 AddExtrema()
 Simplify()
 RoundToInt()

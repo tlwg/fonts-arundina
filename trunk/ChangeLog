@@ -1,5 +1,11 @@
 2011-10-31  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
+	* latex/fonts-arundina.sty, latex/ltharunsans.fd,
+	  latex/ltharunmono.fd, latex/ltharunserif.fd:
+	  - Add licensing header.
+
+2011-10-31  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
 	* arundina/ArundinaSansMono*.sfd:
 	  - Remove old fi, fl ligatures and add non-ligated ff, fi, fl, ffi,
 	    ffl glyphs to avoid ligature effects on monospace font in TeX.

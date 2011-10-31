@@ -1,3 +1,12 @@
+2011-10-31  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* arundina/ArundinaSansMono*.sfd:
+	  - Remove old fi, fl ligatures and add non-ligated ff, fi, fl, ffi,
+	    ffl glyphs to avoid ligature effects on monospace font in TeX.
+	  - No 'liga' rule is added.
+	  - Clear old hint tables and re-apply AutoHint, AutoInstr to all
+	    glyphs.
+
 2011-10-30  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
 	* arundina/ArundinaSerif*.sfd:

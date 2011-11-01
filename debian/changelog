@@ -1,3 +1,36 @@
+fonts-sipa-arundina (0.1.3-1) unstable; urgency=low
+
+  * New upstream release
+    - With LaTeX support.
+  * Rename source and binary package to fonts-sipa-arundina, according to
+    the Debian Fonts Task Force Packaging Policy.
+    - Change installation dir to /usr/share/fonts/truetype/arundina
+    - Breaks and Replaces ttf-thai-arundina (<< 0.1.3)
+    - Make ttf-thai-arundina a dummy transitional package depending on
+      fonts-sipa-arundina.
+    - Rename fontconfig file to 65-sipa-arundina.conf
+    - Clean old fontconfig file on ttf-thai-arundina preinst.
+  * debian/ttf-thai-arundina.preinst:
+    - Use 'lt-nl' when comparing version before purging defoma hints,
+      to avoid exsessive operation on fresh install.
+  * Drop rarely-used t1-thai-arundina sub-package.
+  * Add latex-fonts-sipa-arundina sub-package.
+    - Use --enable-latex configure option.
+    - B-Dep-Indep on thailatex (>= 0.4.6), texlive-binaries and tex-common.
+    - Install font map via 'dh --with tex'.
+    - Override dh_installtex to add -p option so that only latex package is
+      applied (no tex-common postinst & deps for others).
+    - Depends on thailatex (>= 0.4.6).
+    - debian/copyright: Add copyright notice for latex/*.
+    - Install LaTeX examples.
+    - Make symlink from README for texdoc.
+  * Add 'fontforge' as an alternative B-Dep, in addition to 'fontforge-nox'.
+  * debian/copyright: Use non-forwarding format URL. Bump to revision 202.
+  * Bump Standards-Version to 3.9.2 (no changes needed)
+  * Bump debhelper compatibility to 8.
+
+ -- Theppitak Karoonboonyanan <thep@debian.org>  Tue, 01 Nov 2011 18:54:04 +0700
+
 thaifonts-arundina (0.1.2-1) unstable; urgency=low
 
   * New upstream release

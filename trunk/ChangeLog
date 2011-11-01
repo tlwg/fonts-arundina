@@ -1,5 +1,10 @@
 2011-11-01  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
+	* configure.ac:
+	  - Remove checks for unused ttf tools.
+
+2011-11-01  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
 	* Makefile.am:
 	  - Add dist-ctan targets.
 

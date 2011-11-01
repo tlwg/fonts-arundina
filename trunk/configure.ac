@@ -71,14 +71,6 @@ if test "x$enable_latex" = "xyes"; then
   if test "x$AFM2TFM" = "xno" ; then
     AC_MSG_ERROR([You need afm2tfm (from texlive distribution)])
   fi
-  AC_CHECK_PROGS(TTF2AFM,ttf2afm,no)
-  if test "x$TTF2AFM" = "xno" ; then
-    AC_MSG_ERROR([You need ttf2afm (from texlive distribution)])
-  fi
-  AC_CHECK_PROGS(TTF2TFM,ttf2tfm,no)
-  if test "x$TTF2TFM" = "xno" ; then
-    AC_MSG_ERROR([You need ttf2tfm (from texlive distribution)])
-  fi
   AC_CHECK_PROGS(VPTOVF,vptovf,no)
   if test "x$VPTOVF" = "xno" ; then
     AC_MSG_ERROR([You need vptovf (from texlive distribution)])

@@ -1,3 +1,8 @@
+2011-11-01  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* Makefile.am:
+	  - Add dist-ctan targets.
+
 2011-10-31  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
 	* latex/fonts-arundina.sty, latex/ltharunsans.fd,

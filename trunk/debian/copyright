@@ -1,4 +1,4 @@
-Format: http://svn.debian.org/wsvn/dep/web/deps/dep5.mdwn?op=file&rev=173
+Format: http://anonscm.debian.org/viewvc/dep/web/deps/dep5.mdwn?view=co&revision=202
 Upstream-Name: thaifonts-arundina
 Upstream-Contact: Theppitak Karoonboonyanan <thep@linux.thai.net>
 Source: ftp://linux.thai.net/pub/thailinux/software/thaifonts-arundina
@@ -9,7 +9,7 @@ License: GPL-2+
   On Debian systems, the complete text of the GNU General Public License
   can be found in `/usr/share/common-licenses/GPL-2'.
 
-Files: *.sfd
+Files: arundina/*.sfd
 Copyright: 2003 Bitstream, Inc.
            2007 Software Industry Promotion Agency (Public Organization)
 License: other
@@ -54,4 +54,19 @@ License: other
   to promote the sale, use or other dealings in this Font Software without
   prior written authorization from the Software Industry Promotion Agency
   (Public Organization). For further information, contact: pr@sipa.or.th.
+
+Files: latex/*
+Copyright: 2011 Theppitak Karoonboonyanan <thep@linux.thai.net>
+License: LPPL
+ It may be distributed and/or modified under the
+ conditions of the LaTeX Project Public License, either version 1.3
+ of this license or (at your option) any later version.
+ The latest version of this license is in
+   http://www.latex-project.org/lppl.txt
+ and version 1.3 or later is part of all distributions of LaTeX
+ version 2005/12/01 or later.
+ .
+ This work has the LPPL maintenance status "maintained".
+ .
+ The Current Maintainer of this work is Theppitak Karoonboonyanan.
 

@@ -5,16 +5,15 @@
 #export DH_VERBOSE=1
 
 %:
-	dh $@
+	dh $@ --with tex
 
 override_dh_auto_configure:
-	./configure --enable-pfb
+	./configure --prefix=/usr --sysconfdir=/etc \
+	  --enable-ttf --with-ttfdir=/usr/share/fonts/truetype/arundina \
+	  --enable-latex --with-texmfdir=/usr/share/texmf
 
-# Skip dh_auto_install and let dh_install do the job
-override_dh_auto_install:
-
-override_dh_installxfonts:
-	dh_installxfonts -pt1-thai-arundina
+override_dh_installtex:
+	dh_installtex -platex-fonts-sipa-arundina
 
 binary-arch:
 # We have nothing to do.

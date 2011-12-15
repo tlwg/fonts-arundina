@@ -12,7 +12,7 @@ EXTRA_DIST = \
 
 if INCLUDE_LATEX
 
-latexdir = $(texmfdir)/tex/latex/fonts-arundina
+latexdir = $(texmfdir)/tex/latex/$(LATEX_PACKAGE)
 latex_DATA = fonts-arundina.sty $(FD_FILES)
 
 endif

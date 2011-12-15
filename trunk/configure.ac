@@ -7,6 +7,9 @@ AM_INIT_AUTOMAKE
 
 FONTFORGE_MIN_VER=20080110
 
+LATEX_PACKAGE="fonts-arundina"
+AC_SUBST(LATEX_PACKAGE)
+
 # Check options
 AC_ARG_ENABLE(ttf,
               [AC_HELP_STRING([--disable-ttf],

@@ -1,3 +1,8 @@
+2012-01-10  Theppitak Karoonboonyanan <thep@linux.thai.net>
+
+	* latex/examples/testdoc.tex:
+	  - Add ?` and !` test sequences.
+
 2011-12-26  Theppitak Karoonboonyanan <thep@linux.thai.net>
 
 	* latex/examples/testdoc.tex:

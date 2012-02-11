@@ -1,5 +1,13 @@
 2012-02-11  Theppitak Karoonboonyanan <thep@linux.thai.net>
 
+	* arundina/ArundinaSerif.sfd:
+	* arundina/ArundinaSerif-Bold.sfd:
+	  - Add 'thai{dflt}' script/lang to all 'liga' tables, which may be
+	    required by some rendering engines.
+	  - Bump font version to 2.24.
+
+2012-02-11  Theppitak Karoonboonyanan <thep@linux.thai.net>
+
 	* arundina/ArundinaSansMono.sfd:
 	* arundina/ArundinaSansMono-Oblique.sfd:
 	* arundina/ArundinaSansMono-Bold.sfd:

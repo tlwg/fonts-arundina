@@ -1,11 +1,22 @@
 2012-02-11  Theppitak Karoonboonyanan <thep@linux.thai.net>
 
+	* arundina/ArundinaSansMono.sfd:
+	* arundina/ArundinaSansMono-Oblique.sfd:
+	* arundina/ArundinaSansMono-Bold.sfd:
+	* arundina/ArundinaSansMono-BoldOblique.sfd:
+	  - Add 'thai{dflt}' script/lang to all 'liga' tables, which may be
+	    required by some rendering engines.
+	  - Bump font version to 1.24.
+
+2012-02-11  Theppitak Karoonboonyanan <thep@linux.thai.net>
+
 	* arundina/ArundinaSans.sfd:
 	* arundina/ArundinaSans-Oblique.sfd:
 	* arundina/ArundinaSans-Bold.sfd:
 	* arundina/ArundinaSans-BoldOblique.sfd:
 	  - Add 'thai{dflt}' script/lang to all 'liga' tables, which may be
 	    required by some rendering engines.
+	    e.g. https://bugzilla.mozilla.org/show_bug.cgi?id=719366
 	  - Bump font version to 1.24.
 
 2012-02-11  Theppitak Karoonboonyanan <thep@linux.thai.net>

@@ -2,7 +2,7 @@
 # Process this file with autoconf to produce a configure script.
 
 AC_PREREQ(2.61)
-AC_INIT(thaifonts-arundina, 0.1.3svn, thep@linux.thai.net)
+AC_INIT(fonts-sipa-arundina, 0.1.3svn, thep@linux.thai.net)
 AM_INIT_AUTOMAKE
 
 FONTFORGE_MIN_VER=20080110

@@ -1,0 +1,442 @@
+2012-02-15  Theppitak Karoonboonyanan <thep@linux.thai.net>
+
+	* NEWS, configure.ac:
+	  === Version 0.2.0 ===
+
+2012-02-15  Theppitak Karoonboonyanan <thep@linux.thai.net>
+
+	* README: Update project page URL.
+
+2012-02-14  Theppitak Karoonboonyanan <thep@linux.thai.net>
+
+	* latex/examples/testdoc.tex: Fix a minor typo in Pali sample.
+
+2012-02-13  Theppitak Karoonboonyanan <thep@linux.thai.net>
+
+	Move font encodings & ligkern stuffs back to font package,
+	to allow font-specific ligkern rules.
+
+	* +latex/ltharun.enc +latex/thailigs.enc +latex/thai-dummy.afm:
+	  - Add enc & ligkern stuff from thailatex project.
+	* latex/Makefile.am:
+	  - Add new files to EXTRA_DIST.
+	  - Install the enc file.
+	* latex/texfont.mk.am:
+	  - Add rules for creating symlinks to source files in builddir.
+	  - Adjust rules to use the local source files.
+	* configure.ac:
+	  - Drop all checks for files in TEXMF, freeing it from thailatex
+	    build-dep.
+	  - Drop now-unneeded check for kpsewhich utility.
+
+2012-02-11  Theppitak Karoonboonyanan <thep@linux.thai.net>
+
+	* arundina/ArundinaSerif.sfd:
+	* arundina/ArundinaSerif-Bold.sfd:
+	  - Add 'thai{dflt}' script/lang to all 'liga' tables, which may be
+	    required by some rendering engines.
+	  - Bump font version to 2.24.
+
+2012-02-11  Theppitak Karoonboonyanan <thep@linux.thai.net>
+
+	* arundina/ArundinaSansMono.sfd:
+	* arundina/ArundinaSansMono-Oblique.sfd:
+	* arundina/ArundinaSansMono-Bold.sfd:
+	* arundina/ArundinaSansMono-BoldOblique.sfd:
+	  - Add 'thai{dflt}' script/lang to all 'liga' tables, which may be
+	    required by some rendering engines.
+	  - Bump font version to 1.24.
+
+2012-02-11  Theppitak Karoonboonyanan <thep@linux.thai.net>
+
+	* arundina/ArundinaSans.sfd:
+	* arundina/ArundinaSans-Oblique.sfd:
+	* arundina/ArundinaSans-Bold.sfd:
+	* arundina/ArundinaSans-BoldOblique.sfd:
+	  - Add 'thai{dflt}' script/lang to all 'liga' tables, which may be
+	    required by some rendering engines.
+	    e.g. https://bugzilla.mozilla.org/show_bug.cgi?id=719366
+	  - Bump font version to 1.24.
+
+2012-02-11  Theppitak Karoonboonyanan <thep@linux.thai.net>
+
+	* configure.ac:
+	  - Rename project to 'fonts-sipa-arundina', for new project
+	    naming scheme.
+
+2012-02-09  Theppitak Karoonboonyanan <thep@linux.thai.net>
+
+	* Makefile.am:
+	  - Drop unneeded dist-ctan targets, as dist-tds already suffices.
+
+2012-01-10  Theppitak Karoonboonyanan <thep@linux.thai.net>
+
+	* latex/examples/testdoc.tex:
+	  - Add ?` and !` test sequences.
+
+2011-12-26  Theppitak Karoonboonyanan <thep@linux.thai.net>
+
+	* latex/examples/testdoc.tex:
+	  - Use macros to generate duplicated texts.
+	  - Use one-column layout and make poems two-column.
+	  - Add more Latin characters to ligkern test.
+
+2011-12-20  Theppitak Karoonboonyanan <thep@linux.thai.net>
+
+	* Makefile.am: Remove old CTAN/TDS zip files before zipping.
+
+2011-12-19  Theppitak Karoonboonyanan <thep@linux.thai.net>
+
+	* Makefile.am: Move doc in TDS zip to doc/fonts/
+
+2011-12-17  Theppitak Karoonboonyanan <thep@linux.thai.net>
+
+	* Makefile.am: Move source in TDS zip to source/fonts/
+
+2011-12-15  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* Makefile.am: Use LATEX_PACKAGE for CTAN package names.
+
+2011-12-15  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* Makefile.am: Add original source to TDS zip file.
+
+2011-12-15  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	Install LaTeX files under consistent subdir name.
+
+	* configure.in: Define LATEX_PACKAGE macro.
+	* Makefile.am: Set doc subdir to $(LATEX_PACKAGE).
+	* latex/texfont.mk.am: Install LaTeX font files under $(LATEX_PACKAGE).
+	* latex/Makefile.am: Install LaTeX stuff under $(LATEX_PACKAGE).
+
+2011-12-15  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* configure.ac: Post-release version suffix added.
+
+2011-11-01  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* NEWS, configure.ac:
+	  === Version 0.1.3 ===
+
+2011-11-01  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* configure.ac:
+	  - Remove checks for unused ttf tools.
+
+2011-11-01  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* Makefile.am:
+	  - Add dist-ctan targets.
+
+2011-10-31  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* latex/fonts-arundina.sty, latex/ltharunsans.fd,
+	  latex/ltharunmono.fd, latex/ltharunserif.fd:
+	  - Add licensing header.
+
+2011-10-31  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* arundina/ArundinaSansMono*.sfd:
+	  - Remove old fi, fl ligatures and add non-ligated ff, fi, fl, ffi,
+	    ffl glyphs to avoid ligature effects on monospace font in TeX.
+	  - No 'liga' rule is added.
+	  - Clear old hint tables and re-apply AutoHint, AutoInstr to all
+	    glyphs.
+
+2011-10-30  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* arundina/ArundinaSerif*.sfd:
+	  - Add ff, ffi, ffl glyphs, with 'liga' rules.
+	  - Clear old hint tables and re-apply AutoHint, AutoInstr to all
+	    glyphs.
+
+2011-10-30  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* arundina/ArundinaSans*.sfd:
+	  - Add ff, ffi, ffl glyphs, with 'liga' rules.
+	  - Clear old hint tables and re-apply AutoHint, AutoInstr to all
+	    glyphs.
+
+2011-10-30  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* scripts/gen-pfb.pe:
+	  - Round to int before adding extremas, to fix some almost-horizontal
+	    or almost-vertical points.
+
+2011-10-30  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* scripts/gen-pfb.pe:
+	  - Add spline simplification.
+
+2011-10-29  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* arundina/Makefile.am:
+	  - Use make substitutions in variables instead of shell + sed.
+
+2011-10-29  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	Remove rarely-used PFA generation
+
+	* scripts/gen.mk.in:
+	  - Remove %.pfa rule.
+	* configure.ac:
+	  - Remove --enable-pfa option.
+	  - Remove INCLUDE_PFA and INCLUDE_TYPE1 conditions.
+	* arundina/Makefile.am:
+	  - Remove pfa referrals.
+	  - Remove INCLUDE_PFA and INCLUDE_TYPE1 conditions.
+
+2011-10-29  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	Use Type 1 instead of TrueType for LaTeX, for better LIGKERN support.
+
+	* scripts/gen.mk.in:
+	  - Add %.afm build target.
+	* latex/texfont.mk.am:
+	  - Remove ttf-to-afm rule.
+	  - Build & install *.ttf instead of *.pfb.
+	* arundina/Makefile.am:
+	  - Change pfb to ttf for symlink rules.
+	  - Add symlink rules for afm.
+
+2011-10-29  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* arundina/Makefile.am:
+	  - Fix wrong symlink sources for arunmono*.ttf.
+
+2011-10-29  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	Add synthetic slant shape for Serif
+
+	* latex/texfont.mk.am:
+	  - Add rules for generating slanted TFM & VF. Synthetic slants are
+	    suffixed with '_so' for rule matching, and listed in SYNTH_FONTS.
+	* arundina/Makefile.am:
+	  - Add SYNTH_FONTS listing.
+	* latex/ltharunserif.fd:
+	  - Rename slant fonts to *_so.
+
+2011-10-28  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* latex/examples/testdoc.tex: Correct font names.
+
+2011-10-28  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	Add preliminary LaTeX fonts generation
+
+	* configure.ac:
+	  - Add --enable-latex, --with-texmfdir configure options.
+	  - Add checks for TeX font tools.
+	* configure.ac, Makefile.am, +latex/:
+	  - Add latex/ subdir.
+	* +latex/Makefile.am, +latex/fonts-arundina.sty,
+	  +latex/ltharunsans.fd, +latex/ltharunmono.fd, +latex/ltharunserif.fd:
+	  - Add LaTeX style & font descriptors.
+	* latex/Makefile.am, +latex/texfont.mk.am arundina/Makefile.am:
+	  - Add automake snippet for building TeX fonts
+	  - Add it to font make rules
+	* configure.ac, +latex/examples/, +latex/examples/Makefile.am,
+	  +latex/examples/testdoc.tex:
+	  - Add sample docs.
+
+2011-10-28  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* arundina/*.sfd:
+	  - Rename glyph variants in accordance with thailatex convention.
+
+2011-10-07  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* configure.ac:
+	  - Fix default installation dir for Type1 fonts.
+
+2011-10-07  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* configure.ac:
+	  - Remove X fonts utils checks, which are never used.
+
+2011-10-07  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* configure.ac:
+	  - Post-release version suffix added
+	  - Add bug report address
+
+2011-03-25  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* NEWS, configure.ac:
+	  === Version 0.1.2 ===
+
+2011-03-13  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* arundina/ArundinaSerif*.sfd:
+	  - Set last liga component of RUEE and LUEE to LAKKHANGYAO (U+0E45),
+	    not SARA AA (U+0E32)
+	  - Bump font version to 2.22
+
+2011-03-13  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* arundina/ArundinaSansMono*.sfd:
+	  - Set last liga component of RUEE and LUEE to LAKKHANGYAO (U+0E45),
+	    not SARA AA (U+0E32)
+	  - Remove duplicated (with wrong shape) glyphs for FONGMAN-FANNUU,
+	    RUEE and LUEE
+	  - Bump font version to 1.22
+
+2011-03-13  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* arundina/ArundinaSans*.sfd:
+	  - Set last liga component of RUEE and LUEE to LAKKHANGYAO (U+0E45),
+	    not SARA AA (U+0E32)
+	  - Remove duplicated glyphs for FONGMAN-FANNU, RUEE and LUEE in
+	    ArundinaSans.sfd
+	  - Bump font version to 1.22
+
+2011-03-13  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* arundina/ArundinaSansMono*.sfd:
+	  - Set all spacing glyphs' width to 1234.
+
+2008-05-28  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* arundina/ArundinaSansMono*.sfd:
+	  - Add ZWSP, ZWNJ, ZWJ, LRM, RLM glyphs
+	  - Save as SplineFontDB 3.0
+	  - Bump font version to 1.21
+
+2008-05-19  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* configure.ac: Check fontforge required version >= 20080110, for
+	SplineFontDB 3.0 format. No more pfaedit check.
+
+2008-05-19  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* arundina/ArundinaSans[-[Bold][Oblique]].sfd:
+	* arundina/ArundinaSerif*.sfd:
+	  - Add ZWSP, ZWNJ, ZWJ, LRM, RLM glyphs
+	  - Save as SplineFontDB 3.0
+	  - Bump font versions to 1.21, 2.21
+
+2007-12-18  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* README: Add link to original fonts.
+	* NEWS, configure.ac:
+	  === Version 0.1.1 ===
+
+2007-12-17  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* README: Write some info about the fonts.
+
+2007-12-17  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* arundina/ArundinaSans.sfd: Really change OS/2 Descent so the
+	absolute descent becomes 1067.
+
+2007-12-16  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* arundina/ArundinaSerif.sfd: Move bottom edges of PHO PHAN, FO FAN,
+	LO CHULA down to base line. Move the whole FO FA to base line. Extend
+	BlueValues for Thai glyphs from 1231 to 1238, to cover THO THAN's top.
+	Re-apply autohint and autoinstr to all glyphs to reflect the new
+	BlueValues.
+
+2007-12-16  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* arundina/ArundinaSans-Bold[Oblique].sfd: Adjust leveled top edges of
+	PHO PHUNG, SARA E, SARA AE to blue zone boundary, to get proper height.
+
+2007-12-16  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* arundina/ArundinaSans-Bold[Oblique].sfd: Reduce one control point at
+	top of NO NU, to get HStem autohinted.
+
+	* arundina/ArundinaSans-BoldOblique.sfd: Remove VStem hint that
+	governs the width of CHO CHAN.
+
+2007-12-16  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* arundina/ArundinaSans-Bold[Oblique].sfd,
+	arundina/ArundinaSerif-Bold.sfd: Add Forcebold.
+
+2007-12-16  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* arundina/ArundinaSans-Bold[Oblique].sfd: Remove HStem hint that
+	governs the height of 'I', for proper height, just like previous
+	adjustments of 'H' and 'E' in SansMono.
+
+2007-12-16  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* arundina/ArundinaSansMono.sfd: Manually adjust hints for 'H' glyph
+	for proper height. Level a control point in RO RUA, for proper hint.
+
+	* arundina/ArundinaSansMono-Oblique.sfd: Level a control point in RO
+	RUA, for proper hint.
+
+	* arundina/ArundinaSansMono-Bold.sfd: Manually adjust hints for 'H'
+	and 'E' glyphs, for proper height.
+
+2007-12-15  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* arundina/ArundinaSansMono*.sfd: Adjust OS/2 metrics so that absolute
+	ascent becomes 2505, and descent 995, as required when normal and bold
+	faces combined. This reduces line spacing and make line spacing for
+	all faces compatible. Also clear Typo descent offset.
+
+2007-12-15  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* arundina/ArundinaSerif*.sfd: Clear OS/2 ascent/descent offsets.
+	Clear Typo descent offet. Reduce LineGap for Bold face from 31 to 12.
+
+2007-12-15  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* arundina/ArundinaSans[-[Bold][Oblique]].sfd: Adjust OS/2 metrics so
+	that absolute ascent becomes 2432 and descent 1067. Set Typo descent
+	offset to 0. Set LineGap to 25, to equal that of normal face.
+	This fixes too large line spacing, and make line spacing for all faces
+	compatible to one another.
+
+2007-11-27  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* arundina/ArundinaSans[-Oblique].sfd: Adjust BlueValues to cover
+	To Tao tips. Re-apply AutoHint and AutoInstr to To Tao.
+
+2007-11-25  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* arundina/ArundinaSansMono*.sfd: Scale (only) Thai glyphs by 91.69%,
+	to get proper glyph heights relative to Latin. Adjust BlueValues
+	accordingly.
+
+	* arundina/ArundinaSansMono-Bold[Oblique].sfd: Add ForceBold.
+
+2007-11-25  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* arundina/ArundinaSans[-[Bold][Oblique]].sfd: Scale (only) Thai
+	glyphs by 88.51%, so they are not too big relative to Latin.
+	Adjust BlueValues accordingly. Lower down Kho Rakhang tips into blue
+	zone.
+
+	* arundina/*.sfd: Re-apply Autohint and Nowakowski AutoInstr to all
+	glyphs using new fontforge (20071110).
+
+2007-11-17  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* arundina/ArundinaSerif[-Bold].sfd: Change Em Size from 1000 to 2048.
+	Scale by 156.17%, to match X-Height with Dejavu. Add BlueValues and
+	OtherBlues. Apply Autohint and Nowakowski AutoInstr.
+
+2007-11-17  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* arundina/ArundinaSansMono*.sfd: Change Em Size from 1000 to 2048.
+	Scale by 165.7%, to match X-Height with Dejavu. Add BlueValues and
+	OtherBlues. Adjust glyphs hights to be aligned with BlueValues. Apply
+	Autohint and Nowakowksi AutoInstr.
+
+2007-11-16  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* arundina/ArundinaSans[-[Bold][Oblique]].sfd: Change Em Size from
+	1000 to 2048. Scale by 173.6%, to match X-Height with DejaVu. Add
+	BlueValues and OtherBlues. Apply Autohint and Nowakowski AutoInstr.
+
+2007-02-19  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* First create the project from SIPA's TTF's.
+

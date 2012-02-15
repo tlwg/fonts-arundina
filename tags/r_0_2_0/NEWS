@@ -1,0 +1,32 @@
+0.2.0 (2012-02-15)
+=====
+- Project is renamed to "fonts-sipa-arundina".
+- More consistent directory names for LaTeX installation.
+- CTAN TDS zip is now complete in a single file, with source.
+- LaTeX fonts building is now self-contained, no more build-dependency on
+  thailatex.
+- Supports more LaTeX escape sequences.
+- Add OpenType language tags as required by some rendering engines.
+
+0.1.3 (2011-11-01)
+=====
+- Drop unneeded build-dependency on xfonts-utils
+- Add LaTeX fonts generation, and 'fonts-arundina' package for use in LaTeX
+  documents. To enable it, use --enable-latex configure option.
+
+0.1.2 (2011-03-25)
+=====
+- Add ZWSP, ZWNJ, ZWJ, LRM, RLM glyphs
+- Correct widths for Sans Mono
+- Correct Thai ligatures RUEE, LUEE and FONGMAN-FANNU
+
+0.1.1 (2007-12-18)
+=====
+- Scale up to match Latin height with normal western fonts
+- Adjust Thai glyph relative size to English
+- Adjust hinting
+
+0.1.0 (2007-02-19)
+=====
+- Create fontforge-based project from original TTF
+

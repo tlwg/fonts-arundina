@@ -1,5 +1,14 @@
 2013-01-28  Theppitak Karoonboonyanan <thep@linux.thai.net>
 
+	Switch to XZ tarball compression.
+
+	* configure.ac:
+	  - Specify "dist-xz no-dist-gzip" options to AM_INIT_AUTOMAKE.
+	  - Also add "-Wno-portability" to skip warnings on GNU make specific
+	    features.
+
+2013-01-28  Theppitak Karoonboonyanan <thep@linux.thai.net>
+
 	* configure.ac: Post-release version suffix added.
 
 2012-02-15  Theppitak Karoonboonyanan <thep@linux.thai.net>

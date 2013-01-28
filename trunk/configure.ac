@@ -3,7 +3,7 @@
 
 AC_PREREQ(2.61)
 AC_INIT(fonts-sipa-arundina, 0.2.0svn, thep@linux.thai.net)
-AM_INIT_AUTOMAKE
+AM_INIT_AUTOMAKE(dist-xz no-dist-gzip -Wno-portability)
 
 FONTFORGE_MIN_VER=20080110
 

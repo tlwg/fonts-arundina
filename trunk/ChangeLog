@@ -1,3 +1,16 @@
+2014-04-24  Theppitak Karoonboonyanan <theppitak@gmail.com>
+
+	Set TTF Prefered Family of all fonts to "Arundina".
+
+	This makes installers like gnome-software group the fonts together
+	rather than showing them as separate entries.
+
+	* arundina/*.sfd:
+	  - Set TTF Prefered Family to "Arundina".
+
+	Bug report by Richard Huges:
+	https://groups.google.com/forum/#!topic/thai-linux-foss-devel/eKAE8bVG9-s
+
 2013-02-15  Theppitak Karoonboonyanan <thep@linux.thai.net>
 
 	Resurrect dist-ctan make target.

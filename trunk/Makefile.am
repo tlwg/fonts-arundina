@@ -1,4 +1,4 @@
-SUBDIRS = scripts latex arundina
+SUBDIRS = scripts latex arundina fontconfig
 
 if INCLUDE_LATEX
 tdsdist_tgz = $(LATEX_PACKAGE)-$(VERSION).tds.tar.gz

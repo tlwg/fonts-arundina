@@ -101,6 +101,7 @@ fi
 
 AC_CONFIG_FILES([Makefile
                  arundina/Makefile
+                 fontconfig/Makefile
                  latex/Makefile
                  latex/examples/Makefile
                  scripts/Makefile

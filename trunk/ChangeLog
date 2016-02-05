@@ -1,3 +1,11 @@
+2016-02-05  Theppitak Karoonboonyanan  <theppitak@gmail.com>
+
+	Add fontconfig file taken from Debian.
+
+	* configure.ac, Makefile.am, +fontconfig/, +fontconfig/Makefile.am,
+	  +fontconfig/65-sipa-arundina.conf:
+	  - Add fontconfig file, with related build stuffs.
+
 2014-12-30  Theppitak Karoonboonyanan  <theppitak@gmail.com>
 
 	* COPYING: Add copyright & license for the packaging itself.

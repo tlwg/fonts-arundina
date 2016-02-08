@@ -1,0 +1,40 @@
+% ltharunserif.fd
+%
+% This file is part of the thaifonts-arundina package
+%
+% Copyright (C) 2011 Theppitak Karoonboonyanan <theppitak@gmail.com>
+%
+% It may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License, either version 1.3
+% of this license or (at your option) any later version.
+% The latest version of this license is in
+%   http://www.latex-project.org/lppl.txt
+% and version 1.3 or later is part of all distributions of LaTeX
+% version 2005/12/01 or later.
+% 
+% This work has the LPPL maintenance status "maintained".
+% 
+% The Current Maintainer of this work is Theppitak Karoonboonyanan.
+% 
+
+\ProvidesFile{ltharunserif.fd}[2011/10/27 v1.0 Arundina Serif font definitions]
+
+% Primary declarations
+\DeclareFontFamily{LTH}{arunserif}{}
+\DeclareFontShape{LTH}{arunserif}{m}{n}{<->s * arunserif}{}
+\DeclareFontShape{LTH}{arunserif}{m}{it}{<->s * arunserif_so}{}
+\DeclareFontShape{LTH}{arunserif}{m}{sl}{<->s * arunserif_so}{}
+%%%%%%% bold series
+\DeclareFontShape{LTH}{arunserif}{b}{n}{<->s * arunserif_b}{}
+\DeclareFontShape{LTH}{arunserif}{b}{it}{<->s * arunserif_b_so}{}
+\DeclareFontShape{LTH}{arunserif}{b}{sl}{<->s * arunserif_b_so}{}
+
+% Substitutions
+\DeclareFontShape{LTH}{arunserif}{bx}{n}{<->ssub * arunserif/b/n}{}
+\DeclareFontShape{LTH}{arunserif}{bx}{sl}{<->ssub * arunserif/b/sl}{}
+\DeclareFontShape{LTH}{arunserif}{bx}{it}{<->ssub * arunserif/b/it}{}
+\endinput
+
+% 
+% EOF
+%

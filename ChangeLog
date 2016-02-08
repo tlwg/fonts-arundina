@@ -1,5 +1,23 @@
 2016-02-08  Theppitak Karoonboonyanan  <theppitak@gmail.com>
 
+	Fix 'make distcheck' failure.
+
+	'make distclean' cleaned scripts/gen.mk before entering
+	'arundina' subdir, whose Makefile required it.
+
+	In fact, scripts/gen.mk needs no configured substitution at all,
+	as we can use configured variables directly in Makefiles.
+	So, let's eliminate the unnecessarily problematic substitution.
+
+	* scripts/Makefile.am, scripts/gen.mk.in -> scripts/gen.mk,
+	  configure.ac:
+	  - Use configured variable $(FONTFORGE) directly and thus
+	    eliminate the unneeded substitution for the gen.mk file.
+	* arundina/Makefile.am:
+	  - Include gen.mk from source dir instead of build dir.
+
+2016-02-08  Theppitak Karoonboonyanan  <theppitak@gmail.com>
+
 	Update my e-mail address.
 
 	* latex/fonts-arundina.sty:

@@ -104,7 +104,6 @@ AC_CONFIG_FILES([Makefile
                  fontconfig/Makefile
                  latex/Makefile
                  latex/examples/Makefile
-                 scripts/Makefile
-                 scripts/gen.mk])
+                 scripts/Makefile])
 
 AC_OUTPUT

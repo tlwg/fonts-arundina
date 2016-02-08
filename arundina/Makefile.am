@@ -26,7 +26,7 @@ if INCLUDE_PFB
 type1_DATA = $(PFBFILES) $(AFMFILES)
 endif
 
-include $(top_builddir)/scripts/gen.mk
+include $(top_srcdir)/scripts/gen.mk
 
 if INCLUDE_LATEX
 

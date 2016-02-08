@@ -1,5 +1,15 @@
 2016-02-08  Theppitak Karoonboonyanan  <theppitak@gmail.com>
 
+	Update my e-mail address.
+
+	* latex/fonts-arundina.sty:
+	* latex/ltharunmono.fd:
+	* latex/ltharunsans.fd:
+	* latex/ltharunserif.fd:
+	  - Update my e-mail address.
+
+2016-02-08  Theppitak Karoonboonyanan  <theppitak@gmail.com>
+
 	Update copyright years.
 
 	* COPYING: Update packaging & build system copyright years.

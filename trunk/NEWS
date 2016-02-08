@@ -1,3 +1,12 @@
+0.2.1 (2016-02-08)
+=====
+- Switch to XZ tarball compression.
+- Resurrect CTAN zip generation for uploading as a single file.
+- Set TTF Preferred Family of all fonts to "Arundina", to have all
+  faces grouped together on systems.
+- Clarify copyright & license for the packaging.
+- Add fontconfig file taken from Debian.
+
 0.2.0 (2012-02-15)
 =====
 - Project is renamed to "fonts-sipa-arundina".

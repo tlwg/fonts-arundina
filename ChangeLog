@@ -1,5 +1,10 @@
 2016-02-08  Theppitak Karoonboonyanan  <theppitak@gmail.com>
 
+	* NEWS, configure.ac:
+	  === Version 0.2.1 ===
+
+2016-02-08  Theppitak Karoonboonyanan  <theppitak@gmail.com>
+
 	Fix 'make distcheck' failure.
 
 	'make distclean' cleaned scripts/gen.mk before entering

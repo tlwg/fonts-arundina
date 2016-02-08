@@ -1,3 +1,9 @@
+2016-02-08  Theppitak Karoonboonyanan  <theppitak@gmail.com>
+
+	Update copyright years.
+
+	* COPYING: Update packaging & build system copyright years.
+
 2016-02-05  Theppitak Karoonboonyanan  <theppitak@gmail.com>
 
 	Add fontconfig file taken from Debian.

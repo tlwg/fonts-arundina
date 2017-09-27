@@ -1,4 +1,7 @@
-EXAMPLES = testdoc.tex
+EXAMPLES = \
+	testdoc.tex	\
+	testsans.tex	\
+	$(NULL)
 
 EXTRA_DIST = $(EXAMPLES)
 

@@ -1,5 +1,15 @@
 2017-09-27  Theppitak Karoonboonyanan  <theppitak@gmail.com>
 
+	LaTeX: add 'sans' option for using sans by default.
+
+	* latex/fonts-arundina.sty:
+	  - Add 'sans' option and set font family accordingly
+	  - Update copyright years & package name
+	* latex/examples/Makefile.am, +latex/examples/testsans.tex:
+	  - Add test doc
+
+2017-09-27  Theppitak Karoonboonyanan  <theppitak@gmail.com>
+
 	Use versioning based on Git snapshot.
 
 	* Makefile.am:

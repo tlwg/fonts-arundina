@@ -1,5 +1,12 @@
 SUBDIRS = scripts latex arundina fontconfig
 
+EXTRA_DIST =	\
+	build-aux/git-version-gen	\
+	$(NULL)
+
+dist-hook:
+	echo $(VERSION) > $(distdir)/VERSION
+
 if INCLUDE_LATEX
 tdsdist_tgz = $(LATEX_PACKAGE)-$(VERSION).tds.tar.gz
 ctandist_tgz = $(LATEX_PACKAGE)-$(VERSION).ctan.tar.gz

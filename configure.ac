@@ -2,7 +2,9 @@
 # Process this file with autoconf to produce a configure script.
 
 AC_PREREQ(2.61)
-AC_INIT(fonts-sipa-arundina, 0.2.1, theppitak@gmail.com)
+AC_INIT(fonts-sipa-arundina,
+        m4_esyscmd([build-aux/git-version-gen]),
+        theppitak@gmail.com)
 AM_INIT_AUTOMAKE(dist-xz no-dist-gzip -Wno-portability)
 
 FONTFORGE_MIN_VER=20080110

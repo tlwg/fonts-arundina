@@ -1,3 +1,19 @@
+2017-09-27  Theppitak Karoonboonyanan  <theppitak@gmail.com>
+
+	Use versioning based on Git snapshot.
+
+	* Makefile.am:
+	  - Add dist-hook to generate VERSION file on tarball generation.
+	* +build-aux/git-version-gen:
+	  - Add script to generate version based on 'git describe'
+	    if in git tree, or using VERSION file if in release tarball.
+	* configure.ac:
+	  - Call git-version-gen to get package version.
+	* autogen.sh:
+	  - Apply -f to autoconf so git-version-gen does refresh the version.
+	* Makefile.am:
+	  - Add build-aux/git-version-gen to EXTRA_DIST.
+
 2016-02-08  Theppitak Karoonboonyanan  <theppitak@gmail.com>
 
 	* NEWS, configure.ac:

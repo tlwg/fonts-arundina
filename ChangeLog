@@ -1,3 +1,10 @@
+2017-09-28  Theppitak Karoonboonyanan  <theppitak@gmail.com>
+
+	LaTeX: add README.latex documentation
+
+	* latex/Makefile.am, +latex/README.latex:
+	  - Add documentation for LaTeX package
+
 2017-09-27  Theppitak Karoonboonyanan  <theppitak@gmail.com>
 
 	LaTeX: add 'sans' option for using sans by default.

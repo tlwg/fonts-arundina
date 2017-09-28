@@ -6,6 +6,7 @@ FD_FILES = \
 	ltharunserif.fd
 
 EXTRA_DIST = \
+	README.latex \
 	texfont.mk.am \
 	fonts-arundina.sty \
 	ltharun.enc \

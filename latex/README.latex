@@ -1,0 +1,22 @@
+%% This file is a part of fonts-arundina package.
+
+Fonts-Arundina provides serif, sans-serif, and teletype fonts compatible to
+Bitstream Vera and DejaVu.  It was initiated by the Software Industry
+Promotion Agency (SIPA) and later adopted by the Thai Linux Working Group
+(TLWG).
+
+It has been made available for use with pdfLaTeX.  To use it, you can use
+the fonts-arundina package by declaring like this in document preamble:
+
+  \usepackage{fonts-arundina}
+
+OPTIONS
+-------
+
+Options are also available so that you can choose default fonts for use
+in the document when switching to Thai in Babel:
+
+* Using sans-serif font instead of roman:
+
+  - sans       : Use sans-serif font by default when switching to Thai.
+

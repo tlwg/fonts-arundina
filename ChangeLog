@@ -1,5 +1,30 @@
 2017-09-28  Theppitak Karoonboonyanan  <theppitak@gmail.com>
 
+	LaTeX: add 'scale' option
+
+	Implementation borrowed from fonts-tlwg package
+	by Abhabongse Janthong.
+
+	* latex/fonts-arundina.sty:
+	  - Require package xkeyval and use \DeclareOptionX instead of
+	    \DeclareOption to allow options with value
+	  - Also use \ProcessOptionsX instead of \ProcessOptions
+	  - Add option 'scale' and define \fontstlwg@scale command from
+	    its value
+	* latex/ltharunmono.fd:
+	* latex/ltharunsans.fd:
+	* latex/ltharunserif.fd:
+	  - Check if \fontsarundina@scale has been defined and use it
+	    as scaling factor in \DeclareFontShape
+	* latex/README.latex
+	  - Document the new 'scale' option
+	* latex/examples/Makefile.am:
+	* +latex/examples/testscaled-120.tex:
+	* +latex/examples/testscaled-65.tex:
+	  - Add test docs
+
+2017-09-28  Theppitak Karoonboonyanan  <theppitak@gmail.com>
+
 	LaTeX: add README.latex documentation
 
 	* latex/Makefile.am, +latex/README.latex:

@@ -1,0 +1,235 @@
+%%
+%% Test standard sentences for every fonts
+%% 2004/02/06 Poonlap Veerathanabutr <poonlap@linux.thai.net>
+%% 	      - rewrite this file
+%% 2011/12/26 Theppitak Karoonboonyanan <thep@linux.thai.net>
+%%            - rewrite using macros
+%%
+\documentclass[a4paper]{article}
+\usepackage[english,thai]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage[scale=0.65]{fonts-arundina}
+
+\newcommand{\testthaipoem}[3]{%
+  \usefont{LTH}{#1}{#2}{#3}
+  \noindent
+  \begin{tabbing}
+  {\usefont{LTH}{arunserif}{b}{n}
+  XXXXXXXXXXXXXXXXXXXXXXXXX} \=
+  {\usefont{LTH}{arunserif}{b}{n}
+  XXXXXXXXXXXXXXXXXXXXXXXXX}\kill
+  \hspace{1em}๏ เป็นมนุษย์สุดประเสริฐเลิศคุณค่า \> กว่าบรรดาฝูงสัตว์เดรัจฉาน \\
+  จงฝ่าฟันพัฒนาวิชาการ          \> อย่าล้างผลาญฤๅเข่นฆ่าบีฑาใคร\\
+  ไม่ถือโทษโกรธแช่งซัดฮึดฮัดด่า    \> หัดอภัยเหมือนกีฬาอัชฌาสัย \\
+  ปฏิบัติประพฤติกฎกำหนดใจ       \> พูดจาให้จ๊ะๆ จ๋าๆ น่าฟังเอย ฯ\\
+  \end{tabbing}}
+
+\newcommand{\testenglish}[3]{%
+  \usefont{LTH}{#1}{#2}{#3}
+  \noindent
+  A quick brown fox jumps over the lazy dog.}
+
+\newcommand{\testEnglish}[3]{%
+  \usefont{LTH}{#1}{#2}{#3}
+  \noindent
+  \MakeUppercase{A quick brown fox jumps over the lazy dog.}}
+
+\newcommand{\testligkern}[3]{%
+  \usefont{LTH}{#1}{#2}{#3}
+  \noindent
+  ที่ ท่า ทิ้ง ท้า กิ๊ง ก๊ง ตี๋ ต๋า บ่น ป่น, บ้น ป้น, บ๊น ป๊น, บ๋น ป๋น บิน ปิน บีน ปีน บิ่น ปิ่น บัน ปั่น บั่น
+  ก็ ป็ ปู่ ญ ญุ ญู ญฺ ฐ ฐุ ฐู ฐฺ กุ ฎุ ฎู ฎฺ ฏุ ฏู ฏฺ บำ บ่ำ ปำ ป่ำ -\textyamakkan{}
+  \textfongmun{} \textangkhankhu{} \textkhomut{}
+  - -- --- `` '' \dag{} \ddag{} \S{} \P{} \${} \ae{} \AE{} \oe{} \OE{} \aa{}
+  \AA{} \ss{} \copyright{} \textregistered{} \texttrademark{} \textbackslash{}
+  \textasciicircum{} \textasciitilde{} \textbar{} \textbraceleft{}
+  \textbraceright{} ?` !` ff fi fl ffi ffl tt ti AV\\}
+
+\newcommand{\testpali}[3]{%
+  \usefont{LTH}{#1}{#2}{#3}
+  \noindent
+  \textpali{หตฺเถสุ ภิกฺขเว สติ, อาทานนิกฺเขปนํ ปญฺญายติ}\\
+  \textpali{เอวเมว โข ภิกฺขเว}\\
+  \textpali{จกฺขุสมิํปิ สติ}\\
+  \textpali{จกฺขุสมฺผสฺสปจฺจยา อุปฺปชฺชติ อชฺฌตฺตํ สุขทุกฺขํ}\\
+  \textpali{ทิฏฺฐา มยา ภิกฺขเว ฉ ผสฺสายตนิกา นาม นิรยา}\\}
+
+
+\begin{document}
+\pagestyle{empty}
+\vfil
+\begin{figure*}
+\Huge
+\hspace*{.2\textwidth}\usefont{LTH}{arunserif}{m}{n}แบบอักษรไทยใน \LaTeX\\
+\hspace*{.2\textwidth}\usefont{LTH}{arunsans}{m}{n}แบบอักษรไทยใน \LaTeX\\
+\hspace*{.2\textwidth}\usefont{LTH}{arunmono}{m}{n}แบบอักษรไทยใน \LaTeX\\
+\end{figure*}
+\vfil
+\clearpage
+
+\pagestyle{plain}
+\section{\usefont{LTH}{arunserif}{b}{n}Arundina Serif}
+\subsection{ตัวอย่างประโยคภาษาไทย\protect\footnote{โดยสมาคมคอมพิวเตอร์แห่งประเทศไทยในพระบรมราชูปถัมภ์}}
+
+\testthaipoem{arunserif}{m}{n}
+
+\testthaipoem{arunserif}{b}{n}
+
+\testthaipoem{arunserif}{m}{it}
+
+\testthaipoem{arunserif}{b}{it}
+
+\subsection{ตัวอย่างภาษาอังกฤษ}
+
+\testenglish{arunserif}{m}{n}
+
+\testenglish{arunserif}{b}{n}
+
+\testenglish{arunserif}{m}{it}
+
+\testenglish{arunserif}{b}{it}
+
+\testEnglish{arunserif}{m}{n}
+
+\testEnglish{arunserif}{b}{n}
+
+\testEnglish{arunserif}{m}{it}
+
+\testEnglish{arunserif}{b}{it}
+
+
+\subsection{การจัดระดับตัวอักษรและตัวอักษรพิเศษ}
+
+\testligkern{arunserif}{m}{n}
+
+\testligkern{arunserif}{b}{n}
+
+\testligkern{arunserif}{m}{it}
+
+\testligkern{arunserif}{b}{it}
+
+
+\subsection{ภาษาบาลี-สันสกฤต}
+
+\testpali{arunserif}{m}{n}
+
+\testpali{arunserif}{b}{n}
+
+\testpali{arunserif}{m}{it}
+
+\testpali{arunserif}{b}{it}
+
+\vfil\pagebreak
+
+
+\section{\usefont{LTH}{arunsans}{b}{n}Arundina Sans}
+
+\subsection{ตัวอย่างประโยคภาษาไทย}
+
+\testthaipoem{arunsans}{m}{n}
+
+\testthaipoem{arunsans}{b}{n}
+
+\testthaipoem{arunsans}{m}{it}
+
+\testthaipoem{arunsans}{b}{it}
+
+
+\subsection{ตัวอย่างภาษาอังกฤษ}
+
+\testenglish{arunsans}{m}{n}
+
+\testenglish{arunsans}{b}{n}
+
+\testenglish{arunsans}{m}{it}
+
+\testenglish{arunsans}{b}{it}
+
+\testEnglish{arunsans}{m}{n}
+
+\testEnglish{arunsans}{b}{n}
+
+\testEnglish{arunsans}{m}{it}
+
+\testEnglish{arunsans}{b}{it}
+
+
+\subsection{การจัดระดับตัวอักษรและตัวอักษรพิเศษ}
+
+\testligkern{arunsans}{m}{n}
+
+\testligkern{arunsans}{b}{n}
+
+\testligkern{arunsans}{m}{it}
+
+\testligkern{arunsans}{b}{it}
+
+
+\subsection{ภาษาบาลี-สันสกฤต}
+
+\testpali{arunsans}{m}{n}
+
+\testpali{arunsans}{b}{n}
+
+\testpali{arunsans}{m}{it}
+
+\testpali{arunsans}{b}{it}
+
+\vfil\pagebreak
+
+\section{\usefont{LTH}{arunmono}{b}{n}Arundina Sans Mono}
+
+\subsection{ตัวอย่างประโยคภาษาไทย}
+
+\testthaipoem{arunmono}{m}{n}
+
+\testthaipoem{arunmono}{b}{n}
+
+\testthaipoem{arunmono}{m}{it}
+
+\testthaipoem{arunmono}{b}{it}
+
+\subsection{ตัวอย่างภาษาอังกฤษ}
+
+\testenglish{arunmono}{m}{n}
+
+\testenglish{arunmono}{b}{n}
+
+\testenglish{arunmono}{m}{it}
+
+\testenglish{arunmono}{b}{it}
+
+\testEnglish{arunmono}{m}{n}
+
+\testEnglish{arunmono}{b}{n}
+
+\testEnglish{arunmono}{m}{it}
+
+\testEnglish{arunmono}{b}{it}
+
+
+\subsection{การจัดระดับตัวอักษรและตัวอักษรพิเศษ}
+
+\testligkern{arunmono}{m}{n}
+
+\testligkern{arunmono}{b}{n}
+
+\testligkern{arunmono}{m}{it}
+
+\testligkern{arunmono}{b}{it}
+
+
+\subsection{ภาษาบาลี-สันสกฤต}
+
+\testpali{arunmono}{m}{n}
+
+\testpali{arunmono}{b}{n}
+
+\testpali{arunmono}{m}{it}
+
+\testpali{arunmono}{b}{it}
+
+\vfil\pagebreak
+
+
+\end{document}

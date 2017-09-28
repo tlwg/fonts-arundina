@@ -11,21 +11,28 @@
 %   http://www.latex-project.org/lppl.txt
 % and version 1.3 or later is part of all distributions of LaTeX
 % version 2005/12/01 or later.
-% 
+%
 % This work has the LPPL maintenance status "maintained".
-% 
+%
 % The Current Maintainer of this work is Theppitak Karoonboonyanan.
-% 
+%
 
 \ProvidesFile{ltharunmono.fd}[2011/10/27 v1.0 Arundina Sans Mono font definitions]
 
+% Check if the scale factor has been defined
+\ifcsname fontsarundina@scale\endcsname
+  \edef\fontsarundina@@scale{s * [\csname fontsarundina@scale\endcsname] }%
+\else
+  \def\fontsarundina@@scale{s * }%
+\fi
+
 % Primary declarations
 \DeclareFontFamily{LTH}{arunmono}{}
-\DeclareFontShape{LTH}{arunmono}{m}{n}{<->s * arunmono}{}
-\DeclareFontShape{LTH}{arunmono}{m}{sl}{<->s * arunmono_o}{}
+\DeclareFontShape{LTH}{arunmono}{m}{n}{<-> \fontsarundina@@scale arunmono}{}
+\DeclareFontShape{LTH}{arunmono}{m}{sl}{<-> \fontsarundina@@scale arunmono_o}{}
 %%%%%%% bold series
-\DeclareFontShape{LTH}{arunmono}{b}{n}{<->s * arunmono_b}{}
-\DeclareFontShape{LTH}{arunmono}{b}{sl}{<->s * arunmono_bo}{}
+\DeclareFontShape{LTH}{arunmono}{b}{n}{<-> \fontsarundina@@scale arunmono_b}{}
+\DeclareFontShape{LTH}{arunmono}{b}{sl}{<-> \fontsarundina@@scale arunmono_bo}{}
 
 % Substitutions
 \DeclareFontShape{LTH}{arunmono}{m}{it}{<->ssub * arunmono/m/sl}{}
@@ -36,6 +43,6 @@
 \DeclareFontShape{LTH}{arunmono}{bx}{it}{<->ssub * arunmono/b/sl}{}
 \endinput
 
-% 
+%
 % EOF
 %

@@ -20,3 +20,7 @@ in the document when switching to Thai in Babel:
 
   - sans       : Use sans-serif font by default when switching to Thai.
 
+* Specifying the font scaling factor:
+
+  - scale=<value>  : Set the scaling factor
+

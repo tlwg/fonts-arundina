@@ -15,6 +15,7 @@ tdsdist_zip = $(LATEX_PACKAGE)-$(VERSION).tds.zip
 ctandist_zip = $(LATEX_PACKAGE)-$(VERSION).ctan.zip
 
 tdsdistdir = $(LATEX_PACKAGE)-$(VERSION)-tds
+ctandistdir = $(LATEX_PACKAGE)-$(VERSION)
 
 inst-tds:
 	rm -rf $(tdsdistdir)
@@ -45,12 +46,18 @@ dist-tds: dist-tds-zip
 
 dist-ctan-tgz: dist-tds-tgz distdir
 	rm -f $(ctandist_tgz)
-	tar cf - $(tdsdist_tgz) $(distdir) | gzip -9 -c > $(ctandist_tgz)
+	rm -rf $(ctandistdir)
+	cp -a $(distdir) $(ctandistdir)
+	tar cf - $(tdsdist_tgz) $(ctandistdir) | gzip -9 -c > $(ctandist_tgz)
+	rm -rf $(ctandistdir)
 	$(am__remove_distdir)
 
 dist-ctan-zip: dist-tds-zip distdir
 	rm -f $(ctandist_zip)
-	zip -r $(ctandist_zip) $(tdsdist_zip) $(distdir)
+	rm -rf $(ctandistdir)
+	cp -a $(distdir) $(ctandistdir)
+	zip -r $(ctandist_zip) $(tdsdist_zip) $(ctandistdir)
+	rm -rf $(ctandistdir)
 	$(am__remove_distdir)
 
 dist-ctan: dist-ctan-zip

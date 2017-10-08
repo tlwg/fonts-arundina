@@ -1,3 +1,17 @@
+2017-10-08  Theppitak Karoonboonyanan  <theppitak@gmail.com>
+
+	LaTeX: rename source dir in CTAN dist tarballs
+
+	This is to make source dir name in CTAN dist tarballs consistent
+	with its LaTeX package name (fonts-arundina-$(VERSION),
+	not fonts-sipa-arundina-$(VERSION)).
+
+	* Makefile.sm:
+	  - 'dist-ctan-tgz', 'dist-ctan-zip' targets:
+	    Make a copy of $(distdir) into a new $(ctandistdir)
+	    named "$(LATEX_PACKAGE)-$(VERSION)" before zipping,
+	    and remove it afterwards.
+
 2017-09-28  Theppitak Karoonboonyanan  <theppitak@gmail.com>
 
 	LaTeX: add 'scale' option

@@ -1,3 +1,8 @@
+2017-10-16  Theppitak Karoonboonyanan  <theppitak@gmail.com>
+
+	* COPYING:
+	  - Add copyright & license info for LaTeX stuffs.
+
 2017-10-08  Theppitak Karoonboonyanan  <theppitak@gmail.com>
 
 	LaTeX: rename source dir in CTAN dist tarballs

@@ -1,3 +1,11 @@
+0.2.2 (2017-10-19)
+=====
+- LaTeX: new 'sans' option for using sans-serif by default.
+- LaTeX: new 'scale' option for adjusting font size, based on
+  Abhabongse Janthong's work on 'fonts-tlwg' package.
+- CTAN dist tarballs now contain source directory with the same name
+  as the LaTeX package, fixing confusion on CTAN archive.
+
 0.2.1 (2016-02-08)
 =====
 - Switch to XZ tarball compression.

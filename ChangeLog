@@ -1,3 +1,10 @@
+2019-02-22  Theppitak Karoonboonyanan  <theppitak@gmail.com>
+
+	Remove trailing spaces
+
+	* latex/examples/testdoc.tex:
+	  - Remove trailing spaces
+
 2017-10-19  Theppitak Karoonboonyanan  <theppitak@gmail.com>
 
 	* NEWS:

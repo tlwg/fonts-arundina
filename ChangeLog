@@ -1,5 +1,13 @@
 2018-03-12  Theppitak Karoonboonyanan  <theppitak@gmail.com>
 
+	Convert fontforge version string before comparing
+
+	* configure.ac:
+	  - Convert fontforge string from date format to comparable number
+	    before comparing with the min ver.
+
+2018-03-12  Theppitak Karoonboonyanan  <theppitak@gmail.com>
+
 	Move fontconfig templates from /etc/fonts to /usr/share/fontconfig
 
 	* fontconfig/Makefile.sm:

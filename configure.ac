@@ -64,7 +64,8 @@ if test "x$FONTFORGE" = "xno"; then
   AC_MSG_ERROR([You need fontforge to generate fonts.])
 else
   AC_MSG_CHECKING([for Fontforge >= $FONTFORGE_MIN_VER])
-  FONTFORGE_VER=`$FONTFORGE --version 2>/dev/null | grep '^fontforge' | cut -d' ' -f2`
+  FONTFORGE_VER=$($FONTFORGE --version 2>/dev/null | grep '^fontforge' | sed 's/fontforge //')
+  FONTFORGE_VER=$(TZ=UTC date -d "$FONTFORGE_VER" "+%Y%m%d")
   if test $FONTFORGE_VER -lt $FONTFORGE_MIN_VER; then
     AC_MSG_ERROR([Requires Fontforge >= $FONTFORGE_MIN_VER but $FONTFORGE_VER was found)])
   fi

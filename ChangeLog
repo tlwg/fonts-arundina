@@ -1,3 +1,15 @@
+2018-12-20  Theppitak Karoonboonyanan  <theppitak@gmail.com>
+
+	SansMono: Add Cube layer with cubic splines
+
+	* arundina/ArundinaSansMono[-*].sfd:
+	  - Add new cubic foreground layer 'Cube'.
+	  - Copy glyphs from 'Fore' layer to 'Cube' layer.
+	  - Simplify cubic splines.
+	  - Use vertical-horizontal points at extremas.
+	  - Apply AutoHint
+	  - Bump font version to 2.00
+
 2018-11-30  Theppitak Karoonboonyanan  <theppitak@gmail.com>
 
 	Sans: Add Cube layer with cubic splines

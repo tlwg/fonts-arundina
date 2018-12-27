@@ -15,7 +15,9 @@ OTFFILES = $(FONTSOURCES:.sfd=.otf)
 AFMFILES = $(FONTSOURCES:.sfd=.afm)
 PFBFILES = $(FONTSOURCES:.sfd=.pfb)
 
-CLEANFILES = *.ttf *.g2n *.pfb *.pfa *.afm *.pfm *.otf *.enc *.tfm
+CLEANFILES = \
+	*.ttf *.g2n *.pfb *.pfa *.afm *.pfm *.otf *.enc *.tfm	\
+	*.map *.vpl *.vf
 
 EXTRA_DIST = $(FONTSOURCES)
 

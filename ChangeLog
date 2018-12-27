@@ -1,5 +1,12 @@
 2018-12-27  Theppitak Karoonboonyanan  <theppitak@gmail.com>
 
+	Clean more files on clean target
+
+	* arundina/Makefile.am:
+	  - Clean more LaTeX generated files: *.map, *.vpl, *.vf
+
+2018-12-27  Theppitak Karoonboonyanan  <theppitak@gmail.com>
+
 	Generate Type 1 and OTF fonts from Cube layer
 
 	With this, we have to use Fontforge's Python scripting

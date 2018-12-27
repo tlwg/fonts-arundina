@@ -1,5 +1,27 @@
 2018-12-27  Theppitak Karoonboonyanan  <theppitak@gmail.com>
 
+	Generate Type 1 and OTF fonts from Cube layer
+
+	With this, we have to use Fontforge's Python scripting
+	to access 'Cube' layer when generating.
+
+	* configure.ac:
+	  - Add '--enable-otf' option
+	  - Check for 'fontforge' Python module when needed
+	* scripts/Makefile.am, +scripts/gen-otf.py,
+	  -scripts/gen-pfa.pe, +scripts/gen-pfa.py,
+	  -scripts/gen-pfb.pe, +scripts/gen-pfb.py:
+	  - Add 'gen-otf.py' for OTF generation
+	  - Replace 'gen-[pfa,pfb].pe' with 'gen-[pfa,pfb].py'
+	* scripts/gen.mk:
+	  - Add rule for OTF generation
+	  - Call Python script instead of Fontforge native script
+	    when generating PFB
+	* arundina/Makefile.am:
+	  - Add OTF target
+
+2018-12-27  Theppitak Karoonboonyanan  <theppitak@gmail.com>
+
 	Serif: Add Cube layer with cubic splines
 
 	* arundina/ArundinaSerif[-Bold].sfd:

@@ -7,10 +7,12 @@ AC_INIT(fonts-sipa-arundina,
         theppitak@gmail.com)
 AM_INIT_AUTOMAKE(dist-xz no-dist-gzip -Wno-portability)
 
-FONTFORGE_MIN_VER=20080110
+FONTFORGE_MIN_VER=20170731
 
 LATEX_PACKAGE="fonts-arundina"
 AC_SUBST(LATEX_PACKAGE)
+
+NEED_PYTHON="no"
 
 # Check options
 AC_ARG_ENABLE(ttf,
@@ -28,11 +30,28 @@ if test "x$enable_ttf" = "xyes"; then
   AC_SUBST(ttfdir)
 fi
 
+AC_ARG_ENABLE(otf,
+              [AC_HELP_STRING([--enable-otf],
+                              [enable OTF generation])],
+              , enable_otf="no")
+if test "x$enable_otf" = "xyes"; then
+  NEED_PYTHON="yes"
+  AC_ARG_WITH(otfdir,
+    [AC_HELP_STRING([--with-otfdir=DIR],
+                    [font directory in DIR [PREFIX/share/fonts/opentype/arundina]])],
+    [otfdir="$withval"], [otfdir=\$\{prefix\}/share/fonts/opentype/arundina])
+  AC_MSG_CHECKING(--with-otfdir)
+  AC_MSG_RESULT("$otfdir")
+
+  AC_SUBST(otfdir)
+fi
+
 AC_ARG_ENABLE(pfb,
               [AC_HELP_STRING([--enable-pfb],
                               [enable Type1 PFB generation])],
               , enable_pfb="no")
 if test "x$enable_pfb" = "xyes"; then
+  NEED_PYTHON="yes"
   AC_ARG_WITH(type1dir,
     [AC_HELP_STRING([--with-type1dir=DIR],
                     [font directory in DIR [PREFIX/share/fonts/type1/t1-thai-arundina]])],
@@ -49,6 +68,7 @@ AC_ARG_ENABLE(latex,
               , enable_latex="no")
 
 AM_CONDITIONAL(INCLUDE_TTF,test $enable_ttf = "yes")
+AM_CONDITIONAL(INCLUDE_OTF,test $enable_otf = "yes")
 AM_CONDITIONAL(INCLUDE_PFB,test $enable_pfb = "yes")
 AM_CONDITIONAL(INCLUDE_LATEX,test $enable_latex = "yes")
 
@@ -71,6 +91,12 @@ else
   fi
   AC_MSG_RESULT([$FONTFORGE_VER found, ok])
 fi
+
+if test "x$NEED_PYTHON" = "xyes"; then
+  AM_PATH_PYTHON([2.7])
+  AX_PYTHON_MODULE([fontforge],[fatal],[python])
+fi
+
 
 if test "x$enable_latex" = "xyes"; then
   AC_CHECK_PROGS(AFM2TFM,afm2tfm,no)

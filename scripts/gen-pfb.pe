@@ -1,8 +1,0 @@
-Open($1)
-SetFontOrder(3)
-SelectAll()
-RoundToInt()
-AddExtrema()
-Simplify()
-RoundToInt()
-Generate($1:t:r + ".pfb")

@@ -11,6 +11,7 @@ FONTSOURCES = \
 	ArundinaSerif-Bold.sfd
 
 TTFFILES = $(FONTSOURCES:.sfd=.ttf)
+OTFFILES = $(FONTSOURCES:.sfd=.otf)
 AFMFILES = $(FONTSOURCES:.sfd=.afm)
 PFBFILES = $(FONTSOURCES:.sfd=.pfb)
 
@@ -20,6 +21,10 @@ EXTRA_DIST = $(FONTSOURCES)
 
 if INCLUDE_TTF
 ttf_DATA = $(TTFFILES)
+endif
+
+if INCLUDE_OTF
+otf_DATA = $(OTFFILES)
 endif
 
 if INCLUDE_PFB

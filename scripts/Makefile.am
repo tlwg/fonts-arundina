@@ -1,2 +1,2 @@
-EXTRA_DIST = gen-ttf.pe gen-pfa.pe gen-pfb.pe gen.mk
+EXTRA_DIST = gen-ttf.pe gen-otf.py gen-pfa.py gen-pfb.py gen.mk
 

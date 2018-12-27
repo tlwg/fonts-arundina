@@ -1,3 +1,15 @@
+2018-12-27  Theppitak Karoonboonyanan  <theppitak@gmail.com>
+
+	Serif: Add Cube layer with cubic splines
+
+	* arundina/ArundinaSerif[-Bold].sfd:
+	  - Add new cubic foreground layer 'Cube'.
+	  - Copy glyphs from 'Fore' layer to 'Cube' layer.
+	  - Simplify cubic splines.
+	  - Use vertical-horizontal points at extremas.
+	  - Apply AutoHint
+	  - Bump font version to 3.00
+
 2018-12-20  Theppitak Karoonboonyanan  <theppitak@gmail.com>
 
 	SansMono: Add Cube layer with cubic splines

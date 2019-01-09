@@ -1,3 +1,25 @@
+2019-01-09  Theppitak Karoonboonyanan  <theppitak@gmail.com>
+
+	Set TTF Preferred Family separately for each family.
+
+	Using the same "Arundina" in all families confuses GTK+
+	font selector, as all families are listed under the same name.
+
+	* arundina/ArundinaSans[-*].sfd:
+	  - Set TTF Preferred Family to "Arundina Sans".
+	  - Add TTF Preferred Styles and Compatible Full for Regular.
+	  - Bump font version to 2.01.
+	* arundina/ArundinaSansMono*.sfd:
+	  - Set TTF Preferred Family to "Arundina Sans Mono".
+	  - Add TTF Preferred Styles and Compatible Full for Regular.
+	  - Bump font version to 2.01.
+	* arundina/ArundinaSerif*.sfd:
+	  - Set TTF Preferred Family to "Arundina Serif".
+	  - Bump font version to 3.01.
+
+	This reverts commit 5fd33990b56ad50894d3faebc30fe60c243e3474
+	as a result.
+
 2018-12-27  Theppitak Karoonboonyanan  <theppitak@gmail.com>
 
 	Clean more files on clean target

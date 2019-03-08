@@ -1,3 +1,13 @@
+2019-03-08  Theppitak Karoonboonyanan  <theppitak@gmail.com>
+
+	Sans: Fine-tune quadratic splines.
+
+	* arundina/ArundinaSans[-*].sfd:
+	  - Fine-tune quadratic splines in 'Fore' layer,
+	    with AutoInstr re-applied.
+	  - Adjust cubic splines in 'Cube' layer as appropriate.
+	  - Bump font version to 2.02.
+
 2019-01-09  Theppitak Karoonboonyanan  <theppitak@gmail.com>
 
 	Set TTF Preferred Family separately for each family.

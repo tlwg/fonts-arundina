@@ -1,5 +1,12 @@
 2019-12-20  Theppitak Karoonboonyanan  <theppitak@gmail.com>
 
+	Use GitHub issue tracker instead of submission URL.
+
+	* configure.ac:
+	  - Replace GitHub new-issue URL with issue tracker one.
+
+2019-12-20  Theppitak Karoonboonyanan  <theppitak@gmail.com>
+
 	Use GitHub bug report URL.
 
 	* configure.ac:

@@ -4,7 +4,7 @@
 AC_PREREQ(2.61)
 AC_INIT(fonts-sipa-arundina,
         m4_esyscmd([build-aux/git-version-gen]),
-        https://github.com/tlwg/fonts-arundina/issues/new)
+        [https://github.com/tlwg/fonts-arundina/issues])
 AM_INIT_AUTOMAKE(dist-xz no-dist-gzip -Wno-portability)
 
 FONTFORGE_MIN_VER=20170731

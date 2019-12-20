@@ -1,3 +1,10 @@
+2019-12-20  Theppitak Karoonboonyanan  <theppitak@gmail.com>
+
+	Use GitHub bug report URL.
+
+	* configure.ac:
+	  - Replace bug report e-mail address with GitHub new-issue URL.
+
 2019-03-08  Theppitak Karoonboonyanan  <theppitak@gmail.com>
 
 	Sans: Fine-tune quadratic splines.

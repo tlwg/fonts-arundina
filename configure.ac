@@ -2,7 +2,7 @@
 # Process this file with autoconf to produce a configure script.
 
 AC_PREREQ(2.61)
-AC_INIT(fonts-sipa-arundina,
+AC_INIT(fonts-arundina,
         m4_esyscmd([build-aux/git-version-gen]),
         [https://github.com/tlwg/fonts-arundina/issues])
 AM_INIT_AUTOMAKE(dist-xz no-dist-gzip -Wno-portability)

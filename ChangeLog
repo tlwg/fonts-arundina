@@ -1,3 +1,19 @@
+2020-01-09  Theppitak Karoonboonyanan  <theppitak@gmail.com>
+
+	Rename source package to 'fonts-arundina'
+
+	Reasons:
+	- We wanted a shorter package name for use in LaTeX, and we have
+	  already done it with the CTAN package for years.
+	- The GitHub repository was also imported under the shortened name.
+	- We want to have the consistent distributed tarball name as well.
+	- It was originally SIPA's intention to have the font name come up
+	  in the sorted list. The "sipa" part in the name have made
+	  the package itself fall down to a very low rank so far.
+
+	* configure.ac:
+	  - Replace package name in AC_INIT.
+
 2019-12-20  Theppitak Karoonboonyanan  <theppitak@gmail.com>
 
 	Use GitHub issue tracker instead of submission URL.

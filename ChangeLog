@@ -1,5 +1,15 @@
 2020-01-17  Theppitak Karoonboonyanan  <theppitak@gmail.com>
 
+	Add automated font binary tarballs building
+
+	* Makefile.am:
+	  - Add 'dist-fonts' target and friends for automatically
+	    building OTF and TTF tarballs.
+	  - Move Phony targets out of INCLUDE_LATEX condition,
+	    to avoid automake warnings about duplicated phonies.
+
+2020-01-17  Theppitak Karoonboonyanan  <theppitak@gmail.com>
+
 	Use Python 3 for Python scripts.
 
 	* configure.ac:

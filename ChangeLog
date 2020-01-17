@@ -1,3 +1,18 @@
+2020-01-17  Theppitak Karoonboonyanan  <theppitak@gmail.com>
+
+	Use Python 3 for Python scripts.
+
+	* configure.ac:
+	  - Bump minimum Python version in AM_PYTHON_PATH from 2.7 to 3.7.
+	  - Drop third arg for AX_PYTHON_MODULE and use the default.
+	* scripts/gen.mk:
+	  - Call Python interpreter explicitly using the PYTHON variable
+	    as detected by configure instead of relying on the hard-coded
+	    shebang in Python scripts.
+	* scripts/gen-otf.py, scripts/gen-pfa.py, scripts/gen-pfb.py:
+	  - Remove shebang.
+	  - chmod -x
+
 2020-01-09  Theppitak Karoonboonyanan  <theppitak@gmail.com>
 
 	Rename source package to 'fonts-arundina'

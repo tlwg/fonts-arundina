@@ -93,8 +93,8 @@ else
 fi
 
 if test "x$NEED_PYTHON" = "xyes"; then
-  AM_PATH_PYTHON([2.7])
-  AX_PYTHON_MODULE([fontforge],[fatal],[python])
+  AM_PATH_PYTHON([3.7])
+  AX_PYTHON_MODULE([fontforge],[fatal])
 fi
 
 

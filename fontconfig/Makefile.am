@@ -1,5 +1,5 @@
 CONFIG_FILES = \
-	65-sipa-arundina.conf \
+	65-arundina.conf \
 	$(NULL)
 
 EXTRA_DIST = $(CONFIG_FILES)

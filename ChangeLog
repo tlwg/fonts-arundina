@@ -1,5 +1,14 @@
 2020-01-20  Theppitak Karoonboonyanan  <theppitak@gmail.com>
 
+	Fix LaTeX build failure.
+
+	* configure.ac:
+	  - LaTeX build needs Python for Type1 stuffs generation.
+	    Move specific checks for LaTeX earlier and turn on
+	    NEED_PYTHON flag.
+
+2020-01-20  Theppitak Karoonboonyanan  <theppitak@gmail.com>
+
 	Rename fontconfig file.
 
 	* fontconfig/Makefile.am,

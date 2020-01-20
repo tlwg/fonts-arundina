@@ -66,6 +66,37 @@ AC_ARG_ENABLE(latex,
               [AC_HELP_STRING([--enable-latex],
                               [enable LaTeX fonts generation])],
               , enable_latex="no")
+if test "x$enable_latex" = "xyes"; then
+  # We need Python for PFB builds
+  NEED_PYTHON="yes"
+
+  AC_CHECK_PROGS(AFM2TFM,afm2tfm,no)
+  if test "x$AFM2TFM" = "xno" ; then
+    AC_MSG_ERROR([You need afm2tfm (from texlive distribution)])
+  fi
+  AC_CHECK_PROGS(VPTOVF,vptovf,no)
+  if test "x$VPTOVF" = "xno" ; then
+    AC_MSG_ERROR([You need vptovf (from texlive distribution)])
+  fi
+
+  AC_ARG_WITH(texmfdir,
+    [AC_HELP_STRING([--with-texmfdir=DIR],
+                    [texmf directory in DIR [PREFIX/share/texmf]])],
+    [texmfdir="$withval"], [texmfdir=${datarootdir}/texmf])
+  AC_MSG_CHECKING(--with-texmfdir)
+  AC_MSG_RESULT("$texmfdir")
+  AC_SUBST(texmfdir)
+
+  AC_PATH_PROGS(UPDMAP,[updmap-sys updmap],no)
+  if test "x$UPDMAP" = "xno" ; then
+    AC_MSG_ERROR([You need updmap-sys or updmap (from texlive distribution)])
+  fi
+
+  AC_PATH_PROG(TEXHASH,[mktexlsr texhash],no)
+  if test "x$TEXHASH" = "xno" ; then
+    AC_MSG_ERROR([You need mktexlsr or texhash (from texlive distribution)])
+  fi
+fi
 
 AM_CONDITIONAL(INCLUDE_TTF,test $enable_ttf = "yes")
 AM_CONDITIONAL(INCLUDE_OTF,test $enable_otf = "yes")
@@ -95,36 +126,6 @@ fi
 if test "x$NEED_PYTHON" = "xyes"; then
   AM_PATH_PYTHON([3.7])
   AX_PYTHON_MODULE([fontforge],[fatal])
-fi
-
-
-if test "x$enable_latex" = "xyes"; then
-  AC_CHECK_PROGS(AFM2TFM,afm2tfm,no)
-  if test "x$AFM2TFM" = "xno" ; then
-    AC_MSG_ERROR([You need afm2tfm (from texlive distribution)])
-  fi
-  AC_CHECK_PROGS(VPTOVF,vptovf,no)
-  if test "x$VPTOVF" = "xno" ; then
-    AC_MSG_ERROR([You need vptovf (from texlive distribution)])
-  fi
-
-  AC_ARG_WITH(texmfdir,
-    [AC_HELP_STRING([--with-texmfdir=DIR],
-                    [texmf directory in DIR [PREFIX/share/texmf]])],
-    [texmfdir="$withval"], [texmfdir=${datarootdir}/texmf])
-  AC_MSG_CHECKING(--with-texmfdir)
-  AC_MSG_RESULT("$texmfdir")                                                                                                           
-  AC_SUBST(texmfdir)
-
-  AC_PATH_PROGS(UPDMAP,[updmap-sys updmap],no)
-  if test "x$UPDMAP" = "xno" ; then
-    AC_MSG_ERROR([You need updmap-sys or updmap (from texlive distribution)])
-  fi
-
-  AC_PATH_PROG(TEXHASH,[mktexlsr texhash],no)
-  if test "x$TEXHASH" = "xno" ; then
-    AC_MSG_ERROR([You need mktexlsr or texhash (from texlive distribution)])
-  fi
 fi
 
 

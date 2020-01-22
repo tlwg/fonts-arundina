@@ -1,3 +1,16 @@
+0.3.0 (2020-01-22)
+=====
+- Source package is renamed to 'fonts-arundina', to be consistent with
+  LaTeX package.
+- Set TTF Preferred Family back to those of individual fonts, rather than
+  using the same "Arundina" in all families, to avoid confusion on
+  GTK font selector.
+- Add cubic layer and generate font splines directly from the corresponding
+  layers, rather than converting splines on the fly.
+  (Major change, new minor version.)
+- Preliminary fine tuning on Arundina Sans quadratic splines.
+- Add 'make dist-fonts' target for automatically generating binary tarballs.
+
 0.2.2 (2017-10-19)
 =====
 - LaTeX: new 'sans' option for using sans-serif by default.

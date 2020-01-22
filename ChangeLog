@@ -1,3 +1,8 @@
+2020-01-22  Theppitak Karoonboonyanan  <theppitak@gmail.com>
+
+	* NEWS:
+	  === Version 0.3.0 ===
+
 2020-01-20  Theppitak Karoonboonyanan  <theppitak@gmail.com>
 
 	Fix LaTeX build failure.

@@ -1,3 +1,21 @@
+2020-01-24  Theppitak Karoonboonyanan  <theppitak@gmail.com>
+
+	Fix CTAN zipball build failure.
+
+	We don't need to copy distdir to CTAN any more, as the source
+	and CTAN are now shipped under the same name.
+	And in fact, we can't. Clearing the old CTAN distdir before
+	copying would just destroy the original distdir!
+
+	* configure.ac:
+	  - Drop LATEX_PACKAGE variable.
+	* Makefile.am:
+	  - Replace $(LATEX_PACKAGE) with $(PACKAGE).
+	  - Drop 'ctandistdir' variable.
+	  - Drop all $(ctandistdir) clean-ups and copyings.
+	  - Replace the remaining $(ctandistdir) in tar/zip creations
+	    with $(distdir).
+
 2020-01-22  Theppitak Karoonboonyanan  <theppitak@gmail.com>
 
 	* NEWS:

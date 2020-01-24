@@ -9,9 +9,6 @@ AM_INIT_AUTOMAKE(dist-xz no-dist-gzip -Wno-portability)
 
 FONTFORGE_MIN_VER=20170731
 
-LATEX_PACKAGE="fonts-arundina"
-AC_SUBST(LATEX_PACKAGE)
-
 NEED_PYTHON="no"
 
 # Check options

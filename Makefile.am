@@ -8,14 +8,13 @@ dist-hook:
 	echo $(VERSION) > $(distdir)/VERSION
 
 if INCLUDE_LATEX
-tdsdist_tgz = $(LATEX_PACKAGE)-$(VERSION).tds.tar.gz
-ctandist_tgz = $(LATEX_PACKAGE)-$(VERSION).ctan.tar.gz
+tdsdist_tgz = $(PACKAGE)-$(VERSION).tds.tar.gz
+ctandist_tgz = $(PACKAGE)-$(VERSION).ctan.tar.gz
 
-tdsdist_zip = $(LATEX_PACKAGE)-$(VERSION).tds.zip
-ctandist_zip = $(LATEX_PACKAGE)-$(VERSION).ctan.zip
+tdsdist_zip = $(PACKAGE)-$(VERSION).tds.zip
+ctandist_zip = $(PACKAGE)-$(VERSION).ctan.zip
 
-tdsdistdir = $(LATEX_PACKAGE)-$(VERSION)-tds
-ctandistdir = $(LATEX_PACKAGE)-$(VERSION)
+tdsdistdir = $(PACKAGE)-$(VERSION)-tds
 
 inst-tds:
 	rm -rf $(tdsdistdir)
@@ -23,12 +22,12 @@ inst-tds:
 	confdir=`cd $(top_srcdir) && pwd` \
 	  && cd $(tdsdistdir) \
 	  && $$confdir/configure --disable-ttf --enable-latex --prefix=/usr \
-	       --with-texmfdir=/ --docdir=/doc/fonts/$(LATEX_PACKAGE) \
+	       --with-texmfdir=/ --docdir=/doc/fonts/$(PACKAGE) \
 	  && $(MAKE) $(AM_MAKEFLAGS) \
 	  && $(MAKE) $(AM_MAKEFLAGS) DESTDIR=`pwd`/inst install \
 	  && rm -rf inst/usr \
-	  && mkdir -p inst/source/fonts/$(LATEX_PACKAGE) \
-	  && make distdir distdir=inst/source/fonts/$(LATEX_PACKAGE)
+	  && mkdir -p inst/source/fonts/$(PACKAGE) \
+	  && $(MAKE) distdir distdir=inst/source/fonts/$(PACKAGE)
 
 dist-tds-tgz: inst-tds
 	rm -f $(tdsdist_tgz)
@@ -46,18 +45,12 @@ dist-tds: dist-tds-zip
 
 dist-ctan-tgz: dist-tds-tgz distdir
 	rm -f $(ctandist_tgz)
-	rm -rf $(ctandistdir)
-	cp -a $(distdir) $(ctandistdir)
-	tar cf - $(tdsdist_tgz) $(ctandistdir) | gzip -9 -c > $(ctandist_tgz)
-	rm -rf $(ctandistdir)
+	tar cf - $(tdsdist_tgz) $(distdir) | gzip -9 -c > $(ctandist_tgz)
 	$(am__remove_distdir)
 
 dist-ctan-zip: dist-tds-zip distdir
 	rm -f $(ctandist_zip)
-	rm -rf $(ctandistdir)
-	cp -a $(distdir) $(ctandistdir)
-	zip -r $(ctandist_zip) $(tdsdist_zip) $(ctandistdir)
-	rm -rf $(ctandistdir)
+	zip -r $(ctandist_zip) $(tdsdist_zip) $(distdir)
 	$(am__remove_distdir)
 
 dist-ctan: dist-ctan-zip

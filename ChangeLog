@@ -1,5 +1,13 @@
 2020-01-24  Theppitak Karoonboonyanan  <theppitak@gmail.com>
 
+	SansMono: Set FSType to installable embedding.
+
+	* arundina/ArundinaSansMono*.sfd:
+	  - Set FSType to "Installable".
+	  - Bump font version to 2.02.
+
+2020-01-24  Theppitak Karoonboonyanan  <theppitak@gmail.com>
+
 	Sans: Set FSType to installable embedding.
 
 	* arundina/ArundinaSans[-*].sfd:

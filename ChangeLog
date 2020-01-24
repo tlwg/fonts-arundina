@@ -1,5 +1,13 @@
 2020-01-24  Theppitak Karoonboonyanan  <theppitak@gmail.com>
 
+	Sans: Set FSType to installable embedding.
+
+	* arundina/ArundinaSans[-*].sfd:
+	  - Set FSType to "Installable".
+	  - Bump font version to 2.03.
+
+2020-01-24  Theppitak Karoonboonyanan  <theppitak@gmail.com>
+
 	Fix CTAN zipball build failure.
 
 	We don't need to copy distdir to CTAN any more, as the source

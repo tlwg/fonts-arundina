@@ -1,5 +1,14 @@
 2020-01-29  Theppitak Karoonboonyanan  <theppitak@gmail.com>
 
+	Fix broken TDS compliance.
+
+	* latex/Makefile.am, latex/texfont.mk.am:
+	  - Replace the remaining $(LATEX_PACKAGE) variables with $(PACKAGE).
+
+	Thanks Erik Braun from the CTAN team.
+
+2020-01-29  Theppitak Karoonboonyanan  <theppitak@gmail.com>
+
 	* NEWS:
 	  === Version 0.3.1 ===
 

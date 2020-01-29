@@ -16,10 +16,10 @@ EXTRA_DIST = \
 
 if INCLUDE_LATEX
 
-encdir = $(texmfdir)/fonts/enc/dvips/$(LATEX_PACKAGE)
+encdir = $(texmfdir)/fonts/enc/dvips/$(PACKAGE)
 enc_DATA = ltharun.enc
 
-latexdir = $(texmfdir)/tex/latex/$(LATEX_PACKAGE)
+latexdir = $(texmfdir)/tex/latex/$(PACKAGE)
 latex_DATA = fonts-arundina.sty $(FD_FILES)
 
 endif

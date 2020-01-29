@@ -1,5 +1,15 @@
 2020-01-29  Theppitak Karoonboonyanan  <theppitak@gmail.com>
 
+	Rename TDS zip/tarball.
+
+	* Makefile.am:
+	  - Drop "-$(VERSION)" from tdsdist_tgz and tdsdist_zip,
+	    for proper use in CTAN.
+
+	Thanks Erik Braun from the CTAN team.
+
+2020-01-29  Theppitak Karoonboonyanan  <theppitak@gmail.com>
+
 	Fix broken TDS compliance.
 
 	* latex/Makefile.am, latex/texfont.mk.am:

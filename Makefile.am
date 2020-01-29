@@ -8,10 +8,10 @@ dist-hook:
 	echo $(VERSION) > $(distdir)/VERSION
 
 if INCLUDE_LATEX
-tdsdist_tgz = $(PACKAGE)-$(VERSION).tds.tar.gz
+tdsdist_tgz = $(PACKAGE).tds.tar.gz
 ctandist_tgz = $(PACKAGE)-$(VERSION).ctan.tar.gz
 
-tdsdist_zip = $(PACKAGE)-$(VERSION).tds.zip
+tdsdist_zip = $(PACKAGE).tds.zip
 ctandist_zip = $(PACKAGE)-$(VERSION).ctan.zip
 
 tdsdistdir = $(PACKAGE)-$(VERSION)-tds

@@ -1,3 +1,8 @@
+0.3.1 (2020-01-29)
+=====
+- Fix CTAN zipball build failure.
+- Allow installable font embedding (issue caught by Debian's lintian).
+
 0.3.0 (2020-01-22)
 =====
 - Source package is renamed to 'fonts-arundina', to be consistent with

@@ -1,3 +1,17 @@
+2020-01-30  Theppitak Karoonboonyanan  <theppitak@gmail.com>
+
+	Update links in README.
+
+	* README:
+	  - Replace dead link of the original Arundina distribution site
+	    with that of f0nt.com.
+	  - Replace dead link of Microsoft documentation on Thai OpenType
+	    font development with the updated one.
+	  - Update DejaVu link to the latest one on GitHub.
+	  - Use HTTPS on other links where possible.
+
+	Thanks Erik Braun from the CTAN team for pointing out the dead links.
+
 2020-01-29  Theppitak Karoonboonyanan  <theppitak@gmail.com>
 
 	Rename TDS zip/tarball.

@@ -1,5 +1,17 @@
 2020-02-01  Theppitak Karoonboonyanan  <theppitak@gmail.com>
 
+	SansMono: Set OS/2 Metrics for proper line spacing.
+
+	* arundina/ArundinaSansMono*.sfd:
+	  - Set OS/2 TypoAscent, TypoDescent, TypoLinegap to the same
+	    absolute value, and ensure UseTypoMetrics flag is on.
+	  - Clear WinAscent, WinDescent, HheadAscent, HheadDescent
+	    to zero offset.
+	  - Clear LineGap to zero.
+	  - Bump font version to 2.03.
+
+2020-02-01  Theppitak Karoonboonyanan  <theppitak@gmail.com>
+
 	Sans: Set OS/2 Metrics for proper line spacing.
 
 	* arundina/ArundinaSans[-*].sfd:

@@ -1,5 +1,15 @@
 2020-02-01  Theppitak Karoonboonyanan  <theppitak@gmail.com>
 
+	SansMono: Fix broken GSUB for cases like 'ปู่'
+
+	* arundina/ArundinaSansMono-[Bold]Oblique.sfd:
+	  - Fix broken coverage 0 on
+	    "'liga' Standard Ligatures in Latin lookup 15 subtable".
+	* arundina/ArundinaSansMono*.sfd:
+	  - Bump font version to 2.04.
+
+2020-02-01  Theppitak Karoonboonyanan  <theppitak@gmail.com>
+
 	SansMono: Set OS/2 Metrics for proper line spacing.
 
 	* arundina/ArundinaSansMono*.sfd:

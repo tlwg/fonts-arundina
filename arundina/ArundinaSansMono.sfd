@@ -4,7 +4,7 @@ FullName: Arundina Sans Mono
 FamilyName: Arundina Sans Mono
 Weight: Book
 Copyright: Copyright (c) 2003 by Bitstream, Inc. All Rights Reserved.\nCopyright (c) 2007 by Software Industry Promotion Agency (Public Organization). All Rights Reserved.
-Version: 2.03
+Version: 2.04
 ItalicAngle: 0
 UnderlinePosition: -153
 UnderlineWidth: 102
@@ -21,7 +21,7 @@ OS2Version: 2
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1131303360
-ModificationTime: 1580548339
+ModificationTime: 1580555371
 PfmFamily: 49
 TTFWeight: 400
 TTFWidth: 5

@@ -4,7 +4,7 @@ FullName: Arundina Sans Mono Bold
 FamilyName: Arundina Sans Mono
 Weight: Bold
 Copyright: Copyright (c) 2003 by Bitstream, Inc. All Rights Reserved.\nCopyright (c) 2007 by Software Industry Promotion Agency (Public Organization). All Rights Reserved.
-Version: 2.03
+Version: 2.04
 ItalicAngle: 0
 UnderlinePosition: -436
 UnderlineWidth: 288
@@ -21,7 +21,7 @@ OS2Version: 2
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1050374940
-ModificationTime: 1580550452
+ModificationTime: 1580555391
 PfmFamily: 49
 TTFWeight: 700
 TTFWidth: 5

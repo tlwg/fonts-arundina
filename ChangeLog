@@ -1,5 +1,21 @@
 2020-02-02  Theppitak Karoonboonyanan  <theppitak@gmail.com>
 
+	Serif: Reduce TypoAscent.
+
+	Similar to the previous commit for SansMono, Serif was scaled up
+	by 156.17% from the original SIPA version, and the scaled-up
+	line spacing becomes 3198, which is less than the required range
+	3585 (max ascender = 2478 [Mai Tri, Thanthakhat];
+	max descender = -1107 [low Sara U]).
+
+	So, we set TypoAscent = 2478.
+
+	* arundina/ArundinaSerif*.sfd:
+	  - Reduce OS/2 TypoAscent from 2494 to 2478.
+	  - Bump font version to 3.03.
+
+2020-02-02  Theppitak Karoonboonyanan  <theppitak@gmail.com>
+
 	SansMono: Reduce TypoAscent.
 
 	Similar to the previous commit for Sans, SansMono was scaled up

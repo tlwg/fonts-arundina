@@ -1,5 +1,24 @@
 2020-02-02  Theppitak Karoonboonyanan  <theppitak@gmail.com>
 
+	SansMono: Reduce TypoAscent.
+
+	Similar to the previous commit for Sans, SansMono was scaled up
+	by 165.7% from the original SIPA version, and the scaled-up
+	line spacing becomes 3394.
+
+	However, such value cannot afford the vertical range of the glyphs
+	for normal cases: max ascenter = 2505 (Thanthakhat);
+	max descender = 1098 (low Sara U); which spans to 3603.
+
+	So, all we can do is set TypoAscent to 2505 to cover the highest
+	normal glyph.
+
+	* arundina/ArundinaSansMono*.sfd:
+	  - Reduce OS/2 TypoAscent from 3064 to 2505.
+	  - Bump font version to 2.05.
+
+2020-02-02  Theppitak Karoonboonyanan  <theppitak@gmail.com>
+
 	Sans: Reduce TypoAscent.
 
 	TypoAscent 3100 covered the highest mark high Yamakkan,

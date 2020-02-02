@@ -4,7 +4,7 @@ FullName: Arundina Sans Mono Bold Oblique
 FamilyName: Arundina Sans Mono
 Weight: Bold
 Copyright: Copyright (c) 2003 by Bitstream, Inc. All Rights Reserved.\nCopyright (c) 2007 by Software Industry Promotion Agency (Public Organization). All Rights Reserved.
-Version: 2.04
+Version: 2.05
 ItalicAngle: -12
 UnderlinePosition: -436
 UnderlineWidth: 288
@@ -21,14 +21,14 @@ OS2Version: 2
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1050374940
-ModificationTime: 1580555398
+ModificationTime: 1580636461
 PfmFamily: 49
 TTFWeight: 700
 TTFWidth: 5
 LineGap: 0
 VLineGap: 0
 Panose: 2 11 3 0 2 2 2 2 2 4
-OS2TypoAscent: 3064
+OS2TypoAscent: 2505
 OS2TypoAOffset: 0
 OS2TypoDescent: -1098
 OS2TypoDOffset: 0

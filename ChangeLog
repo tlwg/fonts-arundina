@@ -1,5 +1,36 @@
 2020-02-02  Theppitak Karoonboonyanan  <theppitak@gmail.com>
 
+	Sans: Reduce TypoAscent.
+
+	TypoAscent 3100 covered the highest mark high Yamakkan,
+	whose use is rare. And we don't want the extraordinarily
+	wide line spacing. Instead, we can just cover the highest
+	mark for normal cases, Mai Tri, whose maximum Y is 2430.
+
+	TypoDescent -1067 covered the lowest mark low Sara U,
+	which is already OK.
+
+	As the original SIPA version was designed to contain all
+	vertically stacked marks within the design box, we can
+	assume the scale-up factor we applied to it to also scale up
+	the line spacing according to the design box.
+
+	As we scaled Sans glyphs up by 173.6%, we can assume
+	the line spacing to be 2048 * 1.736 = 3555.
+
+	The vertical range of the glyphs we care spans to 2430 + 1067 = 3497,
+	which is still within the scaled-up line spacing.
+
+	So, we can use the remaining ascender to cover some special
+	higher marks as much as we can. That is, we can use
+	TypoAscent = (2048 * 1.736) + TypoDescent = 2488.
+
+	* arundina/ArundinaSans[-*].sfd:
+	  - Reduce OS/2 TypoAscent from 3100 to 2488.
+	  - Bump font version to 2.05.
+
+2020-02-02  Theppitak Karoonboonyanan  <theppitak@gmail.com>
+
 	Serif: Set OS/2 Metrics for proper line spacing.
 
 	* arundina/ArundinaSerif*.sfd:

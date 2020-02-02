@@ -1,10 +1,10 @@
-SplineFontDB: 3.0
+SplineFontDB: 3.2
 FontName: ArundinaSerif-Bold
 FullName: Arundina Serif Bold
 FamilyName: Arundina Serif
 Weight: Bold
 Copyright: Copyright (c) 2003 by Bitstream, Inc. All Rights Reserved.\nCopyright (c) 2007 by Software Industry Promotion Agency (Public Organization). All Rights Reserved.
-Version: 3.01
+Version: 3.02
 ItalicAngle: 0
 UnderlinePosition: -153
 UnderlineWidth: 102
@@ -21,17 +21,17 @@ OS2Version: 2
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1131289380
-ModificationTime: 1547029231
+ModificationTime: 1580618390
 PfmFamily: 17
 TTFWeight: 700
 TTFWidth: 5
-LineGap: 12
+LineGap: 0
 VLineGap: 0
 Panose: 2 11 3 0 2 2 2 2 2 4
-OS2TypoAscent: 0
-OS2TypoAOffset: 1
-OS2TypoDescent: 0
-OS2TypoDOffset: 1
+OS2TypoAscent: 2494
+OS2TypoAOffset: 0
+OS2TypoDescent: -1107
+OS2TypoDOffset: 0
 OS2TypoLinegap: 0
 OS2WinAscent: 0
 OS2WinAOffset: 1

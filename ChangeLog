@@ -1,3 +1,13 @@
+2020-02-02  Theppitak Karoonboonyanan  <theppitak@gmail.com>
+
+	Serif: Set OS/2 Metrics for proper line spacing.
+
+	* arundina/ArundinaSerif*.sfd:
+	  - Set OS/2 TypoAscent, TypoDescent, TypoLinegap to the same
+	    absolute value, and ensure UseTypoMetrics flag is on.
+	  - Clear LineGap to zero.
+	  - Bump font version to 3.02.
+
 2020-02-01  Theppitak Karoonboonyanan  <theppitak@gmail.com>
 
 	SansMono: Fix broken GSUB for cases like 'ปู่'

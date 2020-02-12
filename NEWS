@@ -1,3 +1,9 @@
+0.3.2 (2020-02-12)
+=====
+- Set OS/2 metrics for proper line spacing.
+- Fix broken TDS compliance in CTAN zipball.
+- Update links in README.
+
 0.3.1 (2020-01-29)
 =====
 - Fix CTAN zipball build failure.

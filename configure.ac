@@ -1,9 +1,9 @@
 #                                               -*- Autoconf -*-
 # Process this file with autoconf to produce a configure script.
 
-AC_PREREQ(2.61)
-AC_INIT(fonts-arundina,
-        m4_esyscmd([build-aux/git-version-gen]),
+AC_PREREQ([2.72])
+AC_INIT([fonts-arundina],
+        [m4_esyscmd(build-aux/git-version-gen)],
         [https://github.com/tlwg/fonts-arundina/issues])
 AM_INIT_AUTOMAKE(dist-xz no-dist-gzip -Wno-portability)
 
@@ -13,12 +13,12 @@ NEED_PYTHON="no"
 
 # Check options
 AC_ARG_ENABLE(ttf,
-              [AC_HELP_STRING([--disable-ttf],
+              [AS_HELP_STRING([--disable-ttf],
                               [disable TTF generation])],
               , enable_ttf="yes")
 if test "x$enable_ttf" = "xyes"; then
   AC_ARG_WITH(ttfdir,
-    [AC_HELP_STRING([--with-ttfdir=DIR],
+    [AS_HELP_STRING([--with-ttfdir=DIR],
                     [font directory in DIR [PREFIX/share/fonts/truetype/ttf-thai-arundina]])],
     [ttfdir="$withval"], [ttfdir=\$\{prefix\}/share/fonts/truetype/ttf-thai-arundina])
   AC_MSG_CHECKING(--with-ttfdir)
@@ -28,13 +28,13 @@ if test "x$enable_ttf" = "xyes"; then
 fi
 
 AC_ARG_ENABLE(otf,
-              [AC_HELP_STRING([--enable-otf],
+              [AS_HELP_STRING([--enable-otf],
                               [enable OTF generation])],
               , enable_otf="no")
 if test "x$enable_otf" = "xyes"; then
   NEED_PYTHON="yes"
   AC_ARG_WITH(otfdir,
-    [AC_HELP_STRING([--with-otfdir=DIR],
+    [AS_HELP_STRING([--with-otfdir=DIR],
                     [font directory in DIR [PREFIX/share/fonts/opentype/arundina]])],
     [otfdir="$withval"], [otfdir=\$\{prefix\}/share/fonts/opentype/arundina])
   AC_MSG_CHECKING(--with-otfdir)
@@ -44,13 +44,13 @@ if test "x$enable_otf" = "xyes"; then
 fi
 
 AC_ARG_ENABLE(pfb,
-              [AC_HELP_STRING([--enable-pfb],
+              [AS_HELP_STRING([--enable-pfb],
                               [enable Type1 PFB generation])],
               , enable_pfb="no")
 if test "x$enable_pfb" = "xyes"; then
   NEED_PYTHON="yes"
   AC_ARG_WITH(type1dir,
-    [AC_HELP_STRING([--with-type1dir=DIR],
+    [AS_HELP_STRING([--with-type1dir=DIR],
                     [font directory in DIR [PREFIX/share/fonts/type1/t1-thai-arundina]])],
     [type1dir="$withval"], [type1dir=\$\{prefix\}/share/fonts/type1/t1-thai-arundina])
   AC_MSG_CHECKING(--with-type1dir)
@@ -60,7 +60,7 @@ if test "x$enable_pfb" = "xyes"; then
 fi
 
 AC_ARG_ENABLE(latex,
-              [AC_HELP_STRING([--enable-latex],
+              [AS_HELP_STRING([--enable-latex],
                               [enable LaTeX fonts generation])],
               , enable_latex="no")
 if test "x$enable_latex" = "xyes"; then
@@ -77,7 +77,7 @@ if test "x$enable_latex" = "xyes"; then
   fi
 
   AC_ARG_WITH(texmfdir,
-    [AC_HELP_STRING([--with-texmfdir=DIR],
+    [AS_HELP_STRING([--with-texmfdir=DIR],
                     [texmf directory in DIR [PREFIX/share/texmf]])],
     [texmfdir="$withval"], [texmfdir=${datarootdir}/texmf])
   AC_MSG_CHECKING(--with-texmfdir)

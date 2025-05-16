@@ -55,7 +55,7 @@ r%_so.tfm: %.afm
 	$(AWK) "BEGIN {show=0} /CHARACTER/ {show=1} {if(show) print}" $*_so.vpl >> $$TMPFILE && \
 	mv $$TMPFILE $*_so.vpl
 
-%.tfm: %.vpl
+%.vf %.tfm: %.vpl
 	$(VPTOVF) $*
 
 $(MAP): $(ltxtfm_DATA)

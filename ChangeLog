@@ -1,5 +1,15 @@
 2025-05-16  Theppitak Karoonboonyanan  <theppitak@gmail.com>
 
+	Fix "make --shuffle=reverse" failure.
+
+	See Debian #1105308 for the report.
+
+	* latex/texfont.mk.am:
+	  - Add %.vf target to vptovf invoking rule, to satisfy the condition
+	    in which %.vf target is built before %.tfm.
+
+2025-05-16  Theppitak Karoonboonyanan  <theppitak@gmail.com>
+
 	Apply autoupdate to configure.ac
 
 	* configure.ac:

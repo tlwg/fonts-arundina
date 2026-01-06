@@ -8,3 +8,14 @@ SUFFIXES: .sfd .ttf .otf .afm .pfb
 
 %.afm %.pfb: %.sfd
 	$(PYTHON) $(top_srcdir)/scripts/gen-pfb.py $<
+	TMPFILE=$$(mktemp /tmp/tltx.XXXXXXXXX) && \
+	  $(SED) \
+	    -e '/^Comment Creation Date:/d' \
+            $*.afm > $${TMPFILE} && \
+	  mv -f $${TMPFILE} $*.afm
+	TMPFILE=$$(mktemp /tmp/tltx.XXXXXXXXX) && \
+	  $(SED) \
+            -e '/^%%CreationDate:/d' \
+            -e '/^%%Creator:/d' \
+            $*.pfb > $${TMPFILE} && \
+	  mv -f $${TMPFILE} $*.pfb

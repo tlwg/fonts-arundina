@@ -1,5 +1,13 @@
 2026-01-06  Theppitak Karoonboonyanan  <theppitak@gmail.com>
 
+	Fix typo in TeX synthetic oblique font generation rule.
+
+	* latex/texfont.mk.am:
+	  - In *_so.* generation rule, use 'tharun.enc'
+	    instead of 'lthuni.enc'.
+
+2026-01-06  Theppitak Karoonboonyanan  <theppitak@gmail.com>
+
 	Properly strip info in PFB via PFA.
 
 	Directy editing PFB with sed just corrupted binary data!

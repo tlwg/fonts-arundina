@@ -47,7 +47,7 @@ r%.tfm: %.afm
 
 r%_so.tfm: %.afm
 %_so.vpl: %.afm thailigs.vpl
-	$(AFM2TFM) $*.afm -v $*_so.vpl -T lthuni.enc -s .167 r$*_so.tfm \
+	$(AFM2TFM) $*.afm -v $*_so.vpl -T ltharun.enc -s .167 r$*_so.tfm \
 	| $(SED) "s/$$/ <$*.pfb/" >> $(MAP)
 	TMPFILE=`mktemp /tmp/tltx.XXXXXXXXX` && \
 	$(AWK) "BEGIN {show=1} /LIGTABLE/ {show=0} {if(show) print}" $*_so.vpl > $$TMPFILE && \

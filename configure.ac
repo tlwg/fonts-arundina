@@ -57,6 +57,11 @@ if test "x$enable_pfb" = "xyes"; then
   AC_MSG_RESULT("$type1dir")
 
   AC_SUBST(type1dir)
+
+  AC_CHECK_PROGS(T1BINARY,t1binary,no)
+  if test "x$T1BINARY" = "xno" ; then
+    AC_MSG_ERROR([You need t1binary (from t1utils package)])
+  fi
 fi
 
 AC_ARG_ENABLE(latex,

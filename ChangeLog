@@ -1,5 +1,18 @@
 2026-01-06  Theppitak Karoonboonyanan  <theppitak@gmail.com>
 
+	Properly strip info in PFB via PFA.
+
+	Directy editing PFB with sed just corrupted binary data!
+
+	* configure.ac:
+	  - Add check for 't1binary' program from 't1utils' package.
+	* scripts/gen.mk:
+	  - Instead of applying sed directly to pfb file,
+	    generate pfa, edit the pfa, and then convert it to pfb
+	    using 't1binary'.
+
+2026-01-06  Theppitak Karoonboonyanan  <theppitak@gmail.com>
+
 	Strip creation info from generated PS fonts.
 
 	Although FontForge has supported SOURCE_DATE_EPOCH in font

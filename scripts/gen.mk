@@ -7,7 +7,7 @@ SUFFIXES: .sfd .ttf .otf .afm .pfb
 	$(PYTHON) $(top_srcdir)/scripts/gen-otf.py $<
 
 %.afm %.pfb: %.sfd
-	$(PYTHON) $(top_srcdir)/scripts/gen-pfb.py $<
+	$(PYTHON) $(top_srcdir)/scripts/gen-pfa.py $<
 	TMPFILE=$$(mktemp /tmp/tltx.XXXXXXXXX) && \
 	  $(SED) \
 	    -e '/^Comment Creation Date:/d' \
@@ -15,7 +15,8 @@ SUFFIXES: .sfd .ttf .otf .afm .pfb
 	  mv -f $${TMPFILE} $*.afm
 	TMPFILE=$$(mktemp /tmp/tltx.XXXXXXXXX) && \
 	  $(SED) \
-            -e '/^%%CreationDate:/d' \
-            -e '/^%%Creator:/d' \
-            $*.pfb > $${TMPFILE} && \
-	  mv -f $${TMPFILE} $*.pfb
+	    -e '/^%%CreationDate:/d' \
+	    -e '/^%%Creator:/d' \
+            $*.pfa > $${TMPFILE} && \
+	  $(T1BINARY) $${TMPFILE} > $*.pfb && \
+	  rm -f $*.pfa $${TMPFILE}

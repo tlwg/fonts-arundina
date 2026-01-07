@@ -7,7 +7,7 @@ SUFFIXES: .sfd .ttf .otf .afm .pfb
 	$(PYTHON) $(top_srcdir)/scripts/gen-otf.py $<
 
 %.afm %.pfb: %.sfd
-	$(PYTHON) $(top_srcdir)/scripts/gen-pfa.py $<
+	LC_ALL=C $(PYTHON) $(top_srcdir)/scripts/gen-pfa.py $<
 	TMPFILE=$$(mktemp /tmp/tltx.XXXXXXXXX) && \
 	  $(SED) \
 	    -e '/^Comment Creation Date:/d' \

@@ -1,3 +1,14 @@
+2026-01-09  Theppitak Karoonboonyanan  <theppitak@gmail.com>
+
+	Update example LaTeX documents for ucs 2.3+.
+
+	* latex/examples/testdoc.tex:
+	* latex/examples/testsans.tex:
+	* latex/examples/testscaled-120.tex:
+	* latex/examples/testscaled-65.tex:
+	  - Load "ucs" package explicitly to make "utf8x" effective,
+	    according to the change introduced in ucs 2.3.
+
 2026-01-07  Theppitak Karoonboonyanan  <theppitak@gmail.com>
 
 	Use C locale when generating PFA.

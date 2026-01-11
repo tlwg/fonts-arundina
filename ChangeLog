@@ -1,3 +1,11 @@
+2026-01-11  Theppitak Karoonboonyanan  <theppitak@gmail.com>
+
+	Sans: Remove duplicate GSUB conversions.
+
+	* arundina/Arundina-Sans*.sfd:
+	  - Remove duplicated substitutions in lookup 20, 21, 22.
+	  - Bump font version to 2.06.
+
 2026-01-09  Theppitak Karoonboonyanan  <theppitak@gmail.com>
 
 	Update example LaTeX documents for ucs 2.3+.

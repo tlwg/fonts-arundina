@@ -1,5 +1,13 @@
 2026-01-12  Theppitak Karoonboonyanan  <theppitak@gmail.com>
 
+	Serif: Remove duplicate GSUB conversions.
+
+	* arundina/Arundina-Serif*.sfd:
+	  - Remove duplicated substitutions in lookup 20, 21, 22.
+	  - Bump font version to 3.04.
+
+2026-01-12  Theppitak Karoonboonyanan  <theppitak@gmail.com>
+
 	SansMono: Remove duplicate GSUB conversions.
 
 	* arundina/Arundina-SansMono*.sfd:

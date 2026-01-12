@@ -1,3 +1,11 @@
+2026-01-12  Theppitak Karoonboonyanan  <theppitak@gmail.com>
+
+	SansMono: Remove duplicate GSUB conversions.
+
+	* arundina/Arundina-SansMono*.sfd:
+	  - Remove duplicated substitutions in lookup 20, 21, 22.
+	  - Bump font version to 2.06.
+
 2026-01-11  Theppitak Karoonboonyanan  <theppitak@gmail.com>
 
 	Sans: Remove duplicate GSUB conversions.

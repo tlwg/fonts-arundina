@@ -1,5 +1,16 @@
 2026-01-12  Theppitak Karoonboonyanan  <theppitak@gmail.com>
 
+	All: Open & save SFD files to get spline format changes.
+
+	Fontforge has somehow changed quadratic spline format for some
+	kind of points. These changes were reverted in recent commits
+	to reduce noise. So, just save them again to get the changes.
+
+	* arundina/*.sfd:
+	  - Open & save files in Fontforge.
+
+2026-01-12  Theppitak Karoonboonyanan  <theppitak@gmail.com>
+
 	Serif: Remove duplicate GSUB conversions.
 
 	* arundina/Arundina-Serif*.sfd:

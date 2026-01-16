@@ -1,3 +1,27 @@
+2026-01-14  Theppitak Karoonboonyanan  <theppitak@gmail.com>
+
+	Serif: Use references in shifted glyphs, general GSUB cleanups.
+
+	What triggered this change was the inconsistent shapes of
+	NIKHAHIT and its left-shifted version.
+
+	* arundina/Arundina-Serif*.sfd:
+	  - Replace left-shifted glyphs of upper vowels and NIKHAHIT,
+	    tone marks and THANTHAKHAT (high and low variants), YAMAKKAN
+	    with translated references.
+	  - Replace all variants of SARA AM with references.
+	  - All referenced glyphs mentioned above are re-balanced
+	    for minimal quadratic spline points, and for consistency
+	    between cubic and quadratic layers.
+	  - Correct 'liga' lookup 3, 5, 6, 13, where uni0E4.low (low
+	    THANTHAKHAT) was somehow missing in the rule's coverage.
+	    In the SFD, the non-existent 'BC' glyph seemed to
+	    cause the last member before it to be excluded.
+	  - Correct (ineffective) 'liga' lookup 10, 11, were
+	    uni0E4B.low_left was trimmed off to uni0E4B,low_l,
+	    and uni0E4C.low_left was totally missing.
+	  - Bump font version to 3.05.
+
 2026-01-12  Theppitak Karoonboonyanan  <theppitak@gmail.com>
 
 	All: Open & save SFD files to get spline format changes.

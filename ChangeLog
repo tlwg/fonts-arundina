@@ -1,3 +1,13 @@
+2026-01-27  Theppitak Karoonboonyanan  <theppitak@gmail.com>
+
+	Sans: Use references in shifted glyphs, general GSUB cleanups.
+
+	* arundina/Arundina-Sans*.sfd:
+	  - Apply similar changes done to Serif.
+	  - Regular: add some extra glyphs to fullfill the list:
+	    high and high-left variants of MAITAIKHU, NIKHAHIT, and YAMAKKAN.
+	  - Bump font version to 2.07.
+
 2026-01-14  Theppitak Karoonboonyanan  <theppitak@gmail.com>
 
 	Serif: Use references in shifted glyphs, general GSUB cleanups.

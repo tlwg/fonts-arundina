@@ -1,3 +1,48 @@
+2026-02-05  Theppitak Karoonboonyanan  <theppitak@gmail.com>
+
+	Sans: Extend GSUB for high diacritics positioning.
+
+	Let's extend existing GSUB's to support positioning of
+	MAITAIKHU, NIKHAHIT, and YAMAKKAN above upper vowels.
+
+	For lookups 8, 10, 11, this also fixes incomplete or
+	nonfunctional rules.
+
+	* arundina/ArundinaSans-Bold.sfd:
+	* arundina/ArundinaSans-BoldOblique.sfd:
+	  - Embolden YAMAKKAN glyph.
+	* arundina/ArundinaSans-Oblique.sfd:
+	* arundina/ArundinaSans-Bold.sfd:
+	* arundina/ArundinaSans-BoldOblique.sfd:
+	  - Add D.high and D.high_left glyphs.
+	* arundina/ArundinaSans*.sfd: (Let D mean each diacritic)
+	  - 'liga' lookup 22: Add substitutions:
+	    - D.left -> D.high_left
+	  - 'liga' lookup 21: Add substitutions:
+	    - D -> D.high
+	  - 'liga' lookup 20: Add substitutions:
+	    - D -> D.high_left
+	  - 'liga' lookup 5, 6:
+	    - Add D to TONE.low context coverage.
+	    These convert low/low_left TONE/D to high/high_left form
+	    when put upon an upper vowel.
+	  - 'liga' lookup 8:
+	    - Remove nonexistent 'FC' glyph from TONE.low context coverage.
+	    - Add D to TONE.low context coverage.
+	    This converts low TONE/D to high form when followed by SARA AM.
+	  - 'liga' lookup 10:
+	    - Apply lookup 22 to SARA AM to get alt1 form.
+	    - Add D.left to TONE.low_left context coverage.
+	    This converts SARA AM to alt1 form on right-upshooting consonant
+	    when TONE/D exists.
+	  - 'liga' lookup 11:
+	    - Add uni0E33.alt1 (alt1 SARA AM) to second context coverage.
+	    - Apply lookup 22 to TONE.low_left to get high_left form.
+	    - Add D.left to TONE.low_left context coverage.
+	    This converts low_left TONE/D to high_left form after getting
+	    alt1 SARA AM from lookup 10.
+	  - Bump font version to 2.08.
+
 2026-02-04  Theppitak Karoonboonyanan  <theppitak@gmail.com>
 
 	SansMono: Use references in shifted glyphs, general GSUB cleanups.

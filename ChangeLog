@@ -1,5 +1,13 @@
 2026-02-12  Theppitak Karoonboonyanan  <theppitak@gmail.com>
 
+	SansMono: Extend GSUB for high diacritics positioning.
+
+	* arundina/ArundinaSansMono*.sfd:
+	  - Apply similar changes done to Sans.
+	  - Bump font version to 2.08.
+
+2026-02-12  Theppitak Karoonboonyanan  <theppitak@gmail.com>
+
 	Serif: Extend GSUB for high diacritics positioning.
 
 	* arundina/ArundinaSerif*.sfd:

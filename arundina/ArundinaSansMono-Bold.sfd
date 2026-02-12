@@ -4,7 +4,7 @@ FullName: Arundina Sans Mono Bold
 FamilyName: Arundina Sans Mono
 Weight: Bold
 Copyright: Copyright (c) 2003 by Bitstream, Inc. All Rights Reserved.\nCopyright (c) 2007 by Software Industry Promotion Agency (Public Organization). All Rights Reserved.
-Version: 2.07
+Version: 2.08
 ItalicAngle: 0
 UnderlinePosition: -436
 UnderlineWidth: 288
@@ -21,7 +21,7 @@ OS2Version: 2
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1050374940
-ModificationTime: 1770047071
+ModificationTime: 1770893552
 PfmFamily: 49
 TTFWeight: 700
 TTFWidth: 5
@@ -129,15 +129,17 @@ ChainSub2: coverage "'liga' Standard Ligatures in Latin lookup 12 subtable" 0 0 
 EndFPST
 ChainSub2: coverage "'liga' Standard Ligatures in Latin lookup 11 subtable" 0 0 0 1
  1 0 1
-  Coverage: 84 uni0E48.low_left uni0E49.low_left uni0E4A.low_left uni0E4B.low_left uni0E4C.low_left
-  FCoverage: 0 
- 0
+  Coverage: 123 uni0E48.low_left uni0E49.low_left uni0E4A.low_left uni0E4B.low_left uni0E4C.low_left uni0E4D.left uni0E47.left uni0E4E.left
+  FCoverage: 12 uni0E33.alt1
+ 1
+  SeqLookup: 0 "Single Substitution lookup 22"
 EndFPST
 ChainSub2: coverage "'liga' Standard Ligatures in Latin lookup 10 subtable" 0 0 0 1
  1 1 0
   Coverage: 7 uni0E33
-  BCoverage: 84 uni0E48.low_left uni0E49.low_left uni0E4A.low_left uni0E4B.low_left uni0E4C.low_left
- 0
+  BCoverage: 123 uni0E48.low_left uni0E49.low_left uni0E4A.low_left uni0E4B.low_left uni0E4C.low_left uni0E4D.left uni0E47.left uni0E4E.left
+ 1
+  SeqLookup: 0 "Single Substitution lookup 22"
 EndFPST
 ChainSub2: coverage "'liga' Standard Ligatures in Latin lookup 9 subtable" 0 0 0 1
  1 1 0
@@ -148,8 +150,7 @@ ChainSub2: coverage "'liga' Standard Ligatures in Latin lookup 9 subtable" 0 0 0
 EndFPST
 ChainSub2: coverage "'liga' Standard Ligatures in Latin lookup 8 subtable" 0 0 0 1
  1 0 1
-  Coverage: 64 uni0E48.low uni0E49.low uni0E4A.low uni0E4B.low uni0E4C.low
-  FC
+  Coverage: 83 uni0E47 uni0E4D uni0E4E uni0E48.low uni0E49.low uni0E4A.low uni0E4B.low uni0E4C.low
   FCoverage: 7 uni0E33
  1
   SeqLookup: 0 "Single Substitution lookup 21"
@@ -163,14 +164,14 @@ ChainSub2: coverage "'liga' Standard Ligatures in Latin lookup 7 subtable" 0 0 0
 EndFPST
 ChainSub2: coverage "'liga' Standard Ligatures in Latin lookup 6 subtable" 0 0 0 1
  1 1 0
-  Coverage: 59 uni0E48.low uni0E49.low uni0E4A.low uni0E4B.low uni0E4C.low
+  Coverage: 83 uni0E47 uni0E4D uni0E4E uni0E48.low uni0E49.low uni0E4A.low uni0E4B.low uni0E4C.low
   BCoverage: 77 uni0E34.left uni0E35.left uni0E36.left uni0E37.left uni0E31.left uni0E4D.left
  1
   SeqLookup: 0 "Single Substitution lookup 20"
 EndFPST
 ChainSub2: coverage "'liga' Standard Ligatures in Latin lookup 5 subtable" 0 0 0 1
  1 1 0
-  Coverage: 59 uni0E48.low uni0E49.low uni0E4A.low uni0E4B.low uni0E4C.low
+  Coverage: 83 uni0E47 uni0E4D uni0E4E uni0E48.low uni0E49.low uni0E4A.low uni0E4B.low uni0E4C.low
   BCoverage: 47 uni0E31 uni0E34 uni0E35 uni0E36 uni0E37 uni0E4D
  1
   SeqLookup: 0 "Single Substitution lookup 21"
@@ -47475,6 +47476,8 @@ SplineSet
  -546 1873 -526 1872 -489 1870 c 0
  -452 1868 -432 1867 -398 1867 c 3xb8
 EndSplineSet
+Substitution2: "Single Substitution lookup 20 subtable" uni0E47.high_left
+Substitution2: "Single Substitution lookup 21 subtable" uni0E47.high
 Substitution2: "Single Substitution lookup 22 subtable" uni0E47.left
 EndChar
 
@@ -48141,6 +48144,8 @@ SplineSet
  -277 1681 -303 1647 -303 1609 c 3
  -303 1574 -284 1556 -245 1556 c 3
 EndSplineSet
+Substitution2: "Single Substitution lookup 20 subtable" uni0E4D.high_left
+Substitution2: "Single Substitution lookup 21 subtable" uni0E4D.high
 Substitution2: "Single Substitution lookup 22 subtable" uni0E4D.left
 EndChar
 
@@ -48292,6 +48297,8 @@ SplineSet
  -237 1752 -324 1707 -324 1627 c 3
  -324 1591 -298 1571 -252 1571 c 259xf0
 EndSplineSet
+Substitution2: "Single Substitution lookup 20 subtable" uni0E4E.high_left
+Substitution2: "Single Substitution lookup 21 subtable" uni0E4E.high
 Substitution2: "Single Substitution lookup 22 subtable" uni0E4E.left
 EndChar
 
@@ -53474,6 +53481,7 @@ Fore
 Refer: 340 3661 N 1 0 0 1 -320 0 2
 Layer: 2
 Refer: 340 3661 N 1 0 0 1 -320 0 2
+Substitution2: "Single Substitution lookup 22 subtable" uni0E4D.high_left
 EndChar
 
 StartChar: uni0E47.left
@@ -53488,6 +53496,7 @@ Fore
 Refer: 334 3655 N 1 0 0 1 -281 0 2
 Layer: 2
 Refer: 334 3655 N 1 0 0 1 -281 0 2
+Substitution2: "Single Substitution lookup 22 subtable" uni0E47.high_left
 EndChar
 
 StartChar: uni0E48.left
@@ -55967,6 +55976,7 @@ Fore
 Refer: 341 3662 N 1 0 0 1 -410 0 2
 Layer: 2
 Refer: 341 3662 N 1 0 0 1 -410 0 2
+Substitution2: "Single Substitution lookup 22 subtable" uni0E4E.high_left
 EndChar
 
 StartChar: DEL
@@ -56150,7 +56160,7 @@ Encoding: 401 -1 396
 Width: 0
 VWidth: 3111
 Flags: W
-HStem: 1954 305<-463.546 -307.361> 2042 164<-719.32 -541.289> 2285 140<-749.38 -398.635>
+HStem: 1954 305<-463.546 -307.361> 2042 164<-719.325 -542.105> 2285 140<-749.38 -398.635>
 VStem: -940 166<2128.33 2261.98> -480 243<2108.12 2235.17> -376 174<2449.06 2607>
 LayerCount: 3
 Fore
@@ -56164,7 +56174,7 @@ Encoding: 402 -1 397
 Width: 0
 VWidth: 3111
 Flags: W
-HStem: 1954 305<-253.546 -97.3608> 2042 164<-509.32 -331.289> 2285 140<-539.38 -188.635>
+HStem: 1954 305<-253.546 -97.3608> 2042 164<-509.325 -332.105> 2285 140<-539.38 -188.635>
 VStem: -730 166<2128.33 2261.98> -270 243<2108.12 2235.17> -166 174<2449.06 2607>
 TtInstrs:
 SVTCA[y-axis]
@@ -56172,13 +56182,13 @@ PUSHB_1
  7
 MDAP[rnd]
 PUSHB_1
- 33
+ 32
 MDRP[min,rnd,black]
 PUSHB_1
- 33
+ 32
 SRP0
 PUSHB_1
- 40
+ 39
 DUP
 MDRP[rp0,rnd,white]
 SRP1
@@ -56207,7 +56217,7 @@ PUSHB_4
 CALL
 SVTCA[x-axis]
 PUSHB_1
- 43
+ 42
 MDAP[rnd]
 PUSHB_1
  13
@@ -56234,10 +56244,10 @@ DUP
 MDRP[rp0,rnd,white]
 SRP1
 PUSHB_1
- 37
+ 36
 MDRP[min,rnd,black]
 PUSHB_1
- 37
+ 36
 MDAP[rnd]
 PUSHB_1
  0
@@ -56251,7 +56261,7 @@ PUSHB_1
  10
 IP
 PUSHB_1
- 37
+ 36
 SRP1
 PUSHB_6
  5
@@ -56259,7 +56269,7 @@ PUSHB_6
  17
  7
  25
- 33
+ 32
 DEPTH
 SLOOP
 IP
@@ -56269,7 +56279,7 @@ SRP2
 PUSHB_3
  3
  24
- 35
+ 34
 IP
 IP
 IP
@@ -56277,7 +56287,7 @@ PUSHB_1
  0
 SRP1
 PUSHB_1
- 40
+ 39
 IP
 PUSHB_1
  21
@@ -56287,7 +56297,7 @@ PUSHB_1
 IP
 SVTCA[y-axis]
 PUSHB_2
- 33
+ 32
  7
 SRP1
 SRP2
@@ -56295,8 +56305,8 @@ PUSHB_5
  0
  13
  30
- 35
- 37
+ 34
+ 36
 DEPTH
 SLOOP
 IP
@@ -56327,13 +56337,12 @@ SplineSet
  -492 2285 -492 2285 -526.5 2258.5 c 128,-1,27
  -561 2232 -561 2232 -564 2185 c 0,28,29
  -564 2141 -564 2141 -549 2126 c 1,30,31
- -516 2170 -516 2170 -491 2188 c 128,-1,32
- -466 2206 -466 2206 -437 2206 c 0,33,34
- -375 2206 -375 2206 -256 2107 c 1,35,36
- -270 2138 -270 2138 -270 2167 c 0,37,38
- -270 2205 -270 2205 -237 2232 c 128,-1,39
- -204 2259 -204 2259 -157 2259 c 0,40,41
- -95 2259 -95 2259 -61 2226.5 c 128,-1,42
+ -489 2206 -489 2206 -437 2206 c 0,32,33
+ -376 2206 -376 2206 -256 2107 c 1,34,35
+ -270 2136 -270 2136 -270 2167 c 0,36,37
+ -270 2205 -270 2205 -237 2232 c 128,-1,38
+ -204 2259 -204 2259 -157 2259 c 0,39,40
+ -95 2259 -95 2259 -61 2226.5 c 128,-1,41
  -27 2194 -27 2194 -27 2135 c 0,0,1
 EndSplineSet
 Layer: 2
@@ -56341,7 +56350,7 @@ SplineSet
 -27 2135 m 3xb8
  -27 2038 -115 1954 -217 1954 c 3xb8
  -239 1954 -278 1969 -332 1998 c 0
- -385 2027 -422 2042 -437 2042 c 259x78
+ -383 2026 -421 2042 -437 2042 c 259x78
  -457 2042 -478 2029 -509 1998 c 0
  -538 1969 -568 1954 -599 1954 c 259xb8
  -650 1954 -730 2088 -730 2173 c 3
@@ -56353,9 +56362,9 @@ SplineSet
  -434 2285 l 2
  -512 2285 -560 2248 -564 2185 c 0
  -564 2162 -557 2134 -549 2126 c 1
- -505 2185 -476 2206 -437 2206 c 3x74
- -396 2206 -334 2172 -256 2107 c 1
- -267 2131 -270 2145 -270 2167 c 3
+ -506 2183 -474 2206 -437 2206 c 3x74
+ -399 2206 -329 2167 -256 2107 c 1
+ -267 2130 -270 2144 -270 2167 c 3
  -270 2218 -219 2259 -157 2259 c 3
  -74 2259 -27 2214 -27 2135 c 3xb8
 EndSplineSet

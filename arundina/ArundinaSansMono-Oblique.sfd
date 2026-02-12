@@ -4,7 +4,7 @@ FullName: Arundina Sans Mono Oblique
 FamilyName: Arundina Sans Mono
 Weight: Book
 Copyright: Copyright (c) 2003 by Bitstream, Inc. All Rights Reserved.\nCopyright (c) 2007 by Software Industry Promotion Agency (Public Organization). All Rights Reserved.
-Version: 2.07
+Version: 2.08
 ItalicAngle: -12
 UnderlinePosition: -436
 UnderlineWidth: 288
@@ -21,7 +21,7 @@ OS2Version: 2
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: -25200
-ModificationTime: 1770199289
+ModificationTime: 1770871282
 PfmFamily: 49
 TTFWeight: 400
 TTFWidth: 5
@@ -129,15 +129,17 @@ ChainSub2: coverage "'liga' Standard Ligatures in Latin lookup 12 subtable" 0 0 
 EndFPST
 ChainSub2: coverage "'liga' Standard Ligatures in Latin lookup 11 subtable" 0 0 0 1
  1 0 1
-  Coverage: 84 uni0E48.low_left uni0E49.low_left uni0E4A.low_left uni0E4B.low_left uni0E4C.low_left
-  FCoverage: 0 
- 0
+  Coverage: 123 uni0E48.low_left uni0E49.low_left uni0E4A.low_left uni0E4B.low_left uni0E4C.low_left uni0E4D.left uni0E47.left uni0E4E.left
+  FCoverage: 12 uni0E33.alt1
+ 1
+  SeqLookup: 0 "Single Substitution lookup 22"
 EndFPST
 ChainSub2: coverage "'liga' Standard Ligatures in Latin lookup 10 subtable" 0 0 0 1
  1 1 0
   Coverage: 7 uni0E33
-  BCoverage: 84 uni0E48.low_left uni0E49.low_left uni0E4A.low_left uni0E4B.low_left uni0E4C.low_left
- 0
+  BCoverage: 123 uni0E48.low_left uni0E49.low_left uni0E4A.low_left uni0E4B.low_left uni0E4C.low_left uni0E4D.left uni0E47.left uni0E4E.left
+ 1
+  SeqLookup: 0 "Single Substitution lookup 22"
 EndFPST
 ChainSub2: coverage "'liga' Standard Ligatures in Latin lookup 9 subtable" 0 0 0 1
  1 1 0
@@ -148,8 +150,7 @@ ChainSub2: coverage "'liga' Standard Ligatures in Latin lookup 9 subtable" 0 0 0
 EndFPST
 ChainSub2: coverage "'liga' Standard Ligatures in Latin lookup 8 subtable" 0 0 0 1
  1 0 1
-  Coverage: 64 uni0E48.low uni0E49.low uni0E4A.low uni0E4B.low uni0E4C.low
-  FC
+  Coverage: 83 uni0E47 uni0E4D uni0E4E uni0E48.low uni0E49.low uni0E4A.low uni0E4B.low uni0E4C.low
   FCoverage: 7 uni0E33
  1
   SeqLookup: 0 "Single Substitution lookup 21"
@@ -163,14 +164,14 @@ ChainSub2: coverage "'liga' Standard Ligatures in Latin lookup 7 subtable" 0 0 0
 EndFPST
 ChainSub2: coverage "'liga' Standard Ligatures in Latin lookup 6 subtable" 0 0 0 1
  1 1 0
-  Coverage: 59 uni0E48.low uni0E49.low uni0E4A.low uni0E4B.low uni0E4C.low
+  Coverage: 83 uni0E47 uni0E4D uni0E4E uni0E48.low uni0E49.low uni0E4A.low uni0E4B.low uni0E4C.low
   BCoverage: 77 uni0E34.left uni0E35.left uni0E36.left uni0E37.left uni0E31.left uni0E4D.left
  1
   SeqLookup: 0 "Single Substitution lookup 20"
 EndFPST
 ChainSub2: coverage "'liga' Standard Ligatures in Latin lookup 5 subtable" 0 0 0 1
  1 1 0
-  Coverage: 59 uni0E48.low uni0E49.low uni0E4A.low uni0E4B.low uni0E4C.low
+  Coverage: 83 uni0E47 uni0E4D uni0E4E uni0E48.low uni0E49.low uni0E4A.low uni0E4B.low uni0E4C.low
   BCoverage: 47 uni0E31 uni0E34 uni0E35 uni0E36 uni0E37 uni0E4D
  1
   SeqLookup: 0 "Single Substitution lookup 21"
@@ -67649,6 +67650,8 @@ SplineSet
  346 1885 243 1779 95 1779 c 2
  -170 1779 l 2x74
 EndSplineSet
+Substitution2: "Single Substitution lookup 20 subtable" uni0E47.high_left
+Substitution2: "Single Substitution lookup 21 subtable" uni0E47.high
 Substitution2: "Single Substitution lookup 22 subtable" uni0E47.left
 EndChar
 
@@ -68413,6 +68416,8 @@ SplineSet
  165 1556 217 1604 217 1650 c 3
  217 1708 195 1737 152 1737 c 3
 EndSplineSet
+Substitution2: "Single Substitution lookup 20 subtable" uni0E4D.high_left
+Substitution2: "Single Substitution lookup 21 subtable" uni0E4D.high
 Substitution2: "Single Substitution lookup 22 subtable" uni0E4D.left
 EndChar
 
@@ -68564,6 +68569,8 @@ SplineSet
  268 1568 l 1
  198 1520 110 1496 4 1496 c 3
 EndSplineSet
+Substitution2: "Single Substitution lookup 20 subtable" uni0E4E.high_left
+Substitution2: "Single Substitution lookup 21 subtable" uni0E4E.high
 Substitution2: "Single Substitution lookup 22 subtable" uni0E4E.left
 EndChar
 
@@ -74512,6 +74519,7 @@ Fore
 Refer: 340 3661 N 1 0 0 1 -320 0 2
 Layer: 2
 Refer: 340 3661 N 1 0 0 1 -320 0 2
+Substitution2: "Single Substitution lookup 22 subtable" uni0E4D.high_left
 EndChar
 
 StartChar: uni0E47.left
@@ -74526,6 +74534,7 @@ Fore
 Refer: 334 3655 N 1 0 0 1 -233 0 2
 Layer: 2
 Refer: 334 3655 N 1 0 0 1 -233 0 2
+Substitution2: "Single Substitution lookup 22 subtable" uni0E47.high_left
 EndChar
 
 StartChar: uni0E48.left
@@ -77426,6 +77435,7 @@ Fore
 Refer: 341 3662 N 1 0 0 1 -415 0 2
 Layer: 2
 Refer: 341 3662 N 1 0 0 1 -415 0 2
+Substitution2: "Single Substitution lookup 22 subtable" uni0E4E.high_left
 EndChar
 
 StartChar: DEL

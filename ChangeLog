@@ -1,5 +1,14 @@
 2026-02-26  Theppitak Karoonboonyanan  <theppitak@gmail.com>
 
+	LaTeX: Update LIGKERN rules for ethnic languages.
+
+	* latex/examples/testdoc.tex:
+	  - Update test cases for ethnic languages from fonts-tlwg.
+	* latex/thailigs.enc:
+	  - Update LIGKERN rules from fonts-tlwg project.
+
+2026-02-26  Theppitak Karoonboonyanan  <theppitak@gmail.com>
+
 	Serif: Balance splines.
 
 	* arundina/ArundinaSerif*.sfd:

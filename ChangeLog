@@ -1,3 +1,16 @@
+2026-02-26  Theppitak Karoonboonyanan  <theppitak@gmail.com>
+
+	Serif: Balance splines.
+
+	* arundina/ArundinaSerif*.sfd:
+	  - Balance cubic splines for Thai glyphs and copy them to
+	    quadratic layer.
+	  - Re-apply AutoHint, AutoInstr.
+	  - Bump font version to 3.07.
+	* arundina/ArundinaSerif.sfd:
+	  - Remove excessive unassigned and unnamed descender-less
+	    THO THAN glyph.
+
 2026-02-12  Theppitak Karoonboonyanan  <theppitak@gmail.com>
 
 	SansMono: Extend GSUB for high diacritics positioning.

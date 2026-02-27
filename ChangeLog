@@ -1,3 +1,20 @@
+2026-02-27  Theppitak Karoonboonyanan  <theppitak@gmail.com>
+
+	LaTeX: Add support for high-left MAITAIKHU and NIKHAHIT.
+
+	* latex/ltharun.enc latex/thailigs.enc:
+	  - Add slots for uni0E47.high_left and uni0E4D.high_left
+	    in LTHEncoding.
+	* latex/thailigs.enc:
+	  - LIGKERN: Replace uni0E47, uni0E4D with *.high_left variants
+	    instead of .high.
+	* latex/thai-dummy.afm:
+	  - Move the mythical left variants of below-base vowels to the
+	    slots declared in *.enc.
+	  - Add slots for uni0E47.high_left and uni0E4D.high_left.
+	  - Update glyphs 4..15 to what declared in *.enc. The change
+	    has been missing since thailatex!
+
 2026-02-26  Theppitak Karoonboonyanan  <theppitak@gmail.com>
 
 	LaTeX: Update LIGKERN rules for ethnic languages.

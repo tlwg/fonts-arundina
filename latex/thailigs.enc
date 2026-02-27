@@ -273,21 +273,21 @@
 %LIGKERN uni0E35 uni0E47 |=:> uni0E47.high ;
 %LIGKERN uni0E36 uni0E47 |=:> uni0E47.high ;
 %LIGKERN uni0E37 uni0E47 |=:> uni0E47.high ;
-%LIGKERN uni0E31.left uni0E47 |=:> uni0E47.high ;
-%LIGKERN uni0E34.left uni0E47 |=:> uni0E47.high ;
-%LIGKERN uni0E35.left uni0E47 |=:> uni0E47.high ;
-%LIGKERN uni0E36.left uni0E47 |=:> uni0E47.high ;
-%LIGKERN uni0E37.left uni0E47 |=:> uni0E47.high ;
+%LIGKERN uni0E31.left uni0E47 |=:> uni0E47.high_left ;
+%LIGKERN uni0E34.left uni0E47 |=:> uni0E47.high_left ;
+%LIGKERN uni0E35.left uni0E47 |=:> uni0E47.high_left ;
+%LIGKERN uni0E36.left uni0E47 |=:> uni0E47.high_left ;
+%LIGKERN uni0E37.left uni0E47 |=:> uni0E47.high_left ;
 %LIGKERN uni0E31 uni0E4D |=:> uni0E4D.high ;
 %LIGKERN uni0E34 uni0E4D |=:> uni0E4D.high ;
 %LIGKERN uni0E35 uni0E4D |=:> uni0E4D.high ;
 %LIGKERN uni0E36 uni0E4D |=:> uni0E4D.high ;
 %LIGKERN uni0E37 uni0E4D |=:> uni0E4D.high ;
-%LIGKERN uni0E31.left uni0E4D |=:> uni0E4D.high ;
-%LIGKERN uni0E34.left uni0E4D |=:> uni0E4D.high ;
-%LIGKERN uni0E35.left uni0E4D |=:> uni0E4D.high ;
-%LIGKERN uni0E36.left uni0E4D |=:> uni0E4D.high ;
-%LIGKERN uni0E37.left uni0E4D |=:> uni0E4D.high ;
+%LIGKERN uni0E31.left uni0E4D |=:> uni0E4D.high_left ;
+%LIGKERN uni0E34.left uni0E4D |=:> uni0E4D.high_left ;
+%LIGKERN uni0E35.left uni0E4D |=:> uni0E4D.high_left ;
+%LIGKERN uni0E36.left uni0E4D |=:> uni0E4D.high_left ;
+%LIGKERN uni0E37.left uni0E4D |=:> uni0E4D.high_left ;
 
 %ligature for making LOW SaraU SaraUu and Phinthu
 %LIGKERN uni0E0E uni0E38 |=:> uni0E38.low ;
@@ -338,7 +338,7 @@
 
 /LTHEncoding [
 % 0x00
-/.notdef /.notdef /.notdef /.notdef
+/.notdef /uni0E47.high_left /uni0E4D.high_left /.notdef
 /dagger /daggerdbl /section /paragraph
 /copyright /registered /trademark /germandbls
 /ae /AE /oe /OE

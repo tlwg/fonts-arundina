@@ -1,3 +1,15 @@
+2026-03-12  Theppitak Karoonboonyanan  <theppitak@gmail.com>
+
+	SansMono: Adjust right margins of below-base vowels.
+
+	* arundina/ArundinaSansMono*.sfd:
+	  - Replace low PHINTHU with splines from its normal version,
+	    so that the dot size remains unchanged.
+	  - Align right margins of SARA U, SARA UU, PHINTHU to a proper
+	    average right margin of base consonants (20 to the left of
+	    the right margin of BO BAIMAI, chosen by eye estimation).
+	  - Bump font version to 2.09.
+
 2026-02-27  Theppitak Karoonboonyanan  <theppitak@gmail.com>
 
 	LaTeX: Add support for high-left MAITAIKHU and NIKHAHIT.

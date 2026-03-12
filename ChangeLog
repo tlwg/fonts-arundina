@@ -1,5 +1,19 @@
 2026-03-12  Theppitak Karoonboonyanan  <theppitak@gmail.com>
 
+	SansMono: Add GSUB for Phinthu+BV rendering.
+
+	* arundina/ArundinaSansMono*.sfd:
+	  - 'liga' lookup 7:
+	    - Add SARA U, SARA UU, PHINTHU to first context,
+	      so the following BV is shifted down.
+	  - Add 'liga' BV-Phinthu Swap lookup 25, to undo Unicode
+	    normalization for the Phinthu + BV sequence:
+	    - Swap SARA_U + PHINTHU.low -> PHINTHU + SARA_U.low
+	    - Swap SARA_UU + PHINTHU.low -> PHINTHU + SARA_UU.low
+	  - Bump font version to 2.10.
+
+2026-03-12  Theppitak Karoonboonyanan  <theppitak@gmail.com>
+
 	SansMono: Adjust right margins of below-base vowels.
 
 	* arundina/ArundinaSansMono*.sfd:

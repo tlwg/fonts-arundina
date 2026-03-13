@@ -1,3 +1,11 @@
+2026-03-13  Theppitak Karoonboonyanan  <theppitak@gmail.com>
+
+	Sans: Add GSUB for Phinthu+BV rendering.
+
+	* arundina/ArundinaSans*.sfd:
+	  - Apply similar GSUB change done to SansMono.
+	  - Bump font version to 2.09.
+
 2026-03-12  Theppitak Karoonboonyanan  <theppitak@gmail.com>
 
 	SansMono: Add GSUB for Phinthu+BV rendering.

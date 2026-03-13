@@ -4,7 +4,7 @@ FullName: Arundina Sans
 FamilyName: Arundina Sans
 Weight: Book
 Copyright: Copyright (c) 2003 by Bitstream, Inc. All Rights Reserved.\nCopyright (c) 2007 by Software Industry Promotion Agency (Public Organization). All Rights Reserved.
-Version: 2.08
+Version: 2.09
 ItalicAngle: 0
 UnderlinePosition: -153
 UnderlineWidth: 102
@@ -21,7 +21,7 @@ OS2Version: 2
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1131303360
-ModificationTime: 1770284479
+ModificationTime: 1773371355
 PfmFamily: 33
 TTFWeight: 400
 TTFWidth: 5
@@ -73,12 +73,29 @@ Lookup: 6 0 0 "'liga' Standard Ligatures in Latin lookup 16" { "'liga' Standard 
 Lookup: 6 0 0 "'liga' Standard Ligatures in Latin lookup 17" { "'liga' Standard Ligatures in Latin lookup 17 subtable"  } ['liga' ('latn' <'dflt' > 'thai' <'dflt' > ) ]
 Lookup: 6 0 0 "'liga' Standard Ligatures in Latin lookup 18" { "'liga' Standard Ligatures in Latin lookup 18 subtable"  } ['liga' ('latn' <'dflt' > 'thai' <'dflt' > ) ]
 Lookup: 4 0 1 "'liga' Standard Ligatures in Latin lookup 19" { "'liga' Standard Ligatures in Latin lookup 19 subtable"  } ['liga' ('latn' <'dflt' > 'thai' <'dflt' > ) ]
+Lookup: 6 0 1 "'liga' BV-Phinthu Swap lookup 25" { "'liga' BV-Phinthu Swap lookup 25-1"  } ['liga' ('DFLT' <'dflt' > 'latn' <'dflt' > 'thai' <'dflt' > ) ]
 Lookup: 1 0 0 "Single Substitution lookup 20" { "Single Substitution lookup 20 subtable"  } []
 Lookup: 1 0 0 "Single Substitution lookup 21" { "Single Substitution lookup 21 subtable"  } []
 Lookup: 1 0 0 "Single Substitution lookup 22" { "Single Substitution lookup 22 subtable"  } []
+Lookup: 1 0 0 "U-Phinthu Swap" { "U-Phinthu Swap-1"  } []
+Lookup: 1 0 0 "UU-Phinthu Swap" { "UU-Phinthu Swap-1"  } []
 Lookup: 258 0 0 "'kern' Horizontal Kerning in Latin lookup 0" { "'kern' Horizontal Kerning in Latin lookup 0 subtable"  } ['kern' ('latn' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
+ChainSub2: glyph "'liga' BV-Phinthu Swap lookup 25-1" 0 0 0 2
+ String: 19 uni0E38 uni0E3A.low
+ BString: 0
+ FString: 0
+ 2
+  SeqLookup: 0 "U-Phinthu Swap"
+  SeqLookup: 1 "U-Phinthu Swap"
+ String: 19 uni0E39 uni0E3A.low
+ BString: 0
+ FString: 0
+ 2
+  SeqLookup: 0 "UU-Phinthu Swap"
+  SeqLookup: 1 "UU-Phinthu Swap"
+EndFPST
 ChainSub2: coverage "'liga' Standard Ligatures in Latin lookup 18 subtable" 0 0 0 1
  1 1 0
   Coverage: 7 uni0E47
@@ -158,7 +175,7 @@ EndFPST
 ChainSub2: coverage "'liga' Standard Ligatures in Latin lookup 7 subtable" 0 0 0 1
  1 1 0
   Coverage: 23 uni0E38 uni0E39 uni0E3A
-  BCoverage: 31 uni0E0E uni0E0F uni0E24 uni0E26
+  BCoverage: 55 uni0E0E uni0E0F uni0E24 uni0E26 uni0E38 uni0E39 uni0E3A
  1
   SeqLookup: 0 "Single Substitution lookup 22"
 EndFPST
@@ -55027,6 +55044,7 @@ SplineSet
  -300 -277 -319 -258 -358 -258 c 3
  -392 -258 -403 -280 -403 -312 c 259
 EndSplineSet
+Substitution2: "U-Phinthu Swap-1" uni0E3A
 Substitution2: "Single Substitution lookup 21 subtable" a
 Substitution2: "Single Substitution lookup 22 subtable" uni0E38.low
 EndChar
@@ -55175,6 +55193,7 @@ SplineSet
  -679 -351 -664 -369 -633 -369 c 3
  -597 -369 -579 -351 -579 -315 c 3
 EndSplineSet
+Substitution2: "UU-Phinthu Swap-1" uni0E3A
 Substitution2: "Single Substitution lookup 21 subtable" b
 Substitution2: "Single Substitution lookup 22 subtable" uni0E39.low
 EndChar
@@ -63701,6 +63720,8 @@ SplineSet
  -349 -931 -412 -873 -412 -793 c 3
  -412 -720 -354 -655 -273 -655 c 3
 EndSplineSet
+Substitution2: "UU-Phinthu Swap-1" uni0E39.low
+Substitution2: "U-Phinthu Swap-1" uni0E38.low
 EndChar
 
 StartChar: uni0E0E.alt1

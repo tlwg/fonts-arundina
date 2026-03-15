@@ -49,6 +49,7 @@ AC_ARG_ENABLE(pfb,
               , enable_pfb="no")
 if test "x$enable_pfb" = "xyes"; then
   NEED_PYTHON="yes"
+  BUILD_PFB="yes"
   AC_ARG_WITH(type1dir,
     [AS_HELP_STRING([--with-type1dir=DIR],
                     [font directory in DIR [PREFIX/share/fonts/type1/t1-thai-arundina]])],
@@ -57,11 +58,6 @@ if test "x$enable_pfb" = "xyes"; then
   AC_MSG_RESULT("$type1dir")
 
   AC_SUBST(type1dir)
-
-  AC_CHECK_PROGS(T1BINARY,t1binary,no)
-  if test "x$T1BINARY" = "xno" ; then
-    AC_MSG_ERROR([You need t1binary (from t1utils package)])
-  fi
 fi
 
 AC_ARG_ENABLE(latex,
@@ -71,6 +67,7 @@ AC_ARG_ENABLE(latex,
 if test "x$enable_latex" = "xyes"; then
   # We need Python for PFB builds
   NEED_PYTHON="yes"
+  BUILD_PFB="yes"
 
   AC_CHECK_PROGS(AFM2TFM,afm2tfm,no)
   if test "x$AFM2TFM" = "xno" ; then
@@ -97,6 +94,13 @@ if test "x$enable_latex" = "xyes"; then
   AC_PATH_PROG(TEXHASH,[mktexlsr texhash],no)
   if test "x$TEXHASH" = "xno" ; then
     AC_MSG_ERROR([You need mktexlsr or texhash (from texlive distribution)])
+  fi
+fi
+
+if test "x$BUILD_PFB" = "xyes"; then
+  AC_CHECK_PROGS(T1BINARY,t1binary,no)
+  if test "x$T1BINARY" = "xno" ; then
+    AC_MSG_ERROR([You need t1binary (from t1utils package)])
   fi
 fi
 

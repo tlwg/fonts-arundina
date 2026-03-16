@@ -1,5 +1,12 @@
 2026-03-16  Theppitak Karoonboonyanan  <theppitak@gmail.com>
 
+	Fix dead URL for Bitstream Vera.
+
+	* README:
+	  - Replace broken URL of Bitstream Vera with the download link.
+
+2026-03-16  Theppitak Karoonboonyanan  <theppitak@gmail.com>
+
 	Version 0.4.0.
 
 	* NEWS:

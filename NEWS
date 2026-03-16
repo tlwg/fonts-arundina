@@ -1,3 +1,22 @@
+0.4.0 (2026-03-16)
+=====
+* Build system:
+  - Fix make rules to prevent parallel build failure. (Debian #1105308)
+  - Fix reproducibility problems.
+    (https://tests.reproducible-builds.org/debian/fonts-arundina)
+* LaTeX:
+  - Fix Serif oblique fonts synthesizing.
+  - Update example LaTeX document for ucs 2.3+.
+  - Fix and improve LIGKERN rules for ethnic languages rendering.
+* OpenType:
+  - Fix broken GSUBs.
+  - Add missing glyphs for Pali-Sanskrit and ethnic languages rendering.
+  - Extend GSUB for Pali-Sanskrit rendering.
+  - Extend GSUB for ethnic language rendering.
+* Fonts in general:
+  - Use references where possible.
+  - Balance splines for Arundina Serif.
+
 0.3.2 (2020-02-12)
 =====
 - Set OS/2 metrics for proper line spacing.

@@ -12,6 +12,7 @@ tdsdist_tgz = $(PACKAGE).tds.tar.gz
 ctandist_tgz = $(PACKAGE)-$(VERSION).ctan.tar.gz
 
 tdsdist_zip = $(PACKAGE).tds.zip
+ctan_src_distdir = $(PACKAGE)
 ctandist_zip = $(PACKAGE)-$(VERSION).ctan.zip
 
 tdsdistdir = $(PACKAGE)-$(VERSION)-tds
@@ -45,12 +46,17 @@ dist-tds: dist-tds-zip
 
 dist-ctan-tgz: dist-tds-tgz distdir
 	rm -f $(ctandist_tgz)
-	tar cf - $(tdsdist_tgz) $(distdir) | gzip -9 -c > $(ctandist_tgz)
+	$(LN_S) $(distdir) $(ctan_src_distdir)
+	tar chf - $(tdsdist_tgz) $(ctan_src_distdir) \
+	  | gzip -9 -c > $(ctandist_tgz)
+	rm -f $(ctan_src_distdir)
 	$(am__remove_distdir)
 
 dist-ctan-zip: dist-tds-zip distdir
 	rm -f $(ctandist_zip)
-	zip -r $(ctandist_zip) $(tdsdist_zip) $(distdir)
+	$(LN_S) $(distdir) $(ctan_src_distdir)
+	zip -r $(ctandist_zip) $(tdsdist_zip) $(ctan_src_distdir)
+	rm -f $(ctan_src_distdir)
 	$(am__remove_distdir)
 
 dist-ctan: dist-ctan-zip

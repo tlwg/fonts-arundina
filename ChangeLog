@@ -1,5 +1,16 @@
 2026-03-16  Theppitak Karoonboonyanan  <theppitak@gmail.com>
 
+	LaTeX: Unversion top level directory of CTAN tarball.
+
+	As requested by CTAN reviewer.
+
+	* Makefile.am:
+	  - Make unversioned distdir as a symlink and make tarball/zip
+	    from the symlink. (Note the -h option for tar to dereference
+	    symlinks. For zip, it's always dereferenced.)
+
+2026-03-16  Theppitak Karoonboonyanan  <theppitak@gmail.com>
+
 	Fix dead URL for Bitstream Vera.
 
 	* README:

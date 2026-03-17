@@ -1,3 +1,11 @@
+2026-03-17  Theppitak Karoonboonyanan  <theppitak@gmail.com>
+
+	Strengthen sorting locale in LaTeX font map.
+
+	* latex/texfont.mk.am:
+	  - Set LC_ALL, not just LC_COLLATE, when sorting the map file,
+	    to ensure C locale even when LC_ALL is set.
+
 2026-03-16  Theppitak Karoonboonyanan  <theppitak@gmail.com>
 
 	LaTeX: Unversion top level directory of CTAN tarball.

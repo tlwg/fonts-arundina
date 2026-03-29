@@ -1,3 +1,10 @@
+2026-03-29  Theppitak Karoonboonyanan  <theppitak@gmail.com>
+
+	Add Fontforge URL in README.
+
+	* README:
+	  - Add link to Fontforge project.
+
 2026-03-17  Theppitak Karoonboonyanan  <theppitak@gmail.com>
 
 	Strengthen sorting locale in LaTeX font map.

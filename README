@@ -13,8 +13,8 @@ for certain aspects:
     the Thai-specific features well, the 'liga' GSUB hack developed by the
     original author is still retained for the time being.
 
-We use FontForge as development tool. You need it to generate fonts from the
-downloaded source.
+We use FontForge [5] as the development tool. You need it to generate fonts
+from the downloaded source.
 
 For more information, see our project page at:
   https://linux.thai.net/projects/fonts-sipa-arundina
@@ -25,4 +25,5 @@ Links:
 [2] https://dejavu-fonts.github.io/
 [3] https://docs.microsoft.com/en-us/typography/script-development/thai
 [4] https://linux.thai.net/~thep/th-otf/
+[5] https://fontforge.org/
 

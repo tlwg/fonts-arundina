@@ -16,7 +16,13 @@ for certain aspects:
 We use FontForge [5] as the development tool. You need it to generate fonts
 from the downloaded source.
 
-For more information, see our project page at:
+For LaTeX users, Arundina fonts have been available in texlive and miktex
+distributions via the package 'fonts-arundina'. For users who wish to use
+the package directly from CTAN, a .tds.zip is available which contains
+the generated fonts (pfb+tfm). See the "TDS archive" link at
+  https://ctan.org/pkg/fonts-arundina
+
+For more information on our project, see:
   https://linux.thai.net/projects/fonts-sipa-arundina
 
 Links:

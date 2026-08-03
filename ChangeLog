@@ -1,3 +1,14 @@
+2026-08-03  Theppitak Karoonboonyanan  <theppitak@gmail.com>
+
+	Fix parallel build failure.
+
+	* latex/texfont.mk.am:
+	  - Merge the multiple make targets 'r%.tfm' and '%.vpl'
+	    so that 'make' takes the recipe as building all the targets
+	    at once.
+	  - Same for the targets 'r%_so.tfm' and '%_so.vpl'.
+	  - Add 'ltharun.enc' as a dependency for '%_so.vpl'.
+
 2026-03-29  Theppitak Karoonboonyanan  <theppitak@gmail.com>
 
 	README: Add note for LaTeX users.

@@ -35,8 +35,7 @@ ltharun.enc:
 thailigs.vpl: thai-dummy.afm thailigs.enc
 	$(AFM2TFM) thai-dummy.afm -v $@ -T thailigs.enc thailigs.tfm
 
-r%.tfm: %.afm
-%.vpl: %.afm thailigs.vpl ltharun.enc
+r%.tfm %.vpl: %.afm thailigs.vpl ltharun.enc
 	$(AFM2TFM) $*.afm -v $*.vpl -T ltharun.enc r$*.tfm \
 	| $(SED) "s/$$/ <$*.pfb/" >> $(MAP)
 	TMPFILE=`mktemp /tmp/tltx.XXXXXXXXX` && \
@@ -45,8 +44,7 @@ r%.tfm: %.afm
 	$(AWK) "BEGIN {show=0} /CHARACTER/ {show=1} {if(show) print}" $*.vpl >> $$TMPFILE && \
 	mv $$TMPFILE $*.vpl
 
-r%_so.tfm: %.afm
-%_so.vpl: %.afm thailigs.vpl
+r%_so.tfm %_so.vpl: %.afm thailigs.vpl ltharun.enc
 	$(AFM2TFM) $*.afm -v $*_so.vpl -T ltharun.enc -s .167 r$*_so.tfm \
 	| $(SED) "s/$$/ <$*.pfb/" >> $(MAP)
 	TMPFILE=`mktemp /tmp/tltx.XXXXXXXXX` && \

@@ -1,3 +1,16 @@
+2026-08-07  Theppitak Karoonboonyanan  <theppitak@gmail.com>
+
+	SansMono: Shift Maitaikhu to the left.
+
+	* arundina/ArundinaSansMono*.sfd:
+	  - Shift Maitaikhu glyph to the left:
+	      Regular, Oblique by -54;
+	      Bold, BoldOblique by -27
+	  - Compensate transformation matrix for left Maitaikhu
+	    to retain old position.
+	  - Re-apply AutoHint, AutoInstr.
+	  - Bump font version to 2.11.
+
 2026-08-03  Theppitak Karoonboonyanan  <theppitak@gmail.com>
 
 	Fix parallel build failure.
